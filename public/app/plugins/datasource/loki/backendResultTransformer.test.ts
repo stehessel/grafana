@@ -31,11 +31,11 @@ const inputFrame: DataFrame = {
         },
       },
       values: new ArrayVector([
-        `[["level", "info"],["code", "41🌙"]]`,
-        `[["level", "error"],["code", "41🌙"]]`,
-        `[["level", "error"],["code", "43🌙"]]`,
-        `[["level", "error"],["code", "41🌙"]]`,
-        `[["level", "info"],["code", "41🌙"]]`,
+        '{ "level": "info", "code": "41🌙" }',
+        '{ "level": "error", "code": "41🌙" }',
+        '{ "level": "error", "code": "43🌙" }',
+        '{ "level": "error", "code": "41🌙" }',
+        '{ "level": "info", "code": "41🌙" }',
       ]),
     },
     {

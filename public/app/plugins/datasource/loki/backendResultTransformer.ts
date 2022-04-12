@@ -26,12 +26,6 @@ function setFrameMeta(frame: DataFrame, meta: QueryResultMeta): DataFrame {
   };
 }
 
-function decodeLabelsInJson(text: string): Labels {
-  const array: Array<[string, string]> = JSON.parse(text);
-  // NOTE: maybe we should go with maps, those have guaranteed ordering
-  return Object.fromEntries(array);
-}
-
 function processStreamFrame(frame: DataFrame, query: LokiQuery | undefined): DataFrame {
   const meta: QueryResultMeta = {
     preferredVisualisationType: 'logs',
@@ -54,7 +48,7 @@ function processStreamFrame(frame: DataFrame, query: LokiQuery | undefined): Dat
               type: FieldType.other,
               config: field.config,
               // we are parsing the labels the same way as streaming-dataframes do
-              values: new ArrayVector(field.values.toArray().map((text) => decodeLabelsInJson(text))),
+              values: new ArrayVector(field.values.toArray().map((text) => JSON.parse(text))),
             }
           : field;
       }
