@@ -310,6 +310,11 @@ func readStream(iter *jsoniter.Iterator) *backend.DataResponse {
 
 	labelsField := data.NewFieldFromFieldType(data.FieldTypeString, 0)
 	labelsField.Name = "__labels" // avoid automatically spreading this by labels
+	labelsField.Config = &data.FieldConfig{
+		// we should have a native json-field-type,
+		// for now we mark it this way
+		Custom: map[string]interface{}{"json": true},
+	}
 
 	timeField := data.NewFieldFromFieldType(data.FieldTypeTime, 0)
 	timeField.Name = "Time"
@@ -322,14 +327,20 @@ func readStream(iter *jsoniter.Iterator) *backend.DataResponse {
 	tsField.Name = "TS"
 
 	labels := data.Labels{}
-	labelString := labels.String()
+	labelString, err := labelsToString(labels)
+	if err != nil {
+		return &backend.DataResponse{Error: err}
+	}
 
 	for iter.ReadArray() {
 		for l1Field := iter.ReadObject(); l1Field != ""; l1Field = iter.ReadObject() {
 			switch l1Field {
 			case "stream":
 				iter.ReadVal(&labels)
-				labelString = labels.String()
+				labelString, err = labelsToString(labels)
+				if err != nil {
+					return &backend.DataResponse{Error: err}
+				}
 
 			case "values":
 				for iter.ReadArray() {
@@ -376,4 +387,15 @@ func timeFromLokiString(str string) time.Time {
 	ss, _ := strconv.ParseInt(str[0:10], 10, 64)
 	ns, _ := strconv.ParseInt(str[10:], 10, 64)
 	return time.Unix(ss, ns).UTC()
+}
+
+// the go documentation says that map-keys are sorted
+// when serializing to JSON, we rely on that fact here.
+func labelsToString(labels data.Labels) (string, error) {
+	bytes, err := jsoniter.Marshal(labels)
+	if err != nil {
+		return "", err
+	}
+
+	return string(bytes), nil
 }
