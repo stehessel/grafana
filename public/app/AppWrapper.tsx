@@ -117,6 +117,7 @@ export class AppWrapper extends React.Component<AppWrapperProps, AppWrapperState
                     </div>
                     <LiveConnectionWarning />
                     <ModalRoot />
+                    <PortalContainer />
                   </ModalsProvider>
                 </KBarProvider>
               </ThemeProvider>
