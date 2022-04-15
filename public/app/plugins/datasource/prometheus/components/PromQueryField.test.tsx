@@ -1,6 +1,4 @@
-// @ts-ignore
 import { render, screen } from '@testing-library/react';
-import RCCascader from 'rc-cascader';
 import React from 'react';
 
 import { DataSourceInstanceSettings, PanelData, LoadingState, DataFrame } from '@grafana/data';
