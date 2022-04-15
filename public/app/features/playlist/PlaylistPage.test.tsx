@@ -5,7 +5,6 @@ import { locationService } from '../../../../packages/grafana-runtime/src';
 
 import { PlaylistPage, PlaylistPageProps } from './PlaylistPage';
 
-
 const fnMock = jest.fn();
 
 jest.mock('@grafana/runtime', () => ({

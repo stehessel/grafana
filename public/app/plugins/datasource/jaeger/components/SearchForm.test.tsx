@@ -7,14 +7,11 @@ import { createFetchResponse } from 'test/helpers/createFetchResponse';
 import { DataQueryRequest, DataSourceInstanceSettings, dateTime, PluginType } from '@grafana/data';
 import { backendSrv } from 'app/core/services/backend_srv';
 
-
 import { JaegerDatasource, JaegerJsonData } from '../datasource';
 import { testResponse } from '../testResponse';
 import { JaegerQuery } from '../types';
 
-
 import SearchForm from './SearchForm';
-
 
 describe('SearchForm', () => {
   it('should call the `onChange` function on click of the Input', async () => {

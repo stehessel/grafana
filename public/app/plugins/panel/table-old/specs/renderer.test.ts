@@ -7,7 +7,6 @@ import TableModel from 'app/core/table_model';
 import { TableRenderer } from '../renderer';
 import { ColumnRender } from '../types';
 
-
 const utc: TimeZone = 'utc';
 
 const sanitize = (value: any): string => {

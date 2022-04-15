@@ -13,7 +13,6 @@ import { clone, find, flatten, isUndefined, map, max as _max, min as _min, sortB
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-
 import {
   DataFrame,
   DataFrameView,

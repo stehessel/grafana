@@ -24,7 +24,6 @@ import { getAllFields } from './logParser';
 
 //Components
 
-
 export interface Props extends Themeable2 {
   row: LogRowModel;
   showDuplicates: boolean;

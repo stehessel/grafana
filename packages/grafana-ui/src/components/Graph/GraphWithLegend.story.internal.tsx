@@ -8,7 +8,6 @@ import { withCenteredStory } from '../../utils/storybook/withCenteredStory';
 
 import { GraphWithLegend, GraphWithLegendProps } from './GraphWithLegend';
 
-
 export default {
   title: 'Visualizations/Graph/GraphWithLegend',
   component: GraphWithLegend,

@@ -18,7 +18,6 @@ import { NOTIFICATIONS_POLL_INTERVAL_MS } from './utils/constants';
 import { getFiltersFromUrlParams } from './utils/misc';
 import { initialAsyncRequestState } from './utils/redux';
 
-
 const AlertGroups = () => {
   const [alertManagerSourceName] = useAlertManagerSourceName();
   const dispatch = useDispatch();

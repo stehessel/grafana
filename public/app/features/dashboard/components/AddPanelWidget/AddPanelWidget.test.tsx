@@ -5,7 +5,6 @@ import { DashboardModel, PanelModel } from '../../state';
 
 import { AddPanelWidgetUnconnected as AddPanelWidget, Props } from './AddPanelWidget';
 
-
 const getTestContext = (propOverrides?: object) => {
   const props: Props = {
     dashboard: {} as DashboardModel,

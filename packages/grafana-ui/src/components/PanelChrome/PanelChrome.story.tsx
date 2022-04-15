@@ -8,8 +8,6 @@ import { PanelChrome, useTheme, PanelChromeProps } from '@grafana/ui';
 import { withCenteredStory } from '../../utils/storybook/withCenteredStory';
 import { HorizontalGroup, VerticalGroup } from '../Layout/Layout';
 
-
-
 export default {
   title: 'Visualizations/PanelChrome',
   component: PanelChrome,

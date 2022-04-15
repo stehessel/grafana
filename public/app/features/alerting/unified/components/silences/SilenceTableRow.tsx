@@ -17,7 +17,6 @@ import { Matchers } from './Matchers';
 import { SilenceStateTag } from './SilenceStateTag';
 import SilencedAlertsTable from './SilencedAlertsTable';
 
-
 interface Props {
   className?: string;
   silence: Silence;

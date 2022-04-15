@@ -12,7 +12,6 @@ import { RulesTable } from './components/rules/RulesTable';
 import { usePanelCombinedRules } from './hooks/usePanelCombinedRules';
 import { getRulesPermissions } from './utils/access-control';
 
-
 interface Props {
   dashboard: DashboardModel;
   panel: PanelModel;

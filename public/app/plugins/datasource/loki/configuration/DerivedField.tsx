@@ -8,7 +8,6 @@ import { Button, DataLinkInput, stylesFactory, LegacyForms } from '@grafana/ui';
 
 import { DerivedFieldConfig } from '../types';
 
-
 const { Switch, FormField } = LegacyForms;
 
 const getStyles = stylesFactory(() => ({

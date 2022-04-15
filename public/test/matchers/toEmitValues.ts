@@ -4,7 +4,6 @@ import { Observable, Subscription } from 'rxjs';
 
 import { expectObservable, forceObservableCompletion } from './utils';
 
-
 function passMessage(received: any[], expected: any[]) {
   return `${matcherHint('.not.toEmitValues')}
 

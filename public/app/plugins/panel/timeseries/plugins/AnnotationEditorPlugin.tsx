@@ -7,7 +7,6 @@ import { PlotSelection, UPlotConfigBuilder } from '@grafana/ui';
 
 import { AnnotationEditor } from './annotations/AnnotationEditor';
 
-
 type StartAnnotatingFn = (props: {
   // pixel coordinates of the clicked point on the uPlot canvas
   coords: { viewport: CartesianCoords2D; plotCanvas: CartesianCoords2D } | null;

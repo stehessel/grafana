@@ -34,8 +34,6 @@ import { PartListSection } from './PartListSection';
 import { TagsSection } from './TagsSection';
 import { getNewSelectPartOptions, getNewGroupByPartOptions, makePartList } from './partListUtils';
 
-
-
 type Props = {
   query: InfluxQuery;
   onChange: (query: InfluxQuery) => void;

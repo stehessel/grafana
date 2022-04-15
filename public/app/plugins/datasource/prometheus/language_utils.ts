@@ -7,8 +7,6 @@ import { addLabelToQuery } from './add_label_to_query';
 import { SUGGESTIONS_LIMIT } from './language_provider';
 import { PromMetricsMetadata, PromMetricsMetadataItem } from './types';
 
-
-
 export const processHistogramMetrics = (metrics: string[]) => {
   const resultSet: Set<string> = new Set();
   const regexp = new RegExp('_bucket($|:)');

@@ -13,8 +13,6 @@ import { DashboardQuery, DashboardSection, OnDeleteItems, OnMoveItems, OnToggleC
 import { useSearch } from './useSearch';
 import { useShowDashboardPreviews } from './useShowDashboardPreviews';
 
-
-
 const hasChecked = (section: DashboardSection) => {
   return section.checked || section.items.some((item) => item.checked);
 };

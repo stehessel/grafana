@@ -27,7 +27,6 @@ import {
 } from './sharedReducer';
 import { variablesInitTransaction } from './transactionReducer';
 
-
 variableAdapters.setInit(() => [createIntervalVariableAdapter(), createConstantVariableAdapter()]);
 
 const getTestContext = (dashboard: DashboardModel) => {

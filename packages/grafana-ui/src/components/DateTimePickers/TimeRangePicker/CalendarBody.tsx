@@ -9,7 +9,6 @@ import { Icon } from '../../Icon/Icon';
 
 import { TimePickerCalendarProps } from './TimePickerCalendar';
 
-
 export function Body({ onChange, from, to, timeZone }: TimePickerCalendarProps) {
   const value = inputToValue(from, to);
   const onCalendarChange = useOnCalendarChange(onChange, timeZone);

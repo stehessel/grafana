@@ -25,7 +25,6 @@ import { TablePanel } from '../table/TablePanel';
 
 import { LivePanelOptions, MessageDisplayMode } from './types';
 
-
 interface Props extends PanelProps<LivePanelOptions> {}
 
 interface State {

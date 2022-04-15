@@ -9,8 +9,6 @@ import { useStyles2 } from '../../themes/ThemeContext';
 import { VizLegendSeriesIcon } from './VizLegendSeriesIcon';
 import { VizLegendItem } from './types';
 
-
-
 export interface Props {
   key?: React.Key;
   item: VizLegendItem;

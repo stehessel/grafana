@@ -5,7 +5,6 @@ import { GrafanaTheme2 } from '@grafana/data';
 
 import { useStyles2, useTheme2 } from '../../themes';
 
-
 /**
  * @internal
  */

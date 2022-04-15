@@ -14,8 +14,6 @@ import { TemplateSrv } from 'app/features/templating/template_srv';
 import { initialCustomVariableModelState } from '../../../../features/variables/custom/reducer';
 import { MysqlDatasource } from '../datasource';
 
-
-
 import { MySQLOptions, MySQLQuery } from './../types';
 
 describe('MySQLDatasource', () => {

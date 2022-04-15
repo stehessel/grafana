@@ -8,7 +8,6 @@ import { getExploreItemSelector } from '../state/selectors';
 
 import { AddToDashboardModal } from './AddToDashboardModal';
 
-
 interface Props {
   exploreId: ExploreId;
 }

@@ -7,7 +7,6 @@ import { Button } from '../Button';
 
 import mdx from './FieldSet.mdx';
 
-
 export default {
   title: 'Forms/FieldSet',
   component: FieldSet,

@@ -11,7 +11,6 @@ import * as store from '../../../../store/store';
 import { UnifiedAlertStatesWorker } from './UnifiedAlertStatesWorker';
 import { DashboardQueryRunnerOptions } from './types';
 
-
 jest.mock('@grafana/runtime', () => ({
   ...(jest.requireActual('@grafana/runtime') as unknown as object),
   getBackendSrv: () => backendSrv,

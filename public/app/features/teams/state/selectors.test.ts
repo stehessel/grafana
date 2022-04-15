@@ -5,7 +5,6 @@ import { getMockTeam, getMockTeamMembers, getMultipleMockTeams } from '../__mock
 
 import { getTeam, getTeamMembers, getTeams, isSignedInUserTeamAdmin, Config } from './selectors';
 
-
 describe('Teams selectors', () => {
   describe('Get teams', () => {
     const mockTeams = getMultipleMockTeams(5);

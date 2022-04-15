@@ -6,7 +6,6 @@ import { getTimeSrv, setTimeSrv } from '../services/TimeSrv';
 import { DashboardModel } from './DashboardModel';
 import { PanelModel } from './PanelModel';
 
-
 function getTestContext({
   usePanelInEdit,
   usePanelInView,

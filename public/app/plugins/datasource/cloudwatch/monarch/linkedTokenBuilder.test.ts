@@ -9,7 +9,6 @@ import { DESC, SELECT } from '../cloudwatch-sql/language';
 
 import { linkedTokenBuilder } from './linkedTokenBuilder';
 
-
 describe('linkedTokenBuilder', () => {
   describe('singleLineFullQuery', () => {
     const testModel = TextModel(singleLineFullQuery.query);

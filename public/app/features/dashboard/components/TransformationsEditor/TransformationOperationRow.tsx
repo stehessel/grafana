@@ -14,7 +14,6 @@ import { PluginStateInfo } from 'app/features/plugins/components/PluginStateInfo
 import { TransformationEditor } from './TransformationEditor';
 import { TransformationsEditorTransformation } from './types';
 
-
 interface TransformationOperationRowProps {
   id: string;
   index: number;

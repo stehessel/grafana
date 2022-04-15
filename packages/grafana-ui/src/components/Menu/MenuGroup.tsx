@@ -8,7 +8,6 @@ import { useStyles2 } from '../../themes';
 
 import { MenuItemProps } from './MenuItem';
 
-
 /** @internal */
 export interface MenuItemsGroup<T = any> {
   /** Label for the menu items group */

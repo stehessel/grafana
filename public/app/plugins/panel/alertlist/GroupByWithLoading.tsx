@@ -16,7 +16,6 @@ import { PromRuleType } from 'app/types/unified-alerting-dto';
 
 import { isPrivateLabel } from './util';
 
-
 interface Props {
   id: string;
   defaultValue: SelectableValue<string>;

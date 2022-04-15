@@ -9,7 +9,6 @@ import { pointFieldFromLonLat, pointFieldFromGeohash } from '../format/utils';
 
 import { loadWorldmapPoints } from './worldmap';
 
-
 export interface PlacenameInfo {
   point: () => Point | undefined; // lon, lat (WGS84)
   geometry: () => Geometry | undefined;

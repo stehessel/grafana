@@ -14,9 +14,6 @@ import { fetchAlertManagerConfig, updateAlertManagerConfig } from './api/alertma
 import { mockDataSource, MockDataSourceSrv } from './mocks';
 import { DataSourceType } from './utils/datasource';
 
-
-
-
 jest.mock('./api/alertmanager');
 
 const mocks = {

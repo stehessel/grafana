@@ -16,7 +16,6 @@ import {
   updateEditorInitState,
 } from './reducers';
 
-
 export function initPanelEditor(sourcePanel: PanelModel, dashboard: DashboardModel): ThunkResult<void> {
   return async (dispatch) => {
     const panel = dashboard.initEditPanel(sourcePanel);

@@ -6,8 +6,6 @@ import { Dimensions } from '..';
 import { setupMockedDataSource } from '../../__mocks__/CloudWatchDataSource';
 import { CloudWatchMetricsQuery } from '../../types';
 
-
-
 const ds = setupMockedDataSource({
   variables: [],
 });

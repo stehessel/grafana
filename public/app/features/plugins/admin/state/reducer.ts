@@ -7,7 +7,6 @@ import { CatalogPlugin, PluginListDisplayMode, ReducerState, RequestStatus } fro
 
 import { fetchAll, fetchDetails, install, uninstall, loadPluginDashboards, panelPluginLoaded } from './actions';
 
-
 export const pluginsAdapter = createEntityAdapter<CatalogPlugin>();
 
 const isPendingRequest = (action: AnyAction) => new RegExp(`${STATE_PREFIX}\/(.*)\/pending`).test(action.type);

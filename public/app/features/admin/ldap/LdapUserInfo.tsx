@@ -7,7 +7,6 @@ import { LdapUserMappingInfo } from './LdapUserMappingInfo';
 import { LdapUserPermissions } from './LdapUserPermissions';
 import { LdapUserTeams } from './LdapUserTeams';
 
-
 interface Props {
   ldapUser: LdapUser;
   showAttributeMapping?: boolean;

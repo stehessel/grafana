@@ -33,7 +33,6 @@ import Ticks from './Ticks';
 import TimelineRow from './TimelineRow';
 import { formatDuration, ViewedBoundsFunctionType } from './utils';
 
-
 const spanBarClassName = 'spanBar';
 const spanBarLabelClassName = 'spanBarLabel';
 const nameWrapperClassName = 'nameWrapper';

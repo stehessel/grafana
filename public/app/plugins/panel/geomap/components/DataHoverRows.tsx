@@ -10,7 +10,6 @@ import { GeomapLayerHover } from '../event';
 
 import { DataHoverRow } from './DataHoverRow';
 
-
 type Props = {
   layers: GeomapLayerHover[];
   activeTabIndex: number;

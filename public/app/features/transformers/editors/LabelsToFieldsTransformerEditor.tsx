@@ -13,7 +13,6 @@ import {
 } from '@grafana/data/src/transformations/transformers/labelsToFields';
 import { InlineField, InlineFieldRow, RadioButtonGroup, Select, FilterPill } from '@grafana/ui';
 
-
 const modes: Array<SelectableValue<LabelsToFieldsMode>> = [
   { value: LabelsToFieldsMode.Columns, label: 'Columns' },
   { value: LabelsToFieldsMode.Rows, label: 'Rows' },

@@ -7,10 +7,7 @@ import { AlertmanagerAlert } from 'app/plugins/datasource/alertmanager/types';
 
 import { getAlertTableStyles } from '../../styles/table';
 
-
 import { SilencedAlertsTableRow } from './SilencedAlertsTableRow';
-
-
 
 interface Props {
   silencedAlerts: AlertmanagerAlert[];

@@ -16,7 +16,6 @@ import { DetailsField } from '../DetailsField';
 
 import { AlertInstancesTable } from './AlertInstancesTable';
 
-
 type Props = {
   promRule?: Rule;
 };

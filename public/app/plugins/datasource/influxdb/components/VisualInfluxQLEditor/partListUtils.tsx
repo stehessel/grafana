@@ -9,8 +9,6 @@ import { PartParams } from './PartListSection';
 import { toSelectableValue } from './toSelectableValue';
 import { unwrap } from './unwrap';
 
-
-
 type Categories = Record<string, QueryPartDef[]>;
 
 export function getNewSelectPartOptions(): SelectableValue[] {

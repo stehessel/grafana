@@ -6,8 +6,6 @@ import { StatsPicker } from '@grafana/ui';
 
 import { withCenteredStory } from '../../utils/storybook/withCenteredStory';
 
-
-
 import { Props } from './StatsPicker';
 
 interface State {

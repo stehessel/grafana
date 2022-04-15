@@ -13,9 +13,6 @@ import { tablePanelEditor } from './editor';
 import { TableRenderer } from './renderer';
 import { transformDataToTable } from './transformers';
 
-
-
-
 export class TablePanelCtrl extends MetricsPanelCtrl {
   static templateUrl = 'module.html';
 

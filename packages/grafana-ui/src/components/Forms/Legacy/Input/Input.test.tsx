@@ -7,7 +7,6 @@ import { EventsWithValidation } from '../../../../utils';
 
 import { Input } from './Input';
 
-
 const TEST_ERROR_MESSAGE = 'Value must be empty or less than 3 chars';
 const testBlurValidation: ValidationEvents = {
   [EventsWithValidation.onBlur]: [

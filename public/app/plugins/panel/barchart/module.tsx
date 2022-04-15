@@ -17,7 +17,6 @@ import { BarChartFieldConfig, PanelOptions, defaultBarChartFieldConfig, defaultP
 import { BarChartSuggestionsSupplier } from './suggestions';
 import { prepareBarChartDisplayValues } from './utils';
 
-
 export const plugin = new PanelPlugin<PanelOptions, BarChartFieldConfig>(BarChartPanel)
   .useFieldConfig({
     standardOptions: {

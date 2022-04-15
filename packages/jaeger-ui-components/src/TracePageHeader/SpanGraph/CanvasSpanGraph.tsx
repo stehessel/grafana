@@ -24,7 +24,6 @@ import { getRgbColorByKey } from '../../utils/color-generator';
 
 import renderIntoCanvas from './render-into-canvas';
 
-
 const getStyles = stylesFactory((theme: GrafanaTheme2) => {
   return {
     CanvasSpanGraph: css`

@@ -19,7 +19,6 @@ import ReferenceLink from '../../url/ReferenceLink';
 
 import AccordianReferences, { References } from './AccordianReferences';
 
-
 const traceID = 'trace1';
 const references = [
   {

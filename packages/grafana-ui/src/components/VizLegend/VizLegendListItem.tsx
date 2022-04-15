@@ -10,7 +10,6 @@ import { VizLegendSeriesIcon } from './VizLegendSeriesIcon';
 import { VizLegendStatsList } from './VizLegendStatsList';
 import { VizLegendItem } from './types';
 
-
 export interface Props<T> {
   item: VizLegendItem<T>;
   className?: string;

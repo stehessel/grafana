@@ -8,7 +8,6 @@ import { Modal, stylesFactory } from '@grafana/ui';
 import { dashboardWatcher } from './dashboardWatcher';
 import { DashboardEvent, DashboardEventAction } from './types';
 
-
 interface Props {
   event?: DashboardEvent;
 }

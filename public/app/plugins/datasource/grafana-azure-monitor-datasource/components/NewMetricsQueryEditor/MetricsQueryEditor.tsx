@@ -18,7 +18,6 @@ import { useMetricNames, useMetricNamespaces, useMetricMetadata } from './dataHo
 import type Datasource from '../../datasource';
 import type { AzureMonitorQuery, AzureMonitorOption, AzureMonitorErrorish } from '../../types';
 
-
 interface MetricsQueryEditorProps {
   query: AzureMonitorQuery;
   datasource: Datasource;

@@ -6,7 +6,6 @@ import { AxisPlacement } from '@grafana/schema';
 import { measureText } from '../../../utils/measureText';
 import { PlotConfigBuilder } from '../types';
 
-
 import { optMinMax } from './UPlotScaleBuilder';
 
 export interface AxisProps {

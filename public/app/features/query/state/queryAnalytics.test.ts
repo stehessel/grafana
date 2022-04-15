@@ -5,7 +5,6 @@ import { DashboardModel } from '../../dashboard/state/DashboardModel';
 
 import { emitDataRequestEvent } from './queryAnalytics';
 
-
 beforeEach(() => {
   jest.clearAllMocks();
 });

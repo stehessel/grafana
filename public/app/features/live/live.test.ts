@@ -1,14 +1,12 @@
 import mockConsole, { RestoreConsole } from 'jest-mock-console';
 import { Subject } from 'rxjs';
 
-
 import { DataQueryResponse, FieldType, LiveChannelScope } from '@grafana/data';
 
 import { StreamingDataQueryResponse } from './centrifuge/service';
 import { StreamingDataFrame } from './data/StreamingDataFrame';
 import { StreamingResponseDataType } from './data/utils';
 import { GrafanaLiveService } from './live';
-
 
 describe('GrafanaLiveService', () => {
   let restoreConsole: RestoreConsole | undefined;

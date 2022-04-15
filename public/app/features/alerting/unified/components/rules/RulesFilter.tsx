@@ -12,7 +12,6 @@ import { PromAlertingRuleState, PromRuleType } from 'app/types/unified-alerting-
 import { getFiltersFromUrlParams } from '../../utils/misc';
 import { alertStateToReadable } from '../../utils/rules';
 
-
 const ViewOptions: SelectableValue[] = [
   {
     icon: 'folder',

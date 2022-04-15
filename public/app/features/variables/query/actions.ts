@@ -18,7 +18,6 @@ import { hasOngoingTransaction, toKeyedVariableIdentifier, toVariablePayload } f
 import { getVariableQueryRunner } from './VariableQueryRunner';
 import { variableQueryObserver } from './variableQueryObserver';
 
-
 export const updateQueryVariableOptions = (
   identifier: KeyedVariableIdentifier,
   searchFilter?: string

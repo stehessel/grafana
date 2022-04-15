@@ -26,7 +26,6 @@ import {
 
 import { AddAlertManagerModal } from './AddAlertManagerModal';
 
-
 const alertmanagerChoices = [
   { value: 'internal', label: 'Only Internal' },
   { value: 'external', label: 'Only External' },

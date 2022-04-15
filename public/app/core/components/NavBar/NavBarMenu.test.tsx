@@ -5,7 +5,6 @@ import { render } from 'test/redux-rtl';
 
 import { NavModelItem } from '@grafana/data';
 
-
 import { NavBarMenu } from './NavBarMenu';
 
 describe('NavBarMenu', () => {

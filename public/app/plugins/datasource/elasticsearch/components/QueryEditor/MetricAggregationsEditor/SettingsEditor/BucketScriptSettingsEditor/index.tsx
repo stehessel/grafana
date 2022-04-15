@@ -19,8 +19,6 @@ import {
 } from './state/actions';
 import { reducer } from './state/reducer';
 
-
-
 interface Props {
   value: BucketScript;
   previousMetrics: MetricAggregation[];

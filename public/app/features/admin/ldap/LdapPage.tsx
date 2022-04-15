@@ -31,9 +31,6 @@ import { LdapConnectionStatus } from './LdapConnectionStatus';
 import { LdapSyncInfo } from './LdapSyncInfo';
 import { LdapUserInfo } from './LdapUserInfo';
 
-
-
-
 interface OwnProps extends GrafanaRouteComponentProps<{}, { username?: string }> {
   navModel: NavModel;
   ldapConnectionInfo: LdapConnectionInfo;

@@ -3,7 +3,6 @@ import { Global } from '@emotion/react';
 import SliderComponent from 'rc-slider';
 import React, { useState, useCallback, ChangeEvent, FunctionComponent, FocusEvent } from 'react';
 
-
 import { useTheme2 } from '../../themes/ThemeContext';
 import { Input } from '../Input/Input';
 

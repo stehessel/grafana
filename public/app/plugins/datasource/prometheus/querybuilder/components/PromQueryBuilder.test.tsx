@@ -2,7 +2,6 @@ import { render, screen, getByText, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import React from 'react';
 
-
 import { LoadingState, MutableDataFrame, PanelData, TimeRange } from '@grafana/data';
 
 import { PrometheusDatasource } from '../../datasource';
@@ -10,8 +9,6 @@ import PromQlLanguageProvider from '../../language_provider';
 import { EmptyLanguageProviderMock } from '../../language_provider.mock';
 import { getLabelSelects } from '../testUtils';
 import { PromVisualQuery } from '../types';
-
-
 
 import { PromQueryBuilder } from './PromQueryBuilder';
 

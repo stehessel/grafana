@@ -17,10 +17,6 @@ import { omitEmptyValues } from '../../utils/receiver-form';
 
 import { OptionField } from './form/fields/OptionField';
 
-
-
-
-
 interface Props {
   config: AlertManagerCortexConfig;
   alertManagerSourceName: string;

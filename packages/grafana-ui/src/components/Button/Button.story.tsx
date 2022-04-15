@@ -9,7 +9,6 @@ import { allButtonVariants, allButtonFills, Button, ButtonProps } from './Button
 import mdx from './Button.mdx';
 import { ButtonGroup } from './ButtonGroup';
 
-
 export default {
   title: 'Buttons/Button',
   component: Button,

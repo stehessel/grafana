@@ -26,7 +26,6 @@ import {
 import { makeLogsQueryResponse } from './helper/query';
 import { setupExplore, tearDown, waitForExplore } from './helper/setup';
 
-
 jest.mock('react-virtualized-auto-sizer', () => {
   return {
     __esModule: true,

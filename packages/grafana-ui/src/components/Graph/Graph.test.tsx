@@ -8,9 +8,6 @@ import { VizTooltip } from '../VizTooltip';
 
 import Graph from './Graph';
 
-
-
-
 const display: DisplayProcessor = (v) => ({ numeric: v, text: String(v), color: 'red' });
 
 const series: GraphSeriesXY[] = [

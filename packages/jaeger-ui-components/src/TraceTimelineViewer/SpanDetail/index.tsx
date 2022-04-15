@@ -34,8 +34,6 @@ import AccordianReferences from './AccordianReferences';
 import AccordianText from './AccordianText';
 import DetailState from './DetailState';
 
-
-
 const getStyles = (theme: GrafanaTheme2) => {
   return {
     header: css`

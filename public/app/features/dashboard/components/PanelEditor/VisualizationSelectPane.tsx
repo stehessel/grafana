@@ -20,7 +20,6 @@ import { getPanelPluginWithFallback } from '../../state/selectors';
 import { toggleVizPicker } from './state/reducers';
 import { VisualizationSelectPaneTab } from './types';
 
-
 interface Props {
   panel: PanelModel;
   data?: PanelData;

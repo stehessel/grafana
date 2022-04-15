@@ -5,7 +5,6 @@ import { TemplateSrv } from 'app/features/templating/template_srv';
 
 import coreModule from './core_module';
 
-
 /** @ngInject */
 export function metricSegment($compile: any, $sce: any, templateSrv: TemplateSrv) {
   const inputTemplate =

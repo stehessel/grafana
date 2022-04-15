@@ -6,7 +6,6 @@ import { LayoutModes } from '@grafana/data';
 import DataSourcesList from './DataSourcesList';
 import { getMockDataSources } from './__mocks__/dataSourcesMocks';
 
-
 const setup = () => {
   const props = {
     dataSources: getMockDataSources(3),

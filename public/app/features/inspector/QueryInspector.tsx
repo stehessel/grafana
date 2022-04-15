@@ -14,8 +14,6 @@ import { PanelModel } from 'app/features/dashboard/state';
 
 import { getPanelInspectorStyles } from './styles';
 
-
-
 interface DsQuery {
   isLoading: boolean;
   response: {};

@@ -41,8 +41,6 @@ import {
   ViewedBoundsFunctionType,
 } from './utils';
 
-
-
 type TExtractUiFindFromStateReturn = {
   uiFind: string | undefined;
 };

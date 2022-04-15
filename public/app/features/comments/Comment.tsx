@@ -5,7 +5,6 @@ import React from 'react';
 import { GrafanaTheme2, renderMarkdown } from '@grafana/data';
 import { useStyles2 } from '@grafana/ui';
 
-
 import { Message } from './types';
 
 type Props = {

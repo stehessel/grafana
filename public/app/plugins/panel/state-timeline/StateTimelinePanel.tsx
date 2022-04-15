@@ -9,7 +9,6 @@ import { TimelineChart } from './TimelineChart';
 import { TimelineMode, TimelineOptions } from './types';
 import { prepareTimelineFields, prepareTimelineLegendItems } from './utils';
 
-
 interface TimelinePanelProps extends PanelProps<TimelineOptions> {}
 
 /**

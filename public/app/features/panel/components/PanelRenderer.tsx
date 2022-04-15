@@ -9,7 +9,6 @@ import { appEvents } from 'app/core/core';
 import { getPanelOptionsWithDefaults, OptionDefaults } from '../../dashboard/state/getPanelOptionsWithDefaults';
 import { importPanelPlugin } from '../../plugins/importPanelPlugin';
 
-
 const defaultFieldConfig = { defaults: {}, overrides: [] };
 
 export function PanelRenderer<P extends object = any, F extends object = any>(props: PanelRendererProps<P, F>) {

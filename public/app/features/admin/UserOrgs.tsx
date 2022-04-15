@@ -24,7 +24,6 @@ import { AccessControlAction, Organization, OrgRole, UserDTO, UserOrg } from 'ap
 
 import { OrgRolePicker } from './OrgRolePicker';
 
-
 interface Props {
   orgs: UserOrg[];
   user?: UserDTO;

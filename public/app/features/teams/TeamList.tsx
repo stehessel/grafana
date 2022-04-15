@@ -17,9 +17,6 @@ import { deleteTeam, loadTeams } from './state/actions';
 import { setSearchQuery, setTeamsSearchPage } from './state/reducers';
 import { getSearchQuery, getTeams, getTeamsCount, getTeamsSearchPage, isPermissionTeamAdmin } from './state/selectors';
 
-
-
-
 const pageLimit = 30;
 
 export interface Props {

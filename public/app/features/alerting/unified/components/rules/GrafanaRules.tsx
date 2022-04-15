@@ -11,7 +11,6 @@ import { initialAsyncRequestState } from '../../utils/redux';
 
 import { RulesGroup } from './RulesGroup';
 
-
 interface Props {
   namespaces: CombinedRuleNamespace[];
   expandAll: boolean;

@@ -9,7 +9,6 @@ import { ElasticsearchQuery } from '../../types';
 
 import { ElasticsearchProvider, useQuery } from './ElasticsearchQueryContext';
 
-
 const query: ElasticsearchQuery = {
   refId: 'A',
   query: '',

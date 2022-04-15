@@ -30,7 +30,6 @@ import {
 } from './fieldOverrides';
 import { getFieldDisplayName } from './fieldState';
 
-
 const property1: any = {
   id: 'custom.property1', // Match field properties
   path: 'property1', // Match field properties

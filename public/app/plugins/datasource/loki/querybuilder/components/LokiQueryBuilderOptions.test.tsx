@@ -6,7 +6,6 @@ import { LokiQuery, LokiQueryType } from '../../types';
 
 import { LokiQueryBuilderOptions } from './LokiQueryBuilderOptions';
 
-
 describe('LokiQueryBuilderOptions', () => {
   it('Can change query type', async () => {
     const { props } = setup();

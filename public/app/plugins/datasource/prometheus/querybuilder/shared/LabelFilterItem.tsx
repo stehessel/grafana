@@ -6,7 +6,6 @@ import { Select } from '@grafana/ui';
 
 import { QueryBuilderLabelFilter } from './types';
 
-
 export interface Props {
   defaultOp: string;
   item: Partial<QueryBuilderLabelFilter>;

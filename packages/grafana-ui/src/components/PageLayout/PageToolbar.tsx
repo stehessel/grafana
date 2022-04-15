@@ -12,8 +12,6 @@ import { IconName } from '../../types';
 import { Icon } from '../Icon/Icon';
 import { IconButton } from '../IconButton/IconButton';
 
-
-
 export interface Props {
   pageIcon?: IconName;
   title?: string;

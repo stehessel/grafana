@@ -4,7 +4,6 @@ import React from 'react';
 import { GrafanaTheme2 } from '@grafana/data/src';
 import { useStyles2 } from '@grafana/ui';
 
-
 export const NoData = () => {
   const css = useStyles2(getStyles);
   return (

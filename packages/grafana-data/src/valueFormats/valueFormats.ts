@@ -5,7 +5,6 @@ import { getCategories } from './categories';
 import { toDateTimeValueFormatter } from './dateTimeFormatters';
 import { getOffsetFromSIPrefix, SIPrefix, currency } from './symbolFormatters';
 
-
 export interface FormattedValue {
   text: string;
   prefix?: string;

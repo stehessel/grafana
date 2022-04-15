@@ -4,7 +4,6 @@ import { GroupProps } from 'react-select';
 
 import { GrafanaTheme } from '@grafana/data';
 
-
 import { stylesFactory, withTheme } from '../../themes';
 import { Themeable } from '../../types';
 import { Icon } from '../Icon/Icon';

@@ -12,7 +12,6 @@ import { ColorPickerPopover, ColorPickerProps, ColorPickerChangeHandler } from '
 import { ColorSwatch } from './ColorSwatch';
 import { SeriesColorPickerPopover } from './SeriesColorPickerPopover';
 
-
 /**
  * If you need custom trigger for the color picker you can do that with a render prop pattern and supply a function
  * as a child. You will get show/hide function which you can map to desired interaction (like onClick or onMouseLeave)

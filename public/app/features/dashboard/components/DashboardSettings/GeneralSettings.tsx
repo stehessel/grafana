@@ -14,8 +14,6 @@ import { DeleteDashboardButton } from '../DeleteDashboard/DeleteDashboardButton'
 import { PreviewSettings } from './PreviewSettings';
 import { TimePickerSettings } from './TimePickerSettings';
 
-
-
 interface OwnProps {
   dashboard: DashboardModel;
 }

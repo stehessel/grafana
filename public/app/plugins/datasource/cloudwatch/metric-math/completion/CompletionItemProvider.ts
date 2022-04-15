@@ -1,6 +1,5 @@
 import { getTemplateSrv, TemplateSrv } from '@grafana/runtime';
 
-
 import { CloudWatchDatasource } from '../../datasource';
 import { CompletionItemProvider } from '../../monarch/CompletionItemProvider';
 import { LinkedToken } from '../../monarch/LinkedToken';

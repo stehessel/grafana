@@ -19,8 +19,6 @@ import {
 import { colorSchemes, quantizeScheme } from './palettes';
 import { HeatmapSuggestionsSupplier } from './suggestions';
 
-
-
 export const plugin = new PanelPlugin<PanelOptions, GraphFieldConfig>(HeatmapPanel)
   .useFieldConfig()
   .setPanelChangeHandler(heatmapChangedHandler)

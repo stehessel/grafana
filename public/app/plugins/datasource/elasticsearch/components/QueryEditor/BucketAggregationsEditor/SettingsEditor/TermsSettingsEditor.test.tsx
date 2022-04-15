@@ -11,8 +11,6 @@ import { Terms } from '../aggregations';
 
 import { TermsSettingsEditor } from './TermsSettingsEditor';
 
-
-
 describe('Terms Settings Editor', () => {
   it('Pipeline aggregations should not be in "order by" options', () => {
     const termsAgg: Terms = {

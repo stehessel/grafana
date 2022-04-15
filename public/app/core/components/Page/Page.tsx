@@ -13,7 +13,6 @@ import PageHeader from '../PageHeader/PageHeader';
 
 import { PageContents } from './PageContents';
 
-
 interface Props extends HTMLAttributes<HTMLDivElement> {
   children: React.ReactNode;
   navModel?: NavModel;

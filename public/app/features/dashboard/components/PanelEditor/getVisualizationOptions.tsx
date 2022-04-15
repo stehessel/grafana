@@ -22,8 +22,6 @@ import { getOptionOverrides } from './state/getOptionOverrides';
 import { OptionPaneRenderProps } from './types';
 import { setOptionImmutably, updateDefaultFieldConfigValue } from './utils';
 
-
-
 type categoryGetter = (categoryNames?: string[]) => OptionsPaneCategoryDescriptor;
 
 interface GetStandardEditorContextProps {

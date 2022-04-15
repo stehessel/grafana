@@ -23,8 +23,6 @@ import { prepareCandlestickFields } from './fields';
 import { defaultColors, CandlestickOptions, VizDisplayMode } from './models.gen';
 import { drawMarkers, FieldIndices } from './utils';
 
-
-
 interface CandlestickPanelProps extends PanelProps<CandlestickOptions> {}
 
 export const CandlestickPanel: React.FC<CandlestickPanelProps> = ({

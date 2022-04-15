@@ -10,7 +10,6 @@ import { Icon } from '../Icon/Icon';
 
 import { getSelectStyles } from './getSelectStyles';
 
-
 interface SelectMenuProps {
   maxHeight: number;
   innerRef: RefCallback<HTMLDivElement>;

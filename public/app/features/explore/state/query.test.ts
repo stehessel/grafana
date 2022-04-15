@@ -1,4 +1,3 @@
-
 import { EMPTY, interval, Observable, of } from 'rxjs';
 import { thunkTester } from 'test/core/thunk/thunkTester';
 
@@ -16,7 +15,6 @@ import {
   RawTimeRange,
 } from '@grafana/data';
 import { ExploreId, ExploreItemState, StoreState, ThunkDispatch } from 'app/types';
-
 
 import { reducerTester } from '../../../../test/core/redux/reducerTester';
 import { configureStore } from '../../../store/configureStore';

@@ -31,7 +31,6 @@ import { BarsOptions, getConfig } from './bars';
 import { BarChartFieldConfig, PanelOptions, defaultBarChartFieldConfig } from './models.gen';
 import { BarChartDisplayValues } from './types';
 
-
 function getBarCharScaleOrientation(orientation: VizOrientation) {
   if (orientation === VizOrientation.Vertical) {
     return {

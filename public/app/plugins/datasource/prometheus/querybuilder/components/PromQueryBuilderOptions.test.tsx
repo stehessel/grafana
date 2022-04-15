@@ -7,9 +7,7 @@ import { selectOptionInTest } from '@grafana/ui';
 import { PromQuery } from '../../types';
 import { getQueryWithDefaults } from '../state';
 
-
 import { PromQueryBuilderOptions } from './PromQueryBuilderOptions';
-
 
 describe('PromQueryBuilderOptions', () => {
   it('Can change query type', async () => {

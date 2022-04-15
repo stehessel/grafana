@@ -11,7 +11,6 @@ import { BasicSettings } from './BasicSettings';
 import { ChannelSettings } from './ChannelSettings';
 import { NotificationSettings } from './NotificationSettings';
 
-
 interface Props
   extends Pick<FormAPI<NotificationChannelDTO>, 'control' | 'errors' | 'register' | 'watch' | 'getValues'> {
   selectableChannels: Array<SelectableValue<string>>;

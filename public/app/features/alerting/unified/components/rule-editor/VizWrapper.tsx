@@ -12,7 +12,6 @@ import { PanelOptions } from 'app/plugins/panel/table/models.gen';
 import { useVizHeight } from '../../hooks/useVizHeight';
 import { SupportedPanelPlugins, PanelPluginsButtonGroup } from '../PanelPluginsButtonGroup';
 
-
 interface Props {
   data: PanelData;
   currentPanel: SupportedPanelPlugins;

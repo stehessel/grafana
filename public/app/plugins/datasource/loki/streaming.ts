@@ -7,7 +7,6 @@ import { StreamingDataFrame } from 'app/features/live/data/StreamingDataFrame';
 import { LokiDatasource } from './datasource';
 import { LokiQuery } from './types';
 
-
 /**
  * Calculate a unique key for the query.  The key is used to pick a channel and should
  * be unique for each distinct query execution plan.  This key is not secure and is only picked to avoid

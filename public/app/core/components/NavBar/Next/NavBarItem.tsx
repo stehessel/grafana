@@ -16,7 +16,6 @@ import { NavBarItemMenuTrigger } from './NavBarItemMenuTrigger';
 import { getNavBarItemWithoutMenuStyles, NavBarItemWithoutMenu } from './NavBarItemWithoutMenu';
 import { NavBarMenuItem } from './NavBarMenuItem';
 
-
 export interface Props {
   isActive?: boolean;
   children: ReactNode;

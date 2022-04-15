@@ -33,8 +33,6 @@ import { getTimeSrv } from '../services/TimeSrv';
 import { cleanUpDashboardAndVariables } from '../state/actions';
 import { initDashboard } from '../state/initDashboard';
 
-
-
 export interface DashboardPageRouteParams {
   uid?: string;
   type?: string;

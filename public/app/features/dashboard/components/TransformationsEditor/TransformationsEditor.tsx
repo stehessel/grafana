@@ -38,7 +38,6 @@ import { PanelNotSupported } from '../PanelEditor/PanelNotSupported';
 import { TransformationOperationRows } from './TransformationOperationRows';
 import { TransformationsEditorTransformation } from './types';
 
-
 const LOCAL_STORAGE_KEY = 'dashboard.components.TransformationEditor.featureInfoBox.isDismissed';
 
 interface TransformationsEditorProps extends Themeable {

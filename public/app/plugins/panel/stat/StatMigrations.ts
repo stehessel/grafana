@@ -4,7 +4,6 @@ import { BigValueTextMode } from '@grafana/ui/src/components/BigValue/BigValue';
 
 import { StatPanelOptions } from './types';
 
-
 // This is called when the panel changes from another panel
 export const statPanelChangedHandler = (
   panel: PanelModel<Partial<StatPanelOptions>> | any,

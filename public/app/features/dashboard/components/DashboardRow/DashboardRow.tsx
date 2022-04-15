@@ -12,8 +12,6 @@ import { DashboardModel } from '../../state/DashboardModel';
 import { PanelModel } from '../../state/PanelModel';
 import { RowOptionsButton } from '../RowOptions/RowOptionsButton';
 
-
-
 export interface DashboardRowProps {
   panel: PanelModel;
   dashboard: DashboardModel;

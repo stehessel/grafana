@@ -7,8 +7,6 @@ import AnnotationsField from './AnnotationsField';
 import LabelsField from './LabelsField';
 import { RuleEditorSection } from './RuleEditorSection';
 
-
-
 export const DetailsStep: FC = () => {
   const { watch } = useFormContext<RuleFormValues>();
 

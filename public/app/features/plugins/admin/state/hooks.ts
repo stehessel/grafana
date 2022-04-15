@@ -19,7 +19,6 @@ import {
   selectPluginErrors,
 } from './selectors';
 
-
 type Filters = {
   query?: string;
   filterBy?: string;

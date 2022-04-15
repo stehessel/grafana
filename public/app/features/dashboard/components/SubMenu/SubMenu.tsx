@@ -14,7 +14,6 @@ import { Annotations } from './Annotations';
 import { DashboardLinks } from './DashboardLinks';
 import { SubMenuItems } from './SubMenuItems';
 
-
 interface OwnProps {
   dashboard: DashboardModel;
   links: DashboardLink[];

@@ -5,7 +5,6 @@ import { ButtonCascader } from '@grafana/ui';
 
 import { withCenteredStory } from '../../utils/storybook/withCenteredStory';
 
-
 import { ButtonCascaderProps } from './ButtonCascader';
 
 export default {

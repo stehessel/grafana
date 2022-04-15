@@ -5,7 +5,6 @@ import React from 'react';
 
 import { mockThemeContext, useStyles } from './ThemeContext';
 
-
 describe('useStyles', () => {
   it('memoizes the passed in function correctly', () => {
     const stylesCreator = () => ({});

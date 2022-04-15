@@ -5,7 +5,6 @@ import React from 'react';
 import { GrafanaTheme2 } from '@grafana/data';
 import { useStyles2, Icon } from '@grafana/ui';
 
-
 import { Diff } from './utils';
 
 type DiffProps = {

@@ -12,7 +12,6 @@ import {
 } from '@grafana/ui';
 import { MetricsPanelCtrl } from 'app/angular/panel/metrics_panel_ctrl';
 
-
 export class EventManager {
   event: AnnotationEvent | null = null;
   editorOpen = false;

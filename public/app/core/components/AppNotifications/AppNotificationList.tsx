@@ -16,9 +16,6 @@ import {
 
 import AppNotificationItem from './AppNotificationItem';
 
-
-
-
 export interface OwnProps {}
 
 const mapStateToProps = (state: StoreState, props: OwnProps) => ({

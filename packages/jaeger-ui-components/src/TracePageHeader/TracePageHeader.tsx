@@ -31,7 +31,6 @@ import { Trace } from '../types/trace';
 import { uTxMuted } from '../uberUtilityStyles';
 import { formatDuration } from '../utils/date';
 
-
 import SpanGraph from './SpanGraph';
 
 const getStyles = (theme: GrafanaTheme2) => {

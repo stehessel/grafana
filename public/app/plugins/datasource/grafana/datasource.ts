@@ -29,8 +29,6 @@ import { getDashboardSrv } from '../../../features/dashboard/services/DashboardS
 import AnnotationQueryEditor from './components/AnnotationQueryEditor';
 import { GrafanaAnnotationQuery, GrafanaAnnotationType, GrafanaQuery, GrafanaQueryType } from './types';
 
-
-
 let counter = 100;
 
 export class GrafanaDatasource extends DataSourceWithBackend<GrafanaQuery> {

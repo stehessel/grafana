@@ -15,7 +15,6 @@ import { NavBarItemWithoutMenu } from './NavBarItemWithoutMenu';
 import { NavBarMenuItem } from './NavBarMenuItem';
 import { NavBarToggle } from './NavBarToggle';
 
-
 export interface Props {
   activeItem?: NavModelItem;
   isOpen: boolean;

@@ -40,8 +40,6 @@ import {
 } from './utils';
 // Types
 
-
-
 //
 // Actions and Payloads
 //

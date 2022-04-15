@@ -1,7 +1,6 @@
 import { shallow } from 'enzyme';
 import React from 'react';
 
-
 import { Invitee } from 'app/types';
 
 import { getMockInvitees } from '../users/__mocks__/userMocks';

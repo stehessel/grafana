@@ -25,7 +25,6 @@ import { getTemplatedRegex } from '../utils';
 import { toMetricFindValues, updateOptionsState, validateVariableSelection } from './operators';
 import { QueryRunners } from './queryRunners';
 
-
 interface UpdateOptionsArgs {
   identifier: KeyedVariableIdentifier;
   datasource: DataSourceApi;

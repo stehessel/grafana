@@ -6,11 +6,9 @@ import Page from 'app/core/components/Page/Page';
 import { getConfig } from 'app/core/config';
 import { StoreState } from 'app/types';
 
-
 import { getNavModel } from '../../core/selectors/navModel';
 
 import { createOrganization } from './state/actions';
-
 
 const mapStateToProps = (state: StoreState) => {
   return { navModel: getNavModel(state.navIndex, 'global-orgs') };

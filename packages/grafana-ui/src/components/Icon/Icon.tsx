@@ -8,7 +8,6 @@ import { useTheme } from '../../themes/ThemeContext';
 import { stylesFactory } from '../../themes/stylesFactory';
 import { IconName, IconType, IconSize } from '../../types/icon';
 
-
 import { cacheInitialized, initIconCache, iconRoot } from './iconBundle';
 import { getIconSubDir, getSvgSize } from './utils';
 

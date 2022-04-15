@@ -7,14 +7,11 @@ import { GrafanaRouteComponentProps } from 'app/core/navigation/types';
 import { StoreState } from 'app/types';
 import { ExploreId, ExploreQueryParams } from 'app/types/explore';
 
-
-
 import { Branding } from '../../core/components/Branding/Branding';
 import { getNavModel } from '../../core/selectors/navModel';
 
 import { ExplorePaneContainer } from './ExplorePaneContainer';
 import { lastSavedUrl, resetExploreAction, richHistoryUpdatedAction } from './state/main';
-
 
 interface RouteProps extends GrafanaRouteComponentProps<{}, ExploreQueryParams> {}
 interface OwnProps {}

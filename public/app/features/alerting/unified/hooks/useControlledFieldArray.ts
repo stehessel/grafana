@@ -2,7 +2,6 @@ import { set } from 'lodash';
 import { useCallback } from 'react';
 import { UseFormReturn } from 'react-hook-form';
 
-
 interface Options<R> {
   name: string;
   formAPI: UseFormReturn<any>;

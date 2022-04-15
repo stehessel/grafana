@@ -10,7 +10,6 @@ import { useStyles2, useTheme2 } from '../../themes';
 import { Button } from '../Button';
 import { VerticalGroup } from '../Layout/Layout';
 
-
 export function EmotionPerfTest() {
   console.log('process.env.NODE_ENV', process.env.NODE_ENV);
 

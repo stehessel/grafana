@@ -7,7 +7,6 @@ import { PluginMeta, AppPlugin, deprecationWarning } from '@grafana/data';
 import { AngularComponent, getAngularLoader, getBackendSrv } from '@grafana/runtime';
 import { Button } from '@grafana/ui';
 
-
 interface Props {
   app: AppPlugin;
 }

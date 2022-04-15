@@ -1,6 +1,5 @@
 import { DataSourcePlugin } from '@grafana/data';
 
-
 import { LokiAnnotationsQueryCtrl } from './LokiAnnotationsQueryCtrl';
 import LokiCheatSheet from './components/LokiCheatSheet';
 import LokiQueryEditorByApp from './components/LokiQueryEditorByApp';

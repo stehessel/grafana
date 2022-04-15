@@ -22,7 +22,6 @@ import {
   deleteServiceAccount,
 } from './state/actions';
 
-
 interface OwnProps extends GrafanaRouteComponentProps<{ id: string }> {
   navModel: NavModel;
   serviceAccount?: ServiceAccountDTO;

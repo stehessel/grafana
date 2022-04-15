@@ -5,7 +5,6 @@ import { selectors } from '@grafana/e2e-selectors';
 
 import { DataLinksContextMenu } from './DataLinksContextMenu';
 
-
 const fakeAriaLabel = 'fake aria label';
 describe('DataLinksContextMenu', () => {
   it('renders context menu when there are more than one data links', () => {

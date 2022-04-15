@@ -10,9 +10,6 @@ import { Button } from '../../Button';
 import { TimePickerCalendarProps } from './TimePickerCalendar';
 import { TimePickerTitle } from './TimePickerTitle';
 
-
-
-
 export function Header({ onClose }: TimePickerCalendarProps) {
   const styles = useStyles2(getHeaderStyles);
 

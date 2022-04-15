@@ -13,7 +13,6 @@ import { getSearchFilterScopedVar } from '../../../features/variables/utils';
 import ResponseParser from './response_parser';
 import { MySQLOptions, MySQLQuery, MysqlQueryForInterpolation } from './types';
 
-
 export class MysqlDatasource extends DataSourceWithBackend<MySQLQuery, MySQLOptions> {
   id: any;
   name: any;

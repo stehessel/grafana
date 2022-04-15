@@ -10,8 +10,6 @@ import { Input } from '../Input/Input';
 
 import { ColorPickerProps } from './ColorPickerPopover';
 
-
-
 interface ColorInputState {
   previousColor: string;
   value: string;

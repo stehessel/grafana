@@ -27,7 +27,6 @@ import DetailState from './SpanDetail/DetailState';
 import SpanTreeOffset from './SpanTreeOffset';
 import TimelineRow from './TimelineRow';
 
-
 const getStyles = stylesFactory((theme: GrafanaTheme2) => {
   return {
     expandedAccent: css`

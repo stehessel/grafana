@@ -1,7 +1,6 @@
 import { screen, render, within } from '@testing-library/react';
 import React from 'react';
 
-
 import { DataFrame, toDataFrame, FieldType, InternalTimeZones } from '@grafana/data';
 import { ExploreId } from 'app/types/explore';
 

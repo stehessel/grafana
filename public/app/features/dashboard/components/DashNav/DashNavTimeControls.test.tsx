@@ -6,7 +6,6 @@ import { DashboardModel } from '../../state/DashboardModel';
 
 import { DashNavTimeControls } from './DashNavTimeControls';
 
-
 describe('DashNavTimeControls', () => {
   let dashboardModel: DashboardModel;
 

@@ -13,7 +13,6 @@ import { ExploreId, StoreState } from '../../types';
 import { splitOpen } from './state/main';
 import { useLinks } from './utils/links';
 
-
 const getStyles = (theme: GrafanaTheme2) => ({
   warningText: css`
     label: warningText;

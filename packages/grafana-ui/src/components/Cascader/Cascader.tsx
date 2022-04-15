@@ -9,9 +9,7 @@ import { Icon } from '../Icon/Icon';
 import { Input } from '../Input/Input';
 import { Select } from '../Select/Select';
 
-
 import { onChangeCascader } from './optionMappings';
-
 
 export interface CascaderProps {
   /** The separator between levels in the search */

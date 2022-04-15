@@ -12,7 +12,6 @@ import { changeBucketAggregationSetting } from '../../state/actions';
 import { addFilter, changeFilter, removeFilter } from './state/actions';
 import { reducer as filtersReducer } from './state/reducer';
 
-
 interface Props {
   bucketAgg: Filters;
 }

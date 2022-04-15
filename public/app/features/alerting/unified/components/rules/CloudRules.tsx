@@ -11,7 +11,6 @@ import { getRulesDataSources, getRulesSourceName } from '../../utils/datasource'
 
 import { RulesGroup } from './RulesGroup';
 
-
 interface Props {
   namespaces: CombinedRuleNamespace[];
   expandAll: boolean;

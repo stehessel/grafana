@@ -27,9 +27,6 @@ import { HelpModal } from '../core/components/help/HelpModal';
 import { SearchField, SearchResults, SearchResultsFilter } from '../features/search';
 import { LokiAnnotationsQueryEditor } from '../plugins/datasource/loki/components/AnnotationsQueryEditor';
 
-
-
-
 const { SecretFormField } = LegacyForms;
 
 export function registerAngularDirectives() {

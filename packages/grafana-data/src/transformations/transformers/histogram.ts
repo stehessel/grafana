@@ -9,7 +9,6 @@ import { ArrayVector } from '../../vector/ArrayVector';
 import { DataTransformerID } from './ids';
 import { AlignedData, join } from './joinDataFrames';
 
-
 /**
  * @internal
  */

@@ -20,7 +20,6 @@ import { getExploreUrl } from '../../../core/utils/explore';
 import { navigateToExplore } from '../../explore/state/main';
 import { getTimeSrv } from '../services/TimeSrv';
 
-
 export function getPanelMenu(
   dashboard: DashboardModel,
   panel: PanelModel,

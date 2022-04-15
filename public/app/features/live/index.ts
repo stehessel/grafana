@@ -7,7 +7,6 @@ import { CentrifugeService } from './centrifuge/service';
 import { CentrifugeServiceWorkerProxy } from './centrifuge/serviceWorkerProxy';
 import { GrafanaLiveService } from './live';
 
-
 export const sessionId =
   (window as any)?.grafanaBootData?.user?.id +
   '/' +

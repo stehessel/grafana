@@ -16,7 +16,6 @@ import { GRAFANA_RULES_SOURCE_NAME, isVanillaPrometheusAlertManagerDataSource } 
 import { initialAsyncRequestState } from '../../utils/redux';
 import { AlertManagerPicker } from '../AlertManagerPicker';
 
-
 interface FormValues {
   configJSON: string;
 }

@@ -5,7 +5,6 @@ import { dateTimeFormat } from '@grafana/data';
 
 import { DatePickerWithInput } from './DatePickerWithInput';
 
-
 describe('DatePickerWithInput', () => {
   it('renders date input', () => {
     render(<DatePickerWithInput onChange={jest.fn()} value={new Date(1400000000000)} />);

@@ -21,7 +21,6 @@ import { loadTeam, loadTeamMembers } from './state/actions';
 import { getTeamLoadingNav } from './state/navModel';
 import { getTeam, getTeamMembers, isSignedInUserTeamAdmin } from './state/selectors';
 
-
 interface TeamPageRouteParams {
   id: string;
   page: string | null;

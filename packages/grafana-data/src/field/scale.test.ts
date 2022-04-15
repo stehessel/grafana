@@ -6,7 +6,6 @@ import { ArrayVector } from '../vector/ArrayVector';
 import { getScaleCalculator } from './scale';
 import { sortThresholds } from './thresholds';
 
-
 describe('getScaleCalculator', () => {
   it('should return percent, threshold and color', () => {
     const thresholds = [

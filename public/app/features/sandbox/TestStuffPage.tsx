@@ -19,8 +19,6 @@ import { PanelRenderer } from '../panel/components/PanelRenderer';
 import { QueryGroup } from '../query/components/QueryGroup';
 import { PanelQueryRunner } from '../query/state/PanelQueryRunner';
 
-
-
 interface State {
   queryRunner: PanelQueryRunner;
   queryOptions: QueryGroupOptions;

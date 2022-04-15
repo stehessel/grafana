@@ -18,9 +18,6 @@ import { StartModal } from './StartModal';
 import { deletePlaylist, getAllPlaylist } from './api';
 import { PlaylistDTO } from './types';
 
-
-
-
 interface ConnectedProps {
   navModel: NavModel;
 }

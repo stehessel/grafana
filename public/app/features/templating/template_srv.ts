@@ -10,9 +10,7 @@ import { getFilteredVariables, getVariables, getVariableWithName } from '../vari
 import { AdHocVariableFilter, AdHocVariableModel, VariableModel } from '../variables/types';
 import { variableRegex } from '../variables/utils';
 
-
 import { FormatOptions, formatRegistry, FormatRegistryID } from './formatRegistry';
-
 
 interface FieldAccessorCache {
   [key: string]: (obj: any) => any;

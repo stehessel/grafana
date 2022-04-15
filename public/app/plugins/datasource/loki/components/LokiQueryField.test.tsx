@@ -5,7 +5,6 @@ import { dateTime } from '@grafana/data';
 
 import { LokiQueryField } from './LokiQueryField';
 
-
 type Props = ComponentProps<typeof LokiQueryField>;
 
 const defaultProps: Props = {

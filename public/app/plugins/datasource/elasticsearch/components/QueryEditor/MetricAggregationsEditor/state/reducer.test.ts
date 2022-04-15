@@ -19,7 +19,6 @@ import {
 } from './actions';
 import { reducer } from './reducer';
 
-
 describe('Metric Aggregations Reducer', () => {
   it('should correctly add new aggregations', () => {
     const firstAggregation: MetricAggregation = {

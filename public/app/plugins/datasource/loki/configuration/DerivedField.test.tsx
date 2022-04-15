@@ -6,7 +6,6 @@ import { DataSourcePicker } from '@grafana/runtime';
 
 import { DerivedField } from './DerivedField';
 
-
 jest.mock('app/features/plugins/datasource_srv', () => ({
   getDatasourceSrv() {
     return {

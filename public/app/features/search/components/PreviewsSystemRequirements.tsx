@@ -4,7 +4,6 @@ import React from 'react';
 import { config } from '@grafana/runtime/src';
 import { Alert, useStyles2 } from '@grafana/ui';
 
-
 export interface Props {
   showPreviews?: boolean;
   /** On click handler for alert button, mostly used for dismissing the alert */

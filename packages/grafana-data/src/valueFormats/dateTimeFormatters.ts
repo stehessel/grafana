@@ -5,7 +5,6 @@ import { DecimalCount } from '../types/displayValue';
 
 import { toFixed, toFixedScaled, FormattedValue, ValueFormatter } from './valueFormats';
 
-
 interface IntervalsInSeconds {
   [interval: string]: number;
 }

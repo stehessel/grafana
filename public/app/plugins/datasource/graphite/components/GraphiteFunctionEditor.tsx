@@ -12,7 +12,6 @@ import { FunctionEditor } from './FunctionEditor';
 import { EditableParam, FunctionParamEditor } from './FunctionParamEditor';
 import { mapFuncInstanceToParams } from './helpers';
 
-
 export type FunctionEditorProps = {
   func: FuncInstance;
 };

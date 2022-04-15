@@ -11,8 +11,6 @@ import { getAllSuggestions } from '../../state/getAllSuggestions';
 import { VisualizationSuggestionCard } from './VisualizationSuggestionCard';
 import { VizTypeChangeDetails } from './types';
 
-
-
 export interface Props {
   current: PanelPluginMeta;
   data?: PanelData;

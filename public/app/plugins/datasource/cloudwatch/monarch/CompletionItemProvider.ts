@@ -1,6 +1,5 @@
 import { getTemplateSrv, TemplateSrv } from '@grafana/runtime';
 
-
 import { CloudWatchDatasource } from '../datasource';
 
 import { LinkedToken } from './LinkedToken';

@@ -24,7 +24,6 @@ import {
   richHistoryUpdatedAction,
 } from './main';
 
-
 //
 // Actions and Payloads
 //

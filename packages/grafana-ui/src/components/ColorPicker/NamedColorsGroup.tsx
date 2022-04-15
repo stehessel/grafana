@@ -5,8 +5,6 @@ import React, { FunctionComponent } from 'react';
 
 import { GrafanaTheme2, ThemeVizHue } from '@grafana/data';
 
-
-
 import { useStyles2 } from '../../themes/ThemeContext';
 import { reverseMap } from '../../utils/reverseMap';
 

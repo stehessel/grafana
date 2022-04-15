@@ -27,7 +27,6 @@ import { exitKioskMode, toggleKioskMode } from '../navigation/kiosk';
 import { toggleTheme } from './toggleTheme';
 import { withFocusedPanel } from './withFocusedPanelId';
 
-
 export class KeybindingSrv {
   reset() {
     Mousetrap.reset();

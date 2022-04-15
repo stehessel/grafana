@@ -22,7 +22,6 @@ import {
   updateSearchQuery,
 } from './reducer';
 
-
 export const navigateOptions = (rootStateKey: string, key: NavigationKey, clearOthers: boolean): ThunkResult<void> => {
   return async (dispatch, getState) => {
     if (key === NavigationKey.cancel) {

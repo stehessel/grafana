@@ -28,7 +28,6 @@ import { TraceSpan } from '../types/trace';
 import AccordianLogs from './SpanDetail/AccordianLogs';
 import { ViewedBoundsFunctionType } from './utils';
 
-
 const getStyles = (theme: GrafanaTheme2) => {
   return {
     wrapper: css`

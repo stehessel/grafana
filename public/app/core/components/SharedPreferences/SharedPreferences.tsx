@@ -22,7 +22,6 @@ import { PreferencesService } from 'app/core/services/PreferencesService';
 import { backendSrv } from 'app/core/services/backend_srv';
 import { DashboardSearchHit, DashboardSearchItemType } from 'app/features/search/types';
 
-
 export interface Props {
   resourceUri: string;
   disabled?: boolean;

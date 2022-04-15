@@ -14,7 +14,6 @@ import { getValueFormat, isBooleanUnit } from '../valueFormats/valueFormats';
 
 import { getScaleCalculator } from './scale';
 
-
 interface DisplayProcessorOptions {
   field: Partial<Field>;
   /**

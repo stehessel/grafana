@@ -11,7 +11,6 @@ import { FolderInfo } from 'app/types';
 import { DashboardSection, OnMoveItems } from '../types';
 import { getCheckedDashboards } from '../utils';
 
-
 interface Props {
   onMoveItems: OnMoveItems;
   results: DashboardSection[];

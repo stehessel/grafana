@@ -5,7 +5,6 @@ import { Spinner } from '@grafana/ui';
 
 import { withCenteredStory } from '../../utils/storybook/withCenteredStory';
 
-
 import { Props } from './Spinner';
 import mdx from './Spinner.mdx';
 

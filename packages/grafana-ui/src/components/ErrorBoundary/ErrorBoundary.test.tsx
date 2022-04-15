@@ -4,7 +4,6 @@ import React, { FC } from 'react';
 
 import { ErrorBoundary } from './ErrorBoundary';
 
-
 jest.mock('@sentry/browser');
 
 const ErrorThrower: FC<{ error: Error }> = ({ error }) => {

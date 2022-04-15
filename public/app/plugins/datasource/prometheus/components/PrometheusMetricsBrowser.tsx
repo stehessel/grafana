@@ -17,7 +17,6 @@ import {
 import PromQlLanguageProvider from '../language_provider';
 import { escapeLabelValueInExactSelector, escapeLabelValueInRegexSelector } from '../language_utils';
 
-
 // Hard limit on labels to render
 const EMPTY_SELECTOR = '{}';
 const METRIC_LABEL = '__name__';

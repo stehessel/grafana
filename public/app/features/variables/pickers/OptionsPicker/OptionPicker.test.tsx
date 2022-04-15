@@ -14,7 +14,6 @@ import { VariablePickerProps } from '../types';
 import { optionPickerFactory } from './OptionsPicker';
 import { initialOptionPickerState, OptionsPickerState } from './reducer';
 
-
 interface Args {
   pickerState?: Partial<OptionsPickerState>;
   variable?: Partial<QueryVariableModel>;

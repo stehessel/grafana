@@ -6,7 +6,6 @@ import { toStateKey } from '../utils';
 import { getTemplatingReducers, TemplatingState } from './reducers';
 import { variablesInitTransaction } from './transactionReducer';
 
-
 export interface KeyedVariablesState {
   lastKey?: string;
   keys: Record<string, TemplatingState>;

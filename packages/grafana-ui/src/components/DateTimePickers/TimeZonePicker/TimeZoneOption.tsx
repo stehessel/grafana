@@ -12,7 +12,6 @@ import { TimeZoneDescription } from './TimeZoneDescription';
 import { TimeZoneOffset } from './TimeZoneOffset';
 import { TimeZoneTitle } from './TimeZoneTitle';
 
-
 interface Props {
   isFocused: boolean;
   isSelected: boolean;

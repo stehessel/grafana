@@ -6,7 +6,6 @@ import { Button } from '../Button/Button';
 
 import { CallToActionCard, CallToActionCardProps } from './CallToActionCard';
 
-
 export default {
   title: 'Layout/CallToActionCard',
   component: CallToActionCard,

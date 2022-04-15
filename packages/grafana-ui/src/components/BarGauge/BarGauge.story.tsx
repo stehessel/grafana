@@ -10,7 +10,6 @@ import { withCenteredStory } from '../../utils/storybook/withCenteredStory';
 import { Props } from './BarGauge';
 import mdx from './BarGauge.mdx';
 
-
 export default {
   title: 'Visualizations/BarGauge',
   component: BarGauge,

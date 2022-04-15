@@ -13,7 +13,6 @@ import { ElasticsearchQuery } from '../types';
 
 import { useFields } from './useFields';
 
-
 describe('useFields hook', () => {
   // TODO: If we move the field type to the configuration objects as described in the hook's source
   // we can stop testing for getField to be called with the correct parameters.

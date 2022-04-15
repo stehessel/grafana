@@ -30,7 +30,6 @@ import TimelineHeaderRow from './TimelineHeaderRow';
 import VirtualizedTraceView from './VirtualizedTraceView';
 import { TUpdateViewRangeTimeFunction, ViewRange, ViewRangeTimeUpdate } from './types';
 
-
 type TExtractUiFindFromStateReturn = {
   uiFind: string | undefined;
 };

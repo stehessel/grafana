@@ -13,7 +13,6 @@ import mdx from './Select.mdx';
 import { generateOptions } from './mockOptions';
 import { SelectCommonProps } from './types';
 
-
 export default {
   title: 'Forms/Select',
   component: Select,

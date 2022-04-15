@@ -8,7 +8,6 @@ import { DashboardAclDTO, DashboardInitError, DashboardInitPhase, DashboardState
 import { DashboardModel } from './DashboardModel';
 import { PanelModel } from './PanelModel';
 
-
 export const initialState: DashboardState = {
   initPhase: DashboardInitPhase.NotStarted,
   getModel: () => null,

@@ -1,7 +1,6 @@
 import { extend } from 'lodash';
 import React, { PureComponent } from 'react';
 
-
 import { AppEvents, PluginMeta, DataSourceApi } from '@grafana/data';
 import { getBackendSrv } from '@grafana/runtime';
 import { appEvents } from 'app/core/core';

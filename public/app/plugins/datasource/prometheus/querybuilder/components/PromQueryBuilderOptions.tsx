@@ -12,7 +12,6 @@ import { QueryOptionGroup } from '../shared/QueryOptionGroup';
 
 import { getLegendModeLabel, PromQueryLegendEditor } from './PromQueryLegendEditor';
 
-
 export interface Props {
   query: PromQuery;
   app?: CoreApp;

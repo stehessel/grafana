@@ -19,8 +19,6 @@ import {
 import PromQlLanguageProvider from '../../prometheus/language_provider';
 import LokiLanguageProvider from '../language_provider';
 
-
-
 // Hard limit on labels to render
 const MAX_LABEL_COUNT = 1000;
 const MAX_VALUE_COUNT = 10000;

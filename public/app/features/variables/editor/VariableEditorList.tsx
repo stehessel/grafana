@@ -11,7 +11,6 @@ import { VariableModel } from '../types';
 
 import { VariableEditorListRow } from './VariableEditorListRow';
 
-
 export interface Props {
   variables: VariableModel[];
   usages: VariableUsageTree[];

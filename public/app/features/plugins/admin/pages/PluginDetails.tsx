@@ -20,8 +20,6 @@ import { usePluginDetailsTabs } from '../hooks/usePluginDetailsTabs';
 import { useGetSingle, useFetchStatus, useFetchDetailsStatus } from '../state/hooks';
 import { PluginTabLabels, PluginTabIds, PluginDetailsTab } from '../types';
 
-
-
 type Props = GrafanaRouteComponentProps<{ pluginId?: string }>;
 
 export default function PluginDetails({ match, queryParams }: Props): JSX.Element | null {

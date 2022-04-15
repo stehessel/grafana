@@ -5,7 +5,6 @@ import { BarAlignment, GraphDrawStyle, GraphTransform, LineInterpolation, Stacki
 
 import { getStackingGroups, preparePlotData2, timeFormatToTemplate } from './utils';
 
-
 describe('timeFormatToTemplate', () => {
   it.each`
     format           | expected

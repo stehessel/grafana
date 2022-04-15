@@ -14,8 +14,6 @@ import { MysqlMetaQuery } from './meta_query';
 import MySQLQueryModel from './mysql_query_model';
 import sqlPart from './sql_part';
 
-
-
 const defaultQuery = `SELECT
   UNIX_TIMESTAMP(<time_column>) as time_sec,
   <value column> as value,

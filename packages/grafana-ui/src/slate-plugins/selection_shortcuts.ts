@@ -3,7 +3,6 @@ import { Editor as CoreEditor } from 'slate';
 
 import { Plugin } from '@grafana/slate-react';
 
-
 const isSelectLineHotkey = isKeyHotkey('mod+l');
 
 // Clears the rest of the line after the caret

@@ -7,7 +7,6 @@ import flatten from 'app/core/utils/flatten';
 
 import { TableTransform } from './types';
 
-
 const transformers: { [key: string]: TableTransform } = {};
 export const timeSeriesFormatFilterer = (data: any): any[] => {
   if (!Array.isArray(data)) {

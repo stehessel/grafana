@@ -7,7 +7,6 @@ import { applyPanelTimeOverrides, calculateInnerPanelHeight } from 'app/features
 import { getPanelPlugin } from '../../plugins/__mocks__/pluginMocks';
 import { PanelModel } from '../state';
 
-
 const dashboardTimeRange: TimeRange = {
   from: dateTime([2019, 1, 11, 12, 0]),
   to: dateTime([2019, 1, 11, 18, 0]),

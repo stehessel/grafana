@@ -10,7 +10,6 @@ import { transformDataFrame } from '../transformDataFrame';
 import { DataTransformerID } from './ids';
 import { reduceFields, reduceTransformer, ReduceTransformerOptions } from './reduce';
 
-
 const seriesAWithSingleField = toDataFrame({
   name: 'A',
   fields: [

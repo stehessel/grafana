@@ -12,7 +12,6 @@ import { templateVarsChangedInUrl } from './actions';
 import { getPreloadedState } from './helpers';
 import { VariablesState } from './types';
 
-
 const dashboardModel = new DashboardModel({});
 
 variableAdapters.setInit(() => [createCustomVariableAdapter(), createConstantVariableAdapter()]);

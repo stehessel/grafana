@@ -6,14 +6,11 @@ import { Modal, Button, Form, Field, Input, useStyles2 } from '@grafana/ui';
 import { useCleanup } from 'app/core/hooks/useCleanup';
 import { CombinedRuleGroup, CombinedRuleNamespace } from 'app/types/unified-alerting';
 
-
-
 import { useUnifiedAlertingSelector } from '../../hooks/useUnifiedAlertingSelector';
 import { updateLotexNamespaceAndGroupAction } from '../../state/actions';
 import { getRulesSourceName } from '../../utils/datasource';
 import { initialAsyncRequestState } from '../../utils/redux';
 import { durationValidationPattern } from '../../utils/time';
-
 
 interface Props {
   namespace: CombinedRuleNamespace;

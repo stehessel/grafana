@@ -4,7 +4,6 @@ import { TimeRange } from '../types/time';
 
 import { getFlotPairs, getFlotPairsConstant } from './flotPairs';
 
-
 describe('getFlotPairs', () => {
   const series = new MutableDataFrame({
     fields: [

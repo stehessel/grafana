@@ -6,7 +6,6 @@ import { Annotation, annotationLabels } from '../../utils/constants';
 
 import { SelectWithAdd } from './SelectWIthAdd';
 
-
 interface Props {
   onChange: (value: string) => void;
   existingKeys: string[];

@@ -15,7 +15,6 @@ import { MatcherFieldValue } from '../types/silence-form';
 import { getAllDataSources } from './config';
 import { DataSourceType } from './datasource';
 
-
 export function addDefaultsToAlertmanagerConfig(config: AlertManagerCortexConfig): AlertManagerCortexConfig {
   // add default receiver if it does not exist
   if (!config.alertmanager_config.receivers) {

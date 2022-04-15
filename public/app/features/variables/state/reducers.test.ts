@@ -10,7 +10,6 @@ import { toVariablePayload } from '../utils';
 import { VariablePayload, VariablesState } from './types';
 import { cleanVariables, variablesReducer } from './variablesReducer';
 
-
 const variableAdapter: VariableAdapter<QueryVariableModel> = {
   id: 'mock' as unknown as VariableType,
   name: 'Mock label',

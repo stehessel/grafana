@@ -9,7 +9,6 @@ import { useSpinner } from '../utils/useSpinner';
 
 import { Task, TaskRunner } from './task';
 
-
 const clean = (cwd: string) => useSpinner('Cleaning', () => execa('npm', ['run', 'clean'], { cwd }));
 
 const compile = (cwd: string) =>

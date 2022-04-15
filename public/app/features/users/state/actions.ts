@@ -6,7 +6,6 @@ import { ThunkResult } from '../../../types';
 
 import { usersLoaded } from './reducers';
 
-
 export function loadUsers(): ThunkResult<void> {
   return async (dispatch) => {
     const users = await getBackendSrv().get('/api/org/users', accessControlQueryParam());

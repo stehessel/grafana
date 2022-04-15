@@ -8,7 +8,6 @@ import { withCenteredStory } from '../../utils/storybook/withCenteredStory';
 import { CascaderOption, CascaderProps } from './Cascader';
 import mdx from './Cascader.mdx';
 
-
 const onSelect = (val: string) => console.log(val);
 const options = [
   {

@@ -17,7 +17,6 @@ import { toKeyedAction } from './keyedVariablesReducer';
 import { setCurrentVariableValue, variableStateCompleted, variableStateFetching } from './sharedReducer';
 import { variablesInitTransaction } from './transactionReducer';
 
-
 jest.mock('app/features/dashboard/services/TimeSrv', () => ({
   getTimeSrv: jest.fn().mockReturnValue({
     timeRange: jest.fn().mockReturnValue({

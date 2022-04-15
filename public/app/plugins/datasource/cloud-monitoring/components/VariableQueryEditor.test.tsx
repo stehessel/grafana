@@ -9,7 +9,6 @@ import { CloudMonitoringVariableQuery, MetricFindQueryTypes } from '../types';
 
 import { CloudMonitoringVariableQueryEditor, Props } from './VariableQueryEditor';
 
-
 jest.mock('../functions', () => ({
   getMetricTypes: (): any => ({ metricTypes: [], selectedMetricType: '' }),
   extractServicesFromMetricDescriptors: (): any[] => [],

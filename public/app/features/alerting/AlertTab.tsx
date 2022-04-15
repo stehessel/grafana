@@ -18,11 +18,6 @@ import StateHistory from './StateHistory';
 import { TestRuleResult } from './TestRuleResult';
 import { getAlertingValidationMessage } from './getAlertingValidationMessage';
 
-
-
-
-
-
 interface AngularPanelController {
   _enableAlert: () => void;
   alertState: AlertState | null;

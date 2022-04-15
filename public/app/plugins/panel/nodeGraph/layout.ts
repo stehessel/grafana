@@ -9,7 +9,6 @@ import { EdgeDatum, EdgeDatumLayout, NodeDatum } from './types';
 import { useNodeLimit } from './useNodeLimit';
 import { graphBounds } from './utils';
 
-
 export interface Config {
   linkDistance: number;
   linkStrength: number;

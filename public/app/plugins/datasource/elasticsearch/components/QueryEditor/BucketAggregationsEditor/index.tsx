@@ -9,7 +9,6 @@ import { BucketAggregationEditor } from './BucketAggregationEditor';
 import { BucketAggregation } from './aggregations';
 import { addBucketAggregation, removeBucketAggregation } from './state/actions';
 
-
 interface Props {
   nextId: BucketAggregation['id'];
 }

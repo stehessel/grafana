@@ -13,7 +13,6 @@ import { fetchAlertGroups } from './api/alertmanager';
 import { mockAlertGroup, mockAlertmanagerAlert, mockDataSource, MockDataSourceSrv } from './mocks';
 import { DataSourceType } from './utils/datasource';
 
-
 jest.mock('./api/alertmanager');
 jest.mock('app/core/services/context_srv', () => ({
   contextSrv: {

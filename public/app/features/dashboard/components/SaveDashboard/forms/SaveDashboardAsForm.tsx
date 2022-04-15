@@ -7,7 +7,6 @@ import { validationSrv } from 'app/features/manage-dashboards/services/Validatio
 
 import { SaveDashboardFormProps } from '../types';
 
-
 interface SaveDashboardAsFormDTO {
   title: string;
   $folder: { id?: number; title?: string };

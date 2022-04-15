@@ -13,7 +13,6 @@ import OrgProfile from './OrgProfile';
 import { loadOrganization, updateOrganization } from './state/actions';
 import { setOrganizationName } from './state/reducers';
 
-
 export interface Props {
   navModel: NavModel;
   organization: Organization;

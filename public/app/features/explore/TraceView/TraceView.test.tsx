@@ -13,7 +13,6 @@ import { configureStore } from '../../../store/configureStore';
 import { TraceView } from './TraceView';
 import { transformDataFrames } from './utils/transform';
 
-
 function getTraceView(frames: DataFrame[]) {
   const store = configureStore();
   const mockPanelData = {

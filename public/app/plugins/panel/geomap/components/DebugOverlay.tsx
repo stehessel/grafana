@@ -9,7 +9,6 @@ import { GrafanaTheme } from '@grafana/data';
 import { stylesFactory } from '@grafana/ui';
 import { config } from 'app/core/config';
 
-
 interface Props {
   map: Map;
 }

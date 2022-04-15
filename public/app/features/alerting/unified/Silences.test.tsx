@@ -18,8 +18,6 @@ import { mockAlertmanagerAlert, mockDataSource, MockDataSourceSrv, mockSilence }
 import { parseMatchers } from './utils/alertmanager';
 import { DataSourceType } from './utils/datasource';
 
-
-
 jest.mock('./api/alertmanager');
 jest.mock('app/core/services/context_srv');
 

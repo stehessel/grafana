@@ -5,7 +5,6 @@ import { withCenteredStory } from '../../utils/storybook/withCenteredStory';
 
 import { SecretInput, Props } from './SecretInput';
 
-
 export default {
   title: 'Forms/SecretInput',
   component: SecretInput,

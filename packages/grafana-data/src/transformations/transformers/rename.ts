@@ -6,7 +6,6 @@ import { DataTransformerInfo } from '../../types/transformations';
 
 import { DataTransformerID } from './ids';
 
-
 export interface RenameFieldsTransformerOptions {
   renameByName: Record<string, string>;
 }

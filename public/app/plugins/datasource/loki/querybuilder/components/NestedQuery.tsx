@@ -12,7 +12,6 @@ import { LokiVisualQueryBinary } from '../types';
 
 import { LokiQueryBuilder } from './LokiQueryBuilder';
 
-
 export interface Props {
   nestedQuery: LokiVisualQueryBinary;
   datasource: LokiDatasource;

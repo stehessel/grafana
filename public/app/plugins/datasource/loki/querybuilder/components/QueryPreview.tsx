@@ -6,7 +6,6 @@ import { GrafanaTheme2 } from '@grafana/data';
 import { EditorField, EditorFieldGroup, EditorRow } from '@grafana/experimental';
 import { useTheme2 } from '@grafana/ui';
 
-
 import { lokiGrammar } from '../../syntax';
 
 export interface Props {

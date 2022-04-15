@@ -5,7 +5,6 @@ import { GrafanaTheme2, locale } from '@grafana/data';
 
 import { stylesFactory, useStyles2 } from '../../themes';
 
-
 const getStyles = stylesFactory((theme: GrafanaTheme2) => {
   return {
     counter: css`

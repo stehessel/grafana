@@ -2,7 +2,6 @@ import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import React from 'react';
 
-
 import { DataSourceApi } from '@grafana/data';
 
 import { PrometheusDatasource } from '../../datasource';
@@ -10,8 +9,6 @@ import PromQlLanguageProvider from '../../language_provider';
 import { EmptyLanguageProviderMock } from '../../language_provider.mock';
 import { promQueryModeller } from '../PromQueryModeller';
 import { PromVisualQuery } from '../types';
-
-
 
 import { OperationList } from './OperationList';
 import { addOperation } from './OperationList.testUtils';

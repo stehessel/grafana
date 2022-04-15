@@ -1,4 +1,3 @@
-
 import { Monaco } from '@grafana/ui';
 
 import { CompletionItemProvider } from './CompletionItemProvider';

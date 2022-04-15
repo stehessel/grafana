@@ -10,9 +10,6 @@ import { focusCss } from '../../themes/mixins';
 import { sharedInputStyle } from '../Forms/commonStyles';
 import { getInputStyles } from '../Input/Input';
 
-
-
-
 // isFocus prop is actually available, but its not in the types for the version we have.
 export interface SelectContainerProps<Option, isMulti extends boolean, Group extends GroupBase<Option>>
   extends BaseContainerProps<Option, isMulti, Group> {

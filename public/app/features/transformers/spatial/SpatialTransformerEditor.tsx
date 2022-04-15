@@ -19,7 +19,6 @@ import { SpatialCalculation, SpatialOperation, SpatialAction, SpatialTransformOp
 import { getDefaultOptions, getTransformerOptionPane } from './optionsHelper';
 import { isLineBuilderOption, spatialTransformer } from './spatialTransformer';
 
-
 // Nothing defined in state
 const supplier = (
   builder: PanelOptionsEditorBuilder<SpatialTransformOptions>,

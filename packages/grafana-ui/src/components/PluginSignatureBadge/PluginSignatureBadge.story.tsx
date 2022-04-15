@@ -6,7 +6,6 @@ import { PluginSignatureBadge } from '@grafana/ui';
 
 import { withCenteredStory } from '../../utils/storybook/withCenteredStory';
 
-
 export default {
   title: 'Data Display/PluginSignatureBadge',
   decorators: [withCenteredStory],

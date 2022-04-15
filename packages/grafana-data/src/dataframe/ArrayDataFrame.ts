@@ -5,7 +5,6 @@ import { vectorToArray } from '../vector/vectorToArray';
 
 import { guessFieldTypeFromNameAndValue, toDataFrameDTO } from './processDataFrame';
 
-
 /** @public */
 export type ValueConverter<T = any> = (val: any) => T;
 

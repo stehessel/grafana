@@ -37,8 +37,6 @@ import { preparePlotData2, getStackingGroups } from '../../../../../packages/gra
 import { getConfig, TimelineCoreOptions } from './timeline';
 import { TimelineFieldConfig, TimelineOptions } from './types';
 
-
-
 const defaultConfig: TimelineFieldConfig = {
   lineWidth: 0,
   fillOpacity: 80,

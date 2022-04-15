@@ -13,7 +13,6 @@ import { transformToLogfmt } from '../util';
 
 import { AdvancedOptions } from './AdvancedOptions';
 
-
 type Props = {
   datasource: JaegerDatasource;
   query: JaegerQuery;

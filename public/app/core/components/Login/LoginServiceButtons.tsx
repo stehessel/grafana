@@ -6,7 +6,6 @@ import { GrafanaTheme, GrafanaTheme2, DEFAULT_SAML_NAME } from '@grafana/data';
 import { Icon, IconName, LinkButton, useStyles, useTheme2, VerticalGroup } from '@grafana/ui';
 import config from 'app/core/config';
 
-
 export interface LoginService {
   bgColor: string;
   enabled: boolean;

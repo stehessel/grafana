@@ -8,7 +8,6 @@ import { toKeyedAction } from '../state/keyedVariablesReducer';
 import { areMetricFindValues, toMetricFindValues, updateOptionsState, validateVariableSelection } from './operators';
 import { updateVariableOptions } from './reducer';
 
-
 describe('operators', () => {
   beforeEach(() => {
     jest.clearAllMocks();

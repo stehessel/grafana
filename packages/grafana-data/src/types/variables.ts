@@ -12,7 +12,6 @@ import {
 } from './datasource';
 import { DataQuery } from './query';
 
-
 /**
  * Enum with the different variable support types
  *

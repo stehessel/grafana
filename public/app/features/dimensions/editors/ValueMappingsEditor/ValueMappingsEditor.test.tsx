@@ -5,7 +5,6 @@ import { MappingType } from '@grafana/data';
 
 import { ValueMappingsEditor, Props } from './ValueMappingsEditor';
 
-
 const setup = (spy?: any, propOverrides?: object) => {
   const props: Props = {
     onChange: (mappings: any) => {

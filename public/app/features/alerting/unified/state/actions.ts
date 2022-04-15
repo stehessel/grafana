@@ -27,7 +27,6 @@ import {
 } from 'app/types/unified-alerting';
 import { PromApplication, RulerRulesConfigDTO } from 'app/types/unified-alerting-dto';
 
-
 import {
   addAlertManagers,
   createOrUpdateSilence,

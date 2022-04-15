@@ -7,7 +7,6 @@ import { OpenTsdbOptions } from '../types';
 
 import { OpenTsdbDetails } from './OpenTsdbDetails';
 
-
 export const ConfigEditor = (props: DataSourcePluginOptionsEditorProps<OpenTsdbOptions>) => {
   const { options, onOptionsChange } = props;
 

@@ -4,7 +4,6 @@ import { renderComponentWithTheme } from '../../utils/storybook/withTheme';
 import { ColorPickerPopover } from './ColorPickerPopover';
 import { SeriesColorPickerPopover } from './SeriesColorPickerPopover';
 
-
 export default {
   title: 'Pickers and Editors/ColorPicker/Popovers',
   component: ColorPickerPopover,

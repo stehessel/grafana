@@ -6,7 +6,6 @@ import { TimeZone, LogsDedupStrategy, LogRowModel, Field, LinkModel, LogsSortOrd
 import { withTheme2 } from '../../themes/index';
 import { Themeable2 } from '../../types/theme';
 
-
 //Components
 import { LogRow } from './LogRow';
 import { RowContextOptions } from './LogRowContextProvider';

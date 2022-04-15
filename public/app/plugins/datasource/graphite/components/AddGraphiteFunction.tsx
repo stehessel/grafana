@@ -10,7 +10,6 @@ import { useDispatch } from '../state/context';
 
 import { mapFuncDefsToSelectables } from './helpers';
 
-
 type Props = {
   funcDefs: FuncDefs;
 };

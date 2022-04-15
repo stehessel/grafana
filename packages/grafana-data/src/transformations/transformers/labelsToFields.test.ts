@@ -6,7 +6,6 @@ import { transformDataFrame } from '../transformDataFrame';
 import { DataTransformerID } from './ids';
 import { LabelsToFieldsMode, LabelsToFieldsOptions, labelsToFieldsTransformer } from './labelsToFields';
 
-
 describe('Labels as Columns', () => {
   beforeAll(() => {
     mockTransformationsRegistry([labelsToFieldsTransformer]);

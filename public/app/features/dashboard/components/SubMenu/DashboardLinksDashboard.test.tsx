@@ -4,7 +4,6 @@ import { DashboardLink } from '../../state/DashboardModel';
 
 import { resolveLinks, searchForTags } from './DashboardLinksDashboard';
 
-
 describe('searchForTags', () => {
   const setupTestContext = () => {
     const tags = ['A', 'B'];

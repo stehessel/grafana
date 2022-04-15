@@ -2,7 +2,6 @@ import { render, screen, fireEvent } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import React, { useState } from 'react';
 
-
 import { SelectableValue } from '@grafana/data';
 
 import { SelectBase } from './SelectBase';

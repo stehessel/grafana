@@ -13,7 +13,6 @@ import { DynamicTable, DynamicTableColumnProps, DynamicTableItemProps } from '..
 
 import { AlertStateTag } from './AlertStateTag';
 
-
 type StateHistoryRowItem = {
   id: string;
   state: PromAlertingRuleState | GrafanaAlertState | AlertState;

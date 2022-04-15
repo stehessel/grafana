@@ -12,7 +12,6 @@ import { dataSourceLoaded, setDataSourceName, setIsDefault } from '../state/redu
 
 import { DataSourceSettingsPage, Props } from './DataSourceSettingsPage';
 
-
 jest.mock('app/core/core', () => {
   return {
     contextSrv: {

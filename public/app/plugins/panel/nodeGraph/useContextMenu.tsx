@@ -8,7 +8,6 @@ import { Config } from './layout';
 import { EdgeDatum, NodeDatum } from './types';
 import { getEdgeFields, getNodeFields } from './utils';
 
-
 /**
  * Hook that contains state of the context menu, both for edges and nodes and provides appropriate component when
  * opened context menu should be opened.

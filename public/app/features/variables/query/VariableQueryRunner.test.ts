@@ -15,7 +15,6 @@ import { UpdateOptionsResults, VariableQueryRunner } from './VariableQueryRunner
 import { QueryRunner, QueryRunners } from './queryRunners';
 import { updateVariableOptions } from './reducer';
 
-
 type DoneCallback = {
   (...args: any[]): any;
   fail(error?: string | { message: string }): any;

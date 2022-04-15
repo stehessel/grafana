@@ -7,7 +7,6 @@ import { FeatureToggles } from './featureToggles.gen';
 import { PanelPluginMeta } from './panel';
 import { GrafanaTheme } from './theme';
 
-
 import { NavLinkDTO, OrgRole } from '.';
 
 /**

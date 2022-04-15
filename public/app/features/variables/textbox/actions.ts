@@ -12,7 +12,6 @@ import { ensureStringValues, toKeyedVariableIdentifier, toVariablePayload } from
 
 import { createTextBoxOptions } from './reducer';
 
-
 export const updateTextBoxVariableOptions = (identifier: KeyedVariableIdentifier): ThunkResult<void> => {
   return async (dispatch, getState) => {
     const { rootStateKey, type } = identifier;

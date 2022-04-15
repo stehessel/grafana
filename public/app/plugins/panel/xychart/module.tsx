@@ -7,7 +7,6 @@ import { XYDimsEditor } from './XYDimsEditor';
 import { getScatterFieldConfig } from './config';
 import { defaultScatterConfig, XYChartOptions, ScatterFieldConfig } from './models.gen';
 
-
 export const plugin = new PanelPlugin<XYChartOptions, ScatterFieldConfig>(XYChartPanel2)
   .useFieldConfig(getScatterFieldConfig(defaultScatterConfig))
   .setPanelOptions((builder) => {

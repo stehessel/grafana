@@ -16,7 +16,6 @@ import {
   userSessionRevoked,
 } from './reducers';
 
-
 export function changePassword(payload: ChangePasswordFields): ThunkResult<void> {
   return async function (dispatch) {
     dispatch(setUpdating({ updating: true }));

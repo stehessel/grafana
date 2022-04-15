@@ -11,7 +11,6 @@ import { PanelModel } from '../../features/dashboard/state';
 
 import { PanelCtrl } from './panel_ctrl';
 
-
 const panelTemplate = `
   <ng-transclude class="panel-height-helper"></ng-transclude>
 `;

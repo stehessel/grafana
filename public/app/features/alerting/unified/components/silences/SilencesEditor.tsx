@@ -19,9 +19,6 @@ import { Button, Field, FieldSet, Input, LinkButton, TextArea, useStyles2 } from
 import { useCleanup } from 'app/core/hooks/useCleanup';
 import { MatcherOperator, Silence, SilenceCreatePayload } from 'app/plugins/datasource/alertmanager/types';
 
-
-
-
 import { useURLSearchParams } from '../../hooks/useURLSearchParams';
 import { useUnifiedAlertingSelector } from '../../hooks/useUnifiedAlertingSelector';
 import { createOrUpdateSilenceAction } from '../../state/actions';
@@ -33,10 +30,6 @@ import { makeAMLink } from '../../utils/misc';
 import { MatchedSilencedRules } from './MatchedSilencedRules';
 import MatchersField from './MatchersField';
 import { SilencePeriod } from './SilencePeriod';
-
-
-
-
 
 interface Props {
   silence?: Silence;

@@ -24,9 +24,6 @@ import { SilenceDetails } from './SilenceDetails';
 import { SilenceStateTag } from './SilenceStateTag';
 import { SilencesFilter } from './SilencesFilter';
 
-
-
-
 export interface SilenceTableItem extends Silence {
   silencedAlerts: AlertmanagerAlert[];
 }

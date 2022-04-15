@@ -6,9 +6,7 @@ import { byRole } from 'testing-library-selector';
 import { selectors } from '@grafana/e2e-selectors';
 import { selectOptionInTest } from '@grafana/ui';
 
-
 import { DashboardModel } from '../../state';
-
 
 import { GeneralSettingsUnconnected as GeneralSettings, Props } from './GeneralSettings';
 

@@ -22,8 +22,6 @@ import { SettingField } from './SettingField';
 import { TopMetricsSettingsEditor } from './TopMetricsSettingsEditor';
 import { useDescription } from './useDescription';
 
-
-
 // TODO: Move this somewhere and share it with BucketsAggregation Editor
 const inlineFieldProps: Partial<ComponentProps<typeof InlineField>> = {
   labelWidth: 16,

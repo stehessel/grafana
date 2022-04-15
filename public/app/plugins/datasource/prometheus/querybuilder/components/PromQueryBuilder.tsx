@@ -16,7 +16,6 @@ import { MetricSelect } from './MetricSelect';
 import { NestedQueryList } from './NestedQueryList';
 import { PromQueryBuilderHints } from './PromQueryBuilderHints';
 
-
 export interface Props {
   query: PromVisualQuery;
   datasource: PrometheusDatasource;

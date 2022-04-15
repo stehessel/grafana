@@ -7,7 +7,6 @@ import { AccessControlAction, TeamMember, ThunkResult } from 'app/types';
 import { buildNavModel } from './navModel';
 import { teamGroupsLoaded, teamLoaded, teamMembersLoaded, teamsLoaded } from './reducers';
 
-
 export function loadTeams(): ThunkResult<void> {
   return async (dispatch) => {
     // Early return if the user cannot list teams

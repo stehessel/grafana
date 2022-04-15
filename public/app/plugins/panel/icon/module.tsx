@@ -7,7 +7,6 @@ import { optionBuilder } from '../canvas/editor/options';
 import { IconPanel } from './IconPanel';
 import { defaultPanelOptions, PanelOptions } from './models.gen';
 
-
 export const plugin = new PanelPlugin<PanelOptions>(IconPanel)
   .setNoPadding() // extend to panel edges
   .useFieldConfig({

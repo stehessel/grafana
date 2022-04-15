@@ -12,7 +12,6 @@ import { HorizontalGroup, VerticalGroup } from '../Layout/Layout';
 
 import { TimeRangePickerProps } from './TimeRangePicker';
 
-
 export default {
   title: 'Pickers and Editors/TimePickers/TimeRangePicker',
   component: TimeRangePicker,

@@ -13,7 +13,6 @@ import {
   getQueryVariableEditorState,
 } from './selectors';
 
-
 const adhocExtended: AdHocVariableEditorState = {
   dataSources: [
     { text: 'Prometheus', value: null }, // default datasource

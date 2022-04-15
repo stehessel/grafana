@@ -6,7 +6,6 @@ import { createFetchResponse } from '../../../../../test/helpers/createFetchResp
 import OpenTsDatasource from '../datasource';
 import { OpenTsdbQuery } from '../types';
 
-
 jest.mock('@grafana/runtime', () => ({
   ...(jest.requireActual('@grafana/runtime') as unknown as object),
   getBackendSrv: () => backendSrv,

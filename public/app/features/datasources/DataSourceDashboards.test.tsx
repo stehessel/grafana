@@ -1,7 +1,6 @@
 import { shallow } from 'enzyme';
 import React from 'react';
 
-
 import { DataSourceSettings, NavModel } from '@grafana/data';
 import { getRouteComponentProps } from 'app/core/navigation/__mocks__/routeProps';
 import { PluginDashboard } from 'app/types';

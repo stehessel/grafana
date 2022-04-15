@@ -12,9 +12,6 @@ import { NamedColorsPalette } from './NamedColorsPalette';
 import SpectrumPalette from './SpectrumPalette';
 import { warnAboutColorPickerPropsDeprecation } from './warnAboutColorPickerPropsDeprecation';
 
-
-
-
 export type ColorPickerChangeHandler = (color: string) => void;
 
 export interface ColorPickerProps extends Themeable2 {

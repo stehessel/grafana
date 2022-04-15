@@ -6,7 +6,6 @@ import { ElasticDatasource } from './datasource';
 import LanguageProvider from './language_provider';
 import { ElasticsearchOptions, ElasticsearchQuery } from './types';
 
-
 const templateSrvStub = {
   getAdhocFilters: jest.fn(() => [] as any[]),
   replace: jest.fn((a: string) => a),

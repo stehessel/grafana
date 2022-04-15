@@ -16,8 +16,6 @@ import {
 } from './BigValue';
 import mdx from './BigValue.mdx';
 
-
-
 export default {
   title: 'Visualizations/BigValue',
   component: BigValue,

@@ -22,8 +22,6 @@ import TimelineColumnResizer from './TimelineColumnResizer';
 import TimelineHeaderRow from './TimelineHeaderRow';
 import TimelineViewingLayer from './TimelineViewingLayer';
 
-
-
 describe('<TimelineHeaderRow>', () => {
   let wrapper;
 

@@ -28,7 +28,6 @@ import {
 } from '../types';
 import * as rxjsUtils from '../utils/rxjs/increasingInterval';
 
-
 jest.mock('@grafana/runtime', () => ({
   ...(jest.requireActual('@grafana/runtime') as unknown as object),
   getBackendSrv: () => backendSrv,

@@ -18,7 +18,6 @@ import {
   Tooltip,
 } from '../..';
 
-
 export const StackingEditor: React.FC<FieldOverrideEditorProps<StackingConfig, any>> = ({
   value,
   context,

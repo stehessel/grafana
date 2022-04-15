@@ -5,7 +5,6 @@ import { DataQueryResponse, LoadingState } from '@grafana/data';
 
 import { LogsVolumePanel } from './LogsVolumePanel';
 
-
 jest.mock('./ExploreGraph', () => {
   const ExploreGraph = () => <span>ExploreGraph</span>;
   return {

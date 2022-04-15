@@ -12,7 +12,6 @@ import { PlaylistTable } from './PlaylistTable';
 import { Playlist } from './types';
 import { usePlaylistItems } from './usePlaylistItems';
 
-
 interface PlaylistFormProps {
   onSubmit: (playlist: Playlist) => void;
   playlist: Playlist;

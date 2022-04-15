@@ -8,7 +8,6 @@ import { StoreState } from '../../../../types';
 import { DashboardModel, PanelModel } from '../../state';
 import { getPanelMenu } from '../../utils/getPanelMenu';
 
-
 interface PanelHeaderMenuProviderApi {
   items: PanelMenuItem[];
 }

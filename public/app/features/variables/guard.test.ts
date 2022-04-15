@@ -11,7 +11,6 @@ import {
   isQueryEditor,
 } from './guard';
 
-
 describe('type guards', () => {
   describe('hasLegacyVariableSupport', () => {
     describe('when called with a legacy data source', () => {

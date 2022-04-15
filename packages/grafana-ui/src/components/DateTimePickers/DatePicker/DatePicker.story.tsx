@@ -6,7 +6,6 @@ import { Button } from '../../Button/Button';
 import { DatePicker } from './DatePicker';
 import mdx from './DatePicker.mdx';
 
-
 export default {
   title: 'Pickers and Editors/TimePickers/Pickers And Editors/DatePicker',
   component: DatePicker,

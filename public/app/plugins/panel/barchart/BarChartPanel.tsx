@@ -38,8 +38,6 @@ import { HoverEvent, setupConfig } from './config';
 import { PanelOptions } from './models.gen';
 import { prepareBarChartDisplayValues, preparePlotConfigBuilder } from './utils';
 
-
-
 const TOOLTIP_OFFSET = 10;
 
 /**

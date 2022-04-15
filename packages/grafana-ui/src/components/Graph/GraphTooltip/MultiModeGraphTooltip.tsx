@@ -8,7 +8,6 @@ import { getMultiSeriesGraphHoverInfo } from '../utils';
 
 import { GraphTooltipContentProps } from './types';
 
-
 export const MultiModeGraphTooltip: React.FC<
   GraphTooltipContentProps & {
     // We expect position to figure out correct values when not hovering over a datapoint

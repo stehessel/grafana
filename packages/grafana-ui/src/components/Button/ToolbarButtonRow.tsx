@@ -5,7 +5,6 @@ import { GrafanaTheme2 } from '@grafana/data';
 
 import { useStyles2 } from '../../themes';
 
-
 export interface Props extends HTMLAttributes<HTMLDivElement> {
   className?: string;
 }

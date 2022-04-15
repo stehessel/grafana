@@ -24,7 +24,6 @@ import { createTableFrame, createTraceFrame } from './responseTransform';
 import { JaegerQuery } from './types';
 import { convertTagsLogfmt } from './util';
 
-
 export interface JaegerJsonData extends DataSourceJsonData {
   nodeGraph?: NodeGraphOptions;
 }

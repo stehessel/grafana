@@ -7,7 +7,6 @@ import { DashboardModel } from 'app/features/dashboard/state';
 
 import { SaveDashboardData, SaveDashboardOptions } from '../types';
 
-
 interface FormDTO {
   message: string;
 }

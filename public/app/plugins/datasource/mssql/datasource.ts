@@ -10,7 +10,6 @@ import { getTemplateSrv, TemplateSrv } from 'app/features/templating/template_sr
 import ResponseParser from './response_parser';
 import { MssqlOptions, MssqlQuery, MssqlQueryForInterpolation } from './types';
 
-
 export class MssqlDatasource extends DataSourceWithBackend<MssqlQuery, MssqlOptions> {
   id: any;
   name: any;

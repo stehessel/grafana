@@ -6,7 +6,6 @@ import { VariableRefresh } from '../types';
 
 import { QueryRunners, variableDummyRefId } from './queryRunners';
 
-
 describe('QueryRunners', () => {
   describe('when using a legacy data source', () => {
     const getLegacyTestContext = (variable?: any) => {

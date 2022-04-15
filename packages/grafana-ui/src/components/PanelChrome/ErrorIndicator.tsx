@@ -7,7 +7,6 @@ import { useStyles } from '../../themes';
 import { Icon } from '../Icon/Icon';
 import { Tooltip } from '../Tooltip/Tooltip';
 
-
 /**
  * @internal
  */

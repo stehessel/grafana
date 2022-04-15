@@ -9,8 +9,6 @@ import { ComponentSize } from '../../types/size';
 import { Button, ButtonVariant } from '../Button';
 import { Select } from '../Select/Select';
 
-
-
 export interface ValuePickerProps<T> {
   /** Label to display on the picker button */
   label: string;

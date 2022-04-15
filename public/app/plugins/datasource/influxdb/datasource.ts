@@ -41,9 +41,6 @@ import { InfluxQueryBuilder } from './query_builder';
 import ResponseParser from './response_parser';
 import { InfluxOptions, InfluxQuery, InfluxVersion } from './types';
 
-
-
-
 // we detect the field type based on the value-array
 function getFieldType(values: unknown[]): FieldType {
   // the values-array may contain a lot of nulls.

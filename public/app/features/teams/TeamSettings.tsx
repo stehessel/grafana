@@ -8,7 +8,6 @@ import { AccessControlAction, Team } from 'app/types';
 
 import { updateTeam } from './state/actions';
 
-
 const mapDispatchToProps = {
   updateTeam,
 };

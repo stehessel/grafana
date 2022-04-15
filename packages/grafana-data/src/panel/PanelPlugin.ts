@@ -17,7 +17,6 @@ import {
 import { deprecationWarning } from '../utils';
 import { FieldConfigEditorBuilder, PanelOptionsEditorBuilder } from '../utils/OptionsUIBuilders';
 
-
 import { createFieldConfigRegistry } from './registryFactories';
 
 /** @beta */

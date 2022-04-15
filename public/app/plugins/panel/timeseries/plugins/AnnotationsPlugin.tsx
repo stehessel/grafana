@@ -6,7 +6,6 @@ import { EventsCanvas, UPlotConfigBuilder, useTheme2 } from '@grafana/ui';
 
 import { AnnotationMarker } from './annotations/AnnotationMarker';
 
-
 interface AnnotationsPluginProps {
   config: UPlotConfigBuilder;
   annotations: DataFrame[];

@@ -14,7 +14,6 @@ import {
   QueryWithOperations,
 } from './types';
 
-
 export function functionRendererLeft(model: QueryBuilderOperation, def: QueryBuilderOperationDef, innerExpr: string) {
   const params = renderParams(model, def, innerExpr);
   const str = model.id + '(';

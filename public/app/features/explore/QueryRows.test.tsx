@@ -12,8 +12,6 @@ import { UserState } from '../profile/state/reducers';
 import { QueryRows } from './QueryRows';
 import { makeExplorePaneState } from './state/utils';
 
-
-
 function setup(queries: DataQuery[]) {
   const defaultDs = {
     name: 'newDs',

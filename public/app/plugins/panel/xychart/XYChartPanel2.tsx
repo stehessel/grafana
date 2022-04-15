@@ -19,9 +19,6 @@ import { XYChartOptions } from './models.gen';
 import { prepData, prepScatter } from './scatter';
 import { ScatterHoverEvent, ScatterSeries } from './types';
 
-
-
-
 type Props = PanelProps<XYChartOptions>;
 type State = {
   error?: string;

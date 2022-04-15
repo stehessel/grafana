@@ -9,7 +9,6 @@ import { TagBadge } from '../../core/components/TagFilter/TagBadge';
 
 import { PlaylistItem } from './types';
 
-
 interface PlaylistTableRowProps {
   first: boolean;
   last: boolean;

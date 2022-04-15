@@ -8,7 +8,6 @@ import { InfluxQuery } from '../../types';
 
 import { Editor } from './Editor';
 
-
 jest.mock('../../influxQLMetadataQuery', () => {
   return {
     getTagKeysForMeasurementAndTags: jest

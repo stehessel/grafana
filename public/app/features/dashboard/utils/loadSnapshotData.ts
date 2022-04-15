@@ -8,7 +8,6 @@ import { DashboardModel, PanelModel } from '../state';
 
 import { applyPanelTimeOverrides } from './panel';
 
-
 export function loadSnapshotData(panel: PanelModel, dashboard: DashboardModel): PanelData {
   const data = getProcessedDataFrames(panel.snapshotData);
   const worker = new SnapshotWorker();

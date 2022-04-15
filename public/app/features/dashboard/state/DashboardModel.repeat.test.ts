@@ -8,7 +8,6 @@ import { DashboardModel } from '../state/DashboardModel';
 
 import { PanelModel } from './PanelModel';
 
-
 jest.mock('app/core/services/context_srv', () => ({}));
 
 describe('given dashboard with panel repeat', () => {

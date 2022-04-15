@@ -18,7 +18,6 @@ import { makeAMLink } from '../../../utils/misc';
 import { ChannelSubForm } from './ChannelSubForm';
 import { DeletedSubForm } from './fields/DeletedSubform';
 
-
 interface Props<R extends ChannelValues> {
   config: AlertManagerCortexConfig;
   notifiers: NotifierDTO[];

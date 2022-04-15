@@ -5,7 +5,6 @@ import React from 'react';
 import { serializeStateToUrlParam } from '@grafana/data';
 import { locationService } from '@grafana/runtime';
 
-
 import { changeDatasource } from './spec/helper/interactions';
 import { makeLogsQueryResponse, makeMetricsQueryResponse } from './spec/helper/query';
 import { setupExplore, tearDown, waitForExplore } from './spec/helper/setup';

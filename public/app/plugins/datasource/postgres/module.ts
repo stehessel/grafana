@@ -5,7 +5,6 @@ import { PostgresDatasource } from './datasource';
 import { PostgresQueryCtrl } from './query_ctrl';
 import { PostgresQuery } from './types';
 
-
 const defaultQuery = `SELECT
   extract(epoch from time_column) AS time,
   text_column as text,

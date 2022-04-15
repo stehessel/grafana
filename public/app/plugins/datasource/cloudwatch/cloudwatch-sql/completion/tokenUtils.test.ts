@@ -16,7 +16,6 @@ import { SELECT } from '../language';
 import { getMetricNameToken, getNamespaceToken, getSelectStatisticToken, getSelectToken } from './tokenUtils';
 import { SQLTokenTypes } from './types';
 
-
 const getToken = (
   query: string,
   position: monacoTypes.IPosition,

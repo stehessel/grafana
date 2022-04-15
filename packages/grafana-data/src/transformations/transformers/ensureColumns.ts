@@ -7,7 +7,6 @@ import { SynchronousDataTransformerInfo } from '../../types/transformations';
 import { DataTransformerID } from './ids';
 import { seriesToColumnsTransformer } from './seriesToColumns';
 
-
 export const ensureColumnsTransformer: SynchronousDataTransformerInfo = {
   id: DataTransformerID.ensureColumns,
   name: 'Ensure Columns Transformer',

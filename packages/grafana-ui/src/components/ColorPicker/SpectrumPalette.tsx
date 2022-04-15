@@ -10,7 +10,6 @@ import { useStyles2, useTheme2 } from '../../themes';
 
 import ColorInput from './ColorInput';
 
-
 export interface SpectrumPaletteProps {
   color: string;
   onChange: (color: string) => void;

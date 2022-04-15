@@ -8,7 +8,6 @@ import { getCiFolder } from '../../plugins/env';
 
 import GithubClient from './githubClient';
 
-
 const resolveContentType = (extension: string): string => {
   if (extension.startsWith('.')) {
     extension = extension.slice(1);

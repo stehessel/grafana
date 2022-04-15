@@ -17,7 +17,6 @@ import {
   removeBucketAggregation,
 } from './actions';
 
-
 export const createReducer =
   (defaultTimeField: string) =>
   (state: ElasticsearchQuery['bucketAggs'], action: Action): ElasticsearchQuery['bucketAggs'] => {

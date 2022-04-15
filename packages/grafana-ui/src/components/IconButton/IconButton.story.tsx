@@ -1,7 +1,6 @@
 import { css } from '@emotion/css';
 import React from 'react';
 
-
 import { useTheme2 } from '../../themes';
 import { IconSize, IconName } from '../../types';
 import { withCenteredStory } from '../../utils/storybook/withCenteredStory';

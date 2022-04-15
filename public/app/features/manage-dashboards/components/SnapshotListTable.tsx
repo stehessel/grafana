@@ -6,7 +6,6 @@ import { ConfirmModal, Button, LinkButton } from '@grafana/ui';
 
 import { Snapshot } from '../types';
 
-
 export function getSnapshots() {
   return getBackendSrv()
     .get('/api/dashboard/snapshots')

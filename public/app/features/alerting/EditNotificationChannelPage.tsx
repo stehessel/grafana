@@ -15,9 +15,6 @@ import { loadNotificationChannel, testNotificationChannel, updateNotificationCha
 import { resetSecureField } from './state/reducers';
 import { mapChannelsToSelectableValue, transformSubmitData, transformTestData } from './utils/notificationChannels';
 
-
-
-
 interface OwnProps extends GrafanaRouteComponentProps<{ id: string }> {}
 
 interface ConnectedProps {

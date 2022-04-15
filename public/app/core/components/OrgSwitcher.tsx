@@ -9,7 +9,6 @@ import { contextSrv } from 'app/core/services/context_srv';
 
 import { api } from '../../features/profile/api';
 
-
 interface Props {
   onDismiss: () => void;
 }

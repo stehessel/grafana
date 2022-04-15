@@ -8,9 +8,6 @@ import { MatcherFieldValue } from '../types/silence-form';
 
 import { parseMatcher } from './alertmanager';
 
-
-
-
 // Parses a list of entries like like "['foo=bar', 'baz=~bad*']" into SilenceMatcher[]
 export function parseQueryParamMatchers(matcherPairs: string[]): Matcher[] {
   const parsedMatchers = matcherPairs.filter((x) => !!x.trim()).map((x) => parseMatcher(x.trim()));

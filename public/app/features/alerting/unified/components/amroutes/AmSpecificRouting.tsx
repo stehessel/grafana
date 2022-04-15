@@ -18,7 +18,6 @@ import { MatcherFilter } from '../alert-groups/MatcherFilter';
 
 import { AmRoutesTable } from './AmRoutesTable';
 
-
 export interface AmSpecificRoutingProps {
   alertManagerSourceName: string;
   onChange: (routes: FormAmRoute) => void;

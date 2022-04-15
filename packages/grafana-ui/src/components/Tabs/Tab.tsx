@@ -11,7 +11,6 @@ import { Icon } from '../Icon/Icon';
 
 import { Counter } from './Counter';
 
-
 export interface TabProps extends HTMLProps<HTMLAnchorElement> {
   label: string;
   active?: boolean;

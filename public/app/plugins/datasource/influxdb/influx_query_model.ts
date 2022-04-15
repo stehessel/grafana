@@ -7,7 +7,6 @@ import kbn from 'app/core/utils/kbn';
 import queryPart from './query_part';
 import { InfluxQuery, InfluxQueryTag } from './types';
 
-
 export default class InfluxQueryModel {
   target: InfluxQuery;
   selectModels: any[] = [];

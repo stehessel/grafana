@@ -14,7 +14,6 @@ import { getDashboardSrv } from 'app/features/dashboard/services/DashboardSrv';
 
 import { changePanelPlugin } from '../state/actions';
 
-
 export function PanelDataErrorView(props: PanelDataErrorViewProps) {
   const styles = useStyles2(getStyles);
   const context = usePanelContext();

@@ -28,8 +28,6 @@ import { getAllDataSources } from './utils/config';
 import { Annotation } from './utils/constants';
 import { DataSourceType, GRAFANA_RULES_SOURCE_NAME } from './utils/datasource';
 
-
-
 jest.mock('./api/prometheus');
 jest.mock('./api/ruler');
 jest.mock('./utils/config');

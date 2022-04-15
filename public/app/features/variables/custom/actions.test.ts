@@ -10,7 +10,6 @@ import { updateCustomVariableOptions } from './actions';
 import { createCustomVariableAdapter } from './adapter';
 import { createCustomOptionsFromQuery } from './reducer';
 
-
 describe('custom actions', () => {
   variableAdapters.setInit(() => [createCustomVariableAdapter()]);
 

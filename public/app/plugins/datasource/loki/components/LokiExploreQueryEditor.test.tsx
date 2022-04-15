@@ -12,8 +12,6 @@ import { LokiQuery } from '../types';
 import { LokiExploreQueryEditor } from './LokiExploreQueryEditor';
 import { LokiOptionFields } from './LokiOptionFields';
 
-
-
 const setup = (renderMethod: any, propOverrides?: object) => {
   const datasource: LokiDatasource = makeMockLokiDatasource({});
   datasource.languageProvider = new LokiLanguageProvider(datasource);

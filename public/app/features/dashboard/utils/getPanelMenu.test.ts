@@ -8,7 +8,6 @@ import { DashboardModel, PanelModel } from '../state';
 
 import { getPanelMenu } from './getPanelMenu';
 
-
 jest.mock('app/core/services/context_srv', () => ({
   contextSrv: {
     hasAccessToExplore: () => true,

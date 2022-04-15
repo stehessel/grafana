@@ -10,7 +10,6 @@ import { LokiVisualQuery } from '../types';
 import { LokiQueryBuilder } from './LokiQueryBuilder';
 import { QueryPreview } from './QueryPreview';
 
-
 export interface Props {
   query: LokiQuery;
   datasource: LokiDatasource;

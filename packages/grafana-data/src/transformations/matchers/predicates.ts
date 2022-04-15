@@ -4,7 +4,6 @@ import { getFieldMatcher, fieldMatchers, getFrameMatchers, frameMatchers } from 
 
 import { MatcherID } from './ids';
 
-
 const anyFieldMatcher: FieldMatcherInfo<MatcherConfig[]> = {
   id: MatcherID.anyMatch,
   name: 'Any',

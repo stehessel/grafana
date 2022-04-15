@@ -2,7 +2,6 @@ import { uniq } from 'lodash';
 
 import { getTemplateSrv, TemplateSrv } from '@grafana/runtime';
 
-
 import { CloudWatchDatasource } from '../../datasource';
 import { CompletionItemProvider } from '../../monarch/CompletionItemProvider';
 import { LinkedToken } from '../../monarch/LinkedToken';
@@ -30,9 +29,6 @@ import { getMetricNameToken, getNamespaceToken } from './tokenUtils';
 import { SQLTokenTypes } from './types';
 
 import type { Monaco, monacoTypes } from '@grafana/ui';
-
-
-
 
 type CompletionItem = monacoTypes.languages.CompletionItem;
 

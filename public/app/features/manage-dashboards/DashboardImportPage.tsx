@@ -31,7 +31,6 @@ import { ImportDashboardOverview } from './components/ImportDashboardOverview';
 import { fetchGcomDashboard, importDashboardJson } from './state/actions';
 import { validateDashboardJson, validateGcomDashboard } from './utils/validation';
 
-
 type DashboardImportPageRouteSearchParams = {
   gcomDashboardId?: string;
 };

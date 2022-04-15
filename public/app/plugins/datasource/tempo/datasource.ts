@@ -36,7 +36,6 @@ import {
   createTableFrameFromSearch,
 } from './resultTransformer';
 
-
 // search = Loki search, nativeSearch = Tempo search for backwards compatibility
 export type TempoQueryType = 'search' | 'traceId' | 'serviceMap' | 'upload' | 'nativeSearch' | 'clear';
 

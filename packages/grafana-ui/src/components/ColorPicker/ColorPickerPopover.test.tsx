@@ -6,8 +6,6 @@ import { createTheme } from '@grafana/data';
 
 import { ColorPickerPopover } from './ColorPickerPopover';
 
-
-
 describe('ColorPickerPopover', () => {
   const theme = createTheme();
 

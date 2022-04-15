@@ -20,9 +20,6 @@ import { OptionsPaneItemDescriptor } from './OptionsPaneItemDescriptor';
 import { OverrideCategoryTitle } from './OverrideCategoryTitle';
 import { OptionPaneRenderProps } from './types';
 
-
-
-
 export function getFieldOverrideCategories(
   props: OptionPaneRenderProps,
   searchQuery: string

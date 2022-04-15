@@ -11,7 +11,6 @@ import { GraphiteOptions, GraphiteQuery } from '../types';
 import { actions } from './actions';
 import { createStore, GraphiteQueryEditorState } from './store';
 
-
 const DispatchContext = createContext<Dispatch<AnyAction>>({} as Dispatch<AnyAction>);
 const GraphiteStateContext = createContext<GraphiteQueryEditorState>({} as GraphiteQueryEditorState);
 

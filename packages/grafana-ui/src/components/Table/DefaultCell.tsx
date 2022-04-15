@@ -3,7 +3,6 @@ import tinycolor from 'tinycolor2';
 
 import { DisplayValue, Field, formattedValueToString } from '@grafana/data';
 
-
 import { getTextColorForBackground, getCellLinks } from '../../utils';
 
 import { CellActions } from './CellActions';

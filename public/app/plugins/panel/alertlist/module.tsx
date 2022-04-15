@@ -18,8 +18,6 @@ import { UnifiedAlertList } from './UnifiedAlertList';
 import { AlertListSuggestionsSupplier } from './suggestions';
 import { AlertListOptions, GroupMode, ShowOption, SortOrder, UnifiedAlertListOptions } from './types';
 
-
-
 function showIfCurrentState(options: AlertListOptions) {
   return options.showOptions === ShowOption.Current;
 }

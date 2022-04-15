@@ -18,12 +18,6 @@ import { getDefaultCondition } from './getAlertingValidationMessage';
 import { ThresholdMapper } from './state/ThresholdMapper';
 import alertDef from './state/alertDef';
 
-
-
-
-
-
-
 export class AlertTabCtrl {
   panel: PanelModel;
   panelCtrl: any;

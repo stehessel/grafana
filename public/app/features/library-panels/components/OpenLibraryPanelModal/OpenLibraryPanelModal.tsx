@@ -10,7 +10,6 @@ import { DashboardSearchHit } from '../../../search/types';
 import { getConnectedDashboards, getLibraryPanelConnectedDashboards } from '../../state/api';
 import { LibraryElementDTO } from '../../types';
 
-
 export interface OpenLibraryPanelModalProps {
   onDismiss: () => void;
   libraryPanel: LibraryElementDTO;

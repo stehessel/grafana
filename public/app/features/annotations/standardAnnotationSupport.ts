@@ -16,7 +16,6 @@ import {
   standardTransformers,
 } from '@grafana/data';
 
-
 export const standardAnnotationSupport: AnnotationSupport = {
   /**
    * Assume the stored value is standard model.

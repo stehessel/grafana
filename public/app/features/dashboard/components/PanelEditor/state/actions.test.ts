@@ -7,7 +7,6 @@ import { DashboardModel, PanelModel } from '../../../state';
 import { exitPanelEditor, initPanelEditor, skipPanelUpdate } from './actions';
 import { closeEditor, initialState, PanelEditorState } from './reducers';
 
-
 describe('panelEditor actions', () => {
   describe('initPanelEditor', () => {
     it('initPanelEditor should create edit panel model as clone', async () => {

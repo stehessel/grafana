@@ -25,7 +25,6 @@ import { PieChart } from './PieChart';
 import { PieChartLegendOptions, PieChartLegendValues, PieChartOptions } from './types';
 import { filterDisplayItems, sumDisplayItemsReducer } from './utils';
 
-
 const defaultLegendOptions: PieChartLegendOptions = {
   displayMode: LegendDisplayMode.List,
   placement: 'right',

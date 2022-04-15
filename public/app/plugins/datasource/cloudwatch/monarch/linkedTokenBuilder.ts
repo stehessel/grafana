@@ -1,4 +1,3 @@
-
 import { LinkedToken } from './LinkedToken';
 import { LanguageDefinition } from './register';
 import { Monaco, TokenTypes } from './types';

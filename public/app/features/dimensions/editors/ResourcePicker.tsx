@@ -21,7 +21,6 @@ import { MediaType, ResourceFolderName, ResourcePickerSize } from '../types';
 
 import { ResourcePickerPopover } from './ResourcePickerPopover';
 
-
 interface Props {
   onChange: (value?: string) => void;
   mediaType: MediaType;

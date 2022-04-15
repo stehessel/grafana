@@ -12,7 +12,6 @@ import { bundlePlugin as bundleFn, PluginBundleOptions } from './plugin/bundle';
 import { testPlugin } from './plugin/tests';
 import { Task, TaskRunner } from './task';
 
-
 const { access, copyFile } = fs;
 const { COPYFILE_EXCL } = fsConstants;
 const rimraf = promisify(rimrafCallback);

@@ -13,7 +13,6 @@ import { reportDashboardListViewed } from './useManageDashboards';
 import { useSearch } from './useSearch';
 import { useShowDashboardPreviews } from './useShowDashboardPreviews';
 
-
 export const useDashboardSearch = (query: DashboardQuery, onCloseSearch: () => void) => {
   const reducer = useReducer(searchReducer, dashboardsSearchState);
   const { showPreviews, setShowPreviews, previewFeatureEnabled } = useShowDashboardPreviews();

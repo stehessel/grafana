@@ -5,7 +5,6 @@ import { createTheme } from '@grafana/data';
 
 import { BigValue, BigValueColorMode, BigValueGraphMode, Props } from './BigValue';
 
-
 function getProps(propOverrides?: Partial<Props>): Props {
   const props: Props = {
     colorMode: BigValueColorMode.Background,

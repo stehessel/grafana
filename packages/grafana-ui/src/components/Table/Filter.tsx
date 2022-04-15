@@ -10,7 +10,6 @@ import { Icon } from '../Icon/Icon';
 import { FilterPopup } from './FilterPopup';
 import { TableStyles } from './styles';
 
-
 interface Props {
   column: any;
   tableStyles: TableStyles;

@@ -5,7 +5,6 @@ import { useFormContext, RegisterOptions } from 'react-hook-form';
 import { parseDuration, durationToMilliseconds, GrafanaTheme2 } from '@grafana/data';
 import { Field, InlineLabel, Input, InputControl, useStyles2 } from '@grafana/ui';
 
-
 import { RuleFormValues } from '../../types/rule-form';
 import { positiveDurationValidationPattern, durationValidationPattern } from '../../utils/time';
 import { CollapseToggle } from '../CollapseToggle';

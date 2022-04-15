@@ -30,7 +30,6 @@ import {
   syncLdapUser,
 } from './state/actions';
 
-
 interface OwnProps extends GrafanaRouteComponentProps<{ id: string }> {
   navModel: NavModel;
   user?: UserDTO;

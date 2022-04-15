@@ -9,8 +9,6 @@ import { withCenteredStory } from '../../utils/storybook/withCenteredStory';
 
 import mdx from './Input.mdx';
 
-
-
 const prefixSuffixOpts = {
   None: null,
   Text: '$',

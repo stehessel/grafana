@@ -9,8 +9,6 @@ import { DiffGroup } from '../VersionHistory/DiffGroup';
 import { DiffViewer } from '../VersionHistory/DiffViewer';
 import { Diffs } from '../VersionHistory/utils';
 
-
-
 interface SaveDashboardDiffProps {
   oldValue?: any;
   newValue?: any;

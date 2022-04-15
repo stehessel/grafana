@@ -7,7 +7,6 @@ import { AccessControlAction, OrgRole, Role, ServiceAccountDTO } from 'app/types
 
 import { OrgRolePicker } from '../admin/OrgRolePicker';
 
-
 interface Props {
   label: string;
   serviceAccount: ServiceAccountDTO;

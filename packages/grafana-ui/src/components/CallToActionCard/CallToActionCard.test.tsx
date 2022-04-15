@@ -5,7 +5,6 @@ import { expect } from '../../../../../public/test/lib/common';
 
 import { CallToActionCard } from './CallToActionCard';
 
-
 describe('CallToActionCard', () => {
   describe('rendering', () => {
     it('should render callToActionElement', () => {

@@ -15,7 +15,6 @@ import { Matchers } from '../silences/Matchers';
 import { AmRoutesExpandedForm } from './AmRoutesExpandedForm';
 import { AmRoutesExpandedRead } from './AmRoutesExpandedRead';
 
-
 export interface AmRoutesTableProps {
   isAddMode: boolean;
   onChange: (routes: FormAmRoute[]) => void;

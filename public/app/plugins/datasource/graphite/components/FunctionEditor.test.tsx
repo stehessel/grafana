@@ -5,7 +5,6 @@ import { FuncInstance } from '../gfunc';
 
 import { FunctionEditor } from './FunctionEditor';
 
-
 function mockFunctionInstance(name: string, unknown?: boolean): FuncInstance {
   const def = {
     category: 'category',

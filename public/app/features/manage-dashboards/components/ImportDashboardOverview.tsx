@@ -11,8 +11,6 @@ import { DashboardSource, ImportDashboardDTO } from '../state/reducers';
 
 import { ImportDashboardForm } from './ImportDashboardForm';
 
-
-
 const IMPORT_FINISHED_EVENT_NAME = 'dashboard_import_imported';
 
 const mapStateToProps = (state: StoreState) => {

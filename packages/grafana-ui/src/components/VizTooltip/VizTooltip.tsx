@@ -8,11 +8,7 @@ import { useStyles } from '../../themes';
 import { FlotPosition } from '../Graph/types';
 import { Portal } from '../Portal/Portal';
 
-
-
 import { VizTooltipContainer } from './VizTooltipContainer';
-
-
 
 // Describes active dimensions user interacts with
 // It's a key-value pair where:

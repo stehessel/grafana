@@ -1,4 +1,3 @@
-
 import { getCompletions, DataProvider, CompletionType } from './completions';
 import { getSituation } from './situation';
 import { NeverCaseError } from './util';

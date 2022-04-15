@@ -11,7 +11,6 @@ import { AdHocPicker } from './picker/AdHocPicker';
 import { adHocVariableReducer, initialAdHocVariableModelState } from './reducer';
 import * as urlParser from './urlParser';
 
-
 const noop = async () => {};
 
 export const createAdHocVariableAdapter = (): VariableAdapter<AdHocVariableModel> => {

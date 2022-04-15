@@ -11,7 +11,6 @@ import { DashboardSearchHit } from 'app/features/search/types';
 import { getLinkSrv } from '../../../panel/panellinks/link_srv';
 import { DashboardLink } from '../../state/DashboardModel';
 
-
 interface Props {
   link: DashboardLink;
   linkInfo: { title: string; href: string };

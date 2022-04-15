@@ -10,7 +10,6 @@ import { OrgRole, Team, TeamMember } from '../../types';
 import { Props, TeamPages } from './TeamPages';
 import { getMockTeam } from './__mocks__/teamMocks';
 
-
 jest.mock('@grafana/runtime/src/config', () => ({
   ...(jest.requireActual('@grafana/runtime/src/config') as unknown as object),
   config: {

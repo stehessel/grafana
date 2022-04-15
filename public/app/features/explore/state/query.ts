@@ -44,7 +44,6 @@ import { stateSave } from './main';
 import { updateTime } from './time';
 import { createCacheKey, getResultsFromCache } from './utils';
 
-
 //
 // Actions and Payloads
 //

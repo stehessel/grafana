@@ -8,7 +8,6 @@ import { testIds } from '../../components/PromQueryEditor';
 import PromQueryField from '../../components/PromQueryField';
 import { PromQueryEditorProps } from '../../components/types';
 
-
 export function PromQueryCodeEditor({
   query,
   datasource,

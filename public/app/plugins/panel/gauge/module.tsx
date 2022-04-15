@@ -8,8 +8,6 @@ import { GaugePanel } from './GaugePanel';
 import { GaugeSuggestionsSupplier } from './suggestions';
 import { GaugeOptions } from './types';
 
-
-
 export const plugin = new PanelPlugin<GaugeOptions>(GaugePanel)
   .useFieldConfig()
   .setPanelOptions((builder) => {

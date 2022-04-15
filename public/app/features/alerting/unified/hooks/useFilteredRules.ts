@@ -10,7 +10,6 @@ import { isCloudRulesSource } from '../utils/datasource';
 import { getFiltersFromUrlParams } from '../utils/misc';
 import { isAlertingRule, isGrafanaRulerRule } from '../utils/rules';
 
-
 export const useFilteredRules = (namespaces: CombinedRuleNamespace[]) => {
   const [queryParams] = useQueryParams();
   const filters = getFiltersFromUrlParams(queryParams);

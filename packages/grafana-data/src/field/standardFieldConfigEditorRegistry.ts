@@ -6,7 +6,6 @@ import { Registry, RegistryItem } from '../utils/Registry';
 
 import { FieldConfigOptionsRegistry } from './FieldConfigOptionsRegistry';
 
-
 export interface StandardEditorContext<TOptions, TState = any> {
   data: DataFrame[]; // All results
   replaceVariables?: InterpolateFunction;

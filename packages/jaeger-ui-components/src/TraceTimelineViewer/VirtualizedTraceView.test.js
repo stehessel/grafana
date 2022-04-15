@@ -24,7 +24,6 @@ import SpanDetailRow from './SpanDetailRow';
 import SpanTreeOffset from './SpanTreeOffset';
 import VirtualizedTraceView, { DEFAULT_HEIGHTS } from './VirtualizedTraceView';
 
-
 jest.mock('./SpanTreeOffset');
 
 describe('<VirtualizedTraceViewImpl>', () => {

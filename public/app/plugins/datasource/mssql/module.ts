@@ -5,7 +5,6 @@ import { MssqlDatasource } from './datasource';
 import { MssqlQueryCtrl } from './query_ctrl';
 import { MssqlQuery } from './types';
 
-
 const defaultQuery = `SELECT
     <time_column> as time,
     <text_column> as text,

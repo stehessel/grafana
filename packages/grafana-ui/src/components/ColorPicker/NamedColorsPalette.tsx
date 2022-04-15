@@ -8,7 +8,6 @@ import { useStyles2, useTheme2 } from '../../themes/ThemeContext';
 import { ColorSwatch } from './ColorSwatch';
 import NamedColorsGroup from './NamedColorsGroup';
 
-
 export interface NamedColorsPaletteProps {
   color?: string;
   onChange: (colorName: string) => void;

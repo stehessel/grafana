@@ -5,7 +5,6 @@ import { DataSourceApi, PanelEvents } from '@grafana/data';
 import coreModule from 'app/angular/core_module';
 import config from 'app/core/config';
 
-
 import { importPanelPlugin } from '../../features/plugins/importPanelPlugin';
 import { importDataSourcePlugin, importAppPlugin } from '../../features/plugins/plugin_loader';
 

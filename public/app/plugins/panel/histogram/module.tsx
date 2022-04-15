@@ -6,7 +6,6 @@ import { HistogramPanel } from './HistogramPanel';
 import { PanelFieldConfig, PanelOptions, defaultPanelFieldConfig, defaultPanelOptions } from './models.gen';
 import { originalDataHasHistogram } from './utils';
 
-
 export const plugin = new PanelPlugin<PanelOptions, PanelFieldConfig>(HistogramPanel)
   .setPanelOptions((builder) => {
     builder

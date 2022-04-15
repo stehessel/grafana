@@ -5,7 +5,6 @@ import { DashboardModel } from '../state';
 
 import { DashboardGridUnconnected as DashboardGrid, Props } from './DashboardGrid';
 
-
 jest.mock('app/features/dashboard/dashgrid/LazyLoader', () => {
   const LazyLoader: React.FC = ({ children }) => {
     return <>{children}</>;

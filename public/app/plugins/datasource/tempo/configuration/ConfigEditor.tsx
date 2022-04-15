@@ -10,10 +10,6 @@ import { LokiSearchSettings } from './LokiSearchSettings';
 import { SearchSettings } from './SearchSettings';
 import { ServiceGraphSettings } from './ServiceGraphSettings';
 
-
-
-
-
 export type Props = DataSourcePluginOptionsEditorProps;
 
 export const ConfigEditor: React.FC<Props> = ({ options, onOptionsChange }) => {

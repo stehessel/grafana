@@ -24,7 +24,6 @@ import { JsonEditorSettings } from './JsonEditorSettings';
 import { LinksSettings } from './LinksSettings';
 import { VersionsSettings } from './VersionsSettings';
 
-
 export interface Props {
   dashboard: DashboardModel;
   editview: string;

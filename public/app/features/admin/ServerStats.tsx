@@ -12,8 +12,6 @@ import { Loader } from '../plugins/admin/components/Loader';
 import { CrawlerStatus } from './CrawlerStatus';
 import { getServerStats, ServerStat } from './state/apis';
 
-
-
 export const ServerStats = () => {
   const [stats, setStats] = useState<ServerStat | null>(null);
   const [isLoading, setIsLoading] = useState(false);

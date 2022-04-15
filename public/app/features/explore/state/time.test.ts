@@ -1,4 +1,3 @@
-
 import { reducerTester } from 'test/core/redux/reducerTester';
 
 import { dateTime, LoadingState } from '@grafana/data';

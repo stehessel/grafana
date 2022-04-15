@@ -12,7 +12,6 @@ import { GeomapPanelOptions, MapLayerState } from '../types';
 
 import { dataLayerFilter } from './layerEditor';
 
-
 type LayersEditorProps = StandardEditorProps<any, any, GeomapPanelOptions, GeomapInstanceState>;
 
 export const LayersEditor = (props: LayersEditorProps) => {

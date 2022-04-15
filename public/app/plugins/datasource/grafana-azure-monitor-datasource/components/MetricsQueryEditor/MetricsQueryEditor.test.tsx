@@ -8,7 +8,6 @@ import createMockQuery from '../../__mocks__/query';
 
 import MetricsQueryEditor from './MetricsQueryEditor';
 
-
 const variableOptionGroup = {
   label: 'Template variables',
   options: [],

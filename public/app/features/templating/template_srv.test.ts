@@ -11,8 +11,6 @@ import { VariableModel } from '../variables/types';
 
 import { FormatRegistryID } from './formatRegistry';
 
-
-
 const key = 'key';
 
 variableAdapters.setInit(() => [

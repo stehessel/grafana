@@ -10,7 +10,6 @@ import {
   PanelModelWithLibraryPanel,
 } from '../types';
 
-
 export interface GetLibraryPanelsOptions {
   searchString?: string;
   perPage?: number;

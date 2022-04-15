@@ -9,8 +9,6 @@ import { ElasticsearchProvider } from '../../ElasticsearchQueryContext';
 
 import { SettingsEditor } from '.';
 
-
-
 describe('Settings Editor', () => {
   describe('Raw Data', () => {
     it('Should correctly render the settings editor and trigger correct state changes', () => {

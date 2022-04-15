@@ -6,7 +6,6 @@ import { DataTransformerConfig } from './transformations';
 
 import { PanelPluginDataSupport } from '.';
 
-
 export type KeyValue<T = any> = Record<string, T>;
 
 /**

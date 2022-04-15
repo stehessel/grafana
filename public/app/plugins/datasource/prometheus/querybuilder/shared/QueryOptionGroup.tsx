@@ -6,7 +6,6 @@ import { GrafanaTheme2 } from '@grafana/data';
 import { Stack } from '@grafana/experimental';
 import { Icon, useStyles2 } from '@grafana/ui';
 
-
 export interface Props {
   title: string;
   collapsedInfo: string[];

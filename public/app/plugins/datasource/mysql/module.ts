@@ -10,7 +10,6 @@ import { MysqlDatasource } from './datasource';
 import { MysqlQueryCtrl } from './query_ctrl';
 import { MySQLQuery } from './types';
 
-
 class MysqlConfigCtrl {
   static templateUrl = 'partials/config.html';
   current: any;

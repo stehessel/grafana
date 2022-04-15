@@ -9,7 +9,6 @@ import { UPlotConfigBuilder } from '../config/UPlotConfigBuilder';
 import { Marker } from './Marker';
 import { XYCanvas } from './XYCanvas';
 
-
 interface EventsCanvasProps {
   id: string;
   config: UPlotConfigBuilder;

@@ -13,7 +13,6 @@ import { bucketAggregationConfig } from '../utils';
 
 import { inlineFieldProps } from '.';
 
-
 const defaultIntervalOptions: Array<SelectableValue<string>> = [
   { label: 'auto', value: 'auto' },
   { label: '10s', value: '10s' },

@@ -8,7 +8,6 @@ import { ActiveDimensions } from '../../VizTooltip';
 import { MultiModeGraphTooltip } from './MultiModeGraphTooltip';
 import { GraphDimensions } from './types';
 
-
 let dimensions: GraphDimensions;
 
 describe('MultiModeGraphTooltip', () => {

@@ -8,7 +8,6 @@ import { getRouteComponentProps } from 'app/core/navigation/__mocks__/routeProps
 import { FolderSettingsPage, Props } from './FolderSettingsPage';
 import { setFolderTitle } from './state/reducers';
 
-
 const setup = (propOverrides?: object) => {
   const props: Props = {
     ...getRouteComponentProps(),

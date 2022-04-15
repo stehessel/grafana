@@ -12,7 +12,6 @@ import { VariableSwitchField } from './VariableSwitchField';
 import { VariableTextField } from './VariableTextField';
 import { VariableEditorProps } from './types';
 
-
 export interface SelectionOptionsEditorProps<Model extends VariableWithMultiSupport = VariableWithMultiSupport>
   extends VariableEditorProps<Model> {
   onMultiChanged: (identifier: KeyedVariableIdentifier, value: boolean) => void;

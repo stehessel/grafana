@@ -10,7 +10,6 @@ import { useSpinner } from '../utils/useSpinner';
 
 import { Task, TaskRunner } from './task';
 
-
 interface Command extends Array<any> {}
 const DEFAULT_EMAIL_ADDRESS = 'eng@grafana.com';
 const DEFAULT_USERNAME = 'CircleCI Automation';

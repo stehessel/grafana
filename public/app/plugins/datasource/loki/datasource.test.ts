@@ -27,9 +27,6 @@ import { isMetricsQuery, LokiDatasource, RangeQueryOptions } from './datasource'
 import { makeMockLokiDatasource } from './mocks';
 import { LokiQuery, LokiResponse, LokiResultType } from './types';
 
-
-
-
 jest.mock('@grafana/runtime', () => ({
   // @ts-ignore
   ...jest.requireActual('@grafana/runtime'),

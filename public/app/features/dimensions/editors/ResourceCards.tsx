@@ -7,7 +7,6 @@ import { areEqual, FixedSizeGrid as Grid } from 'react-window';
 import { GrafanaTheme2 } from '@grafana/data';
 import { useTheme2, stylesFactory } from '@grafana/ui';
 
-
 import { ResourceItem } from './FolderPickerTab';
 
 interface CellProps {

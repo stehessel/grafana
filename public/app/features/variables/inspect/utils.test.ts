@@ -13,7 +13,6 @@ import {
   getPropsWithVariable,
 } from './utils';
 
-
 describe('getPropsWithVariable', () => {
   it('when called it should return the correct graph', () => {
     const result = getPropsWithVariable(

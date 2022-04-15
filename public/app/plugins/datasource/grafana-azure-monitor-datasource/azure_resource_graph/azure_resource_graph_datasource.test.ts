@@ -8,7 +8,6 @@ import { AzureQueryType } from '../types';
 
 import AzureResourceGraphDatasource from './azure_resource_graph_datasource';
 
-
 const templateSrv = new TemplateSrv({
   getVariables: () => [subscriptionsVariable, singleVariable, multiVariable],
   getVariableWithName: jest.fn(),

@@ -4,7 +4,6 @@ import Plain from 'slate-plain-serializer';
 
 import { Editor } from '@grafana/slate-react';
 
-
 import { ClearPlugin } from './clear';
 
 describe('clear', () => {

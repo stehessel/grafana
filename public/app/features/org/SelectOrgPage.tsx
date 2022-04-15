@@ -7,10 +7,7 @@ import { Button, HorizontalGroup } from '@grafana/ui';
 import Page from 'app/core/components/Page/Page';
 import { StoreState, UserOrg } from 'app/types';
 
-
-
 import { getUserOrganizations, setUserOrganization } from './state/actions';
-
 
 const navModel = {
   main: {

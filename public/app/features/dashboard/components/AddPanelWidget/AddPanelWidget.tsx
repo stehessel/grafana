@@ -22,7 +22,6 @@ import { LibraryElementDTO } from '../../../library-panels/types';
 import { toPanelModelLibraryPanel } from '../../../library-panels/utils';
 import { DashboardModel, PanelModel } from '../../state';
 
-
 export type PanelPluginInfo = { id: any; defaults: { gridPos: { w: any; h: any }; title: any } };
 
 export interface OwnProps {

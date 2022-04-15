@@ -4,7 +4,6 @@ import React from 'react';
 
 import { RenderFunction } from '../../types';
 
-
 const StoryContainer: React.FC<{ width?: number; height?: number; showBoundaries: boolean }> = ({
   children,
   width,

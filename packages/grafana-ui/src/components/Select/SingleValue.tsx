@@ -11,8 +11,6 @@ import { Spinner } from '../Spinner/Spinner';
 import { FadeTransition } from '../transitions/FadeTransition';
 import { SlideOutTransition } from '../transitions/SlideOutTransition';
 
-
-
 const getStyles = (theme: GrafanaTheme2) => {
   const singleValue = css`
     label: singleValue;

@@ -5,9 +5,6 @@ import './time_regions_form';
 import './annotation_tooltip';
 import './event_editor';
 
-
-
-
 import { auto } from 'angular';
 import { defaults, find, without } from 'lodash';
 

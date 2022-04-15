@@ -10,8 +10,6 @@ import { LokiQueryEditor } from './LokiQueryEditor';
 import { LokiQueryEditorForAlerting } from './LokiQueryEditorForAlerting';
 import { LokiQueryEditorProps } from './types';
 
-
-
 export function LokiQueryEditorByApp(props: LokiQueryEditorProps) {
   const { app } = props;
 

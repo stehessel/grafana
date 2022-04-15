@@ -7,8 +7,6 @@ import { LokiDatasource } from '../../datasource';
 
 import { LokiQueryBuilderContainer } from './LokiQueryBuilderContainer';
 
-
-
 describe('LokiQueryBuilderContainer', () => {
   it('translates query between string and model', async () => {
     const props = {

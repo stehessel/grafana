@@ -14,7 +14,6 @@ import { AddLibraryPanelModal } from '../AddLibraryPanelModal/AddLibraryPanelMod
 import { ChangeLibraryPanelModal } from '../ChangeLibraryPanelModal/ChangeLibraryPanelModal';
 import { LibraryPanelsView } from '../LibraryPanelsView/LibraryPanelsView';
 
-
 interface Props {
   panel: PanelModel;
   searchQuery: string;

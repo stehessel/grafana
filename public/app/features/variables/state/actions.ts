@@ -87,8 +87,6 @@ import {
 import { KeyedVariableIdentifier } from './types';
 import { cleanVariables } from './variablesReducer';
 
-
-
 // process flow queryVariable
 // thunk => processVariables
 //    adapter => setValueFromUrl

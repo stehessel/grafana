@@ -7,9 +7,6 @@ import { Button } from '@grafana/ui';
 import { DataLink } from './DataLink';
 import { DataLinks } from './DataLinks';
 
-
-
-
 describe('DataLinks', () => {
   let originalGetSelection: typeof window.getSelection;
   beforeAll(() => {

@@ -13,7 +13,6 @@ import { getLogRowStyles } from './getLogRowStyles';
 
 //Components
 
-
 export interface Props extends Themeable2 {
   parsedValue: string;
   parsedKey: string;

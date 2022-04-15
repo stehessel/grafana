@@ -6,8 +6,6 @@ import { GrafanaTheme2, SelectableValue } from '@grafana/data';
 import { Alert, Button, Field, InputControl, Select, useStyles2 } from '@grafana/ui';
 import { NotifierDTO } from 'app/types';
 
-
-
 import { useUnifiedAlertingSelector } from '../../../hooks/useUnifiedAlertingSelector';
 import { ChannelValues, CommonSettingsComponentType } from '../../../types/receiver-form';
 

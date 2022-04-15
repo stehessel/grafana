@@ -14,7 +14,6 @@ import { TimeSrv } from '../../dashboard/services/TimeSrv';
 import { paneReducer } from './explorePane';
 import { getUrlStateFromPaneState, makeExplorePaneState } from './utils';
 
-
 //
 // Actions and Payloads
 //

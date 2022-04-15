@@ -9,7 +9,6 @@ import { NodeGraph } from './NodeGraph';
 import { Options } from './types';
 import { getNodeGraphDataFrames } from './utils';
 
-
 export const NodeGraphPanel: React.FunctionComponent<PanelProps<Options>> = ({ width, height, data }) => {
   const getLinks = useLinks(data.timeRange);
   if (!data || !data.series.length) {

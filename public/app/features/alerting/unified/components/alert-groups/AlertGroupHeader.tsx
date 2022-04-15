@@ -6,7 +6,6 @@ import { AlertmanagerGroup, AlertState } from 'app/plugins/datasource/alertmanag
 
 import { getNotificationsTextColors } from '../../styles/notifications';
 
-
 interface Props {
   group: AlertmanagerGroup;
 }

@@ -13,7 +13,6 @@ import { SearchLayout } from '../types';
 
 import { DashboardSearch, Props } from './DashboardSearch';
 
-
 jest.mock('app/core/services/search_srv');
 // Typecast the mock search so the mock import is correctly recognised by TS
 // https://stackoverflow.com/a/53222290

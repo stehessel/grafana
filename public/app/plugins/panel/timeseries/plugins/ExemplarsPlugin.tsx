@@ -14,7 +14,6 @@ import { EventsCanvas, FIXED_UNIT, UPlotConfigBuilder } from '@grafana/ui';
 
 import { ExemplarMarker } from './ExemplarMarker';
 
-
 interface ExemplarsPluginProps {
   config: UPlotConfigBuilder;
   exemplars: DataFrame[];

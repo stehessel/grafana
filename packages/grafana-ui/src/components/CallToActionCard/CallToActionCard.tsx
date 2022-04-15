@@ -5,7 +5,6 @@ import { GrafanaTheme2 } from '@grafana/data';
 
 import { useStyles2 } from '../../themes/ThemeContext';
 
-
 export interface CallToActionCardProps {
   message?: string | JSX.Element;
   callToActionElement: JSX.Element;

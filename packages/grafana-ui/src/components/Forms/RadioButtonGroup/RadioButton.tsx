@@ -8,7 +8,6 @@ import { useTheme2, stylesFactory } from '../../../themes';
 import { getFocusStyles, getMouseFocusStyles } from '../../../themes/mixins';
 import { getPropertiesForButtonSize } from '../commonStyles';
 
-
 export type RadioButtonSize = 'sm' | 'md';
 
 export interface RadioButtonProps {

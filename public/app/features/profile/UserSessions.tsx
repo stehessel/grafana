@@ -6,7 +6,6 @@ import { selectors } from '@grafana/e2e-selectors';
 import { Button, Icon, LoadingPlaceholder } from '@grafana/ui';
 import { UserSession } from 'app/types';
 
-
 interface Props extends withI18nProps {
   sessions: UserSession[];
   isLoading: boolean;

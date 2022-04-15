@@ -7,7 +7,6 @@ import { backendSrv } from 'app/core/services/backend_srv'; // will use the vers
 
 import InfluxDatasource from '../datasource';
 
-
 //@ts-ignore
 const templateSrv = new TemplateSrvStub();
 

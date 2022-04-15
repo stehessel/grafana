@@ -12,7 +12,6 @@ import { DashboardModel, PanelModel } from '../../state';
 
 import { Props, ShareLink, State } from './ShareLink';
 
-
 jest.mock('app/features/dashboard/services/TimeSrv', () => ({
   getTimeSrv: () => ({
     timeRange: () => {

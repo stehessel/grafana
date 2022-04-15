@@ -1,7 +1,6 @@
 import { startCase } from 'lodash';
 import React, { useCallback } from 'react';
 
-
 import { FieldConfigEditorBuilder, FieldConfigEditorProps } from '@grafana/data';
 import { HideableFieldConfig, HideSeriesConfig } from '@grafana/schema';
 

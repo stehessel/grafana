@@ -18,8 +18,6 @@ import {
 } from './types';
 import { emptyResult, handleDatasourceSrvError, translateQueryResult } from './utils';
 
-
-
 export class AnnotationsWorker implements DashboardQueryRunnerWorker {
   constructor(
     private readonly runners: AnnotationQueryRunner[] = [

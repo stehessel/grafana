@@ -6,7 +6,6 @@ import { GrafanaTheme, TimeZone, dateTimeFormat } from '@grafana/data';
 
 import { useTheme, stylesFactory } from '../../../themes';
 
-
 interface Props {
   timestamp: number;
   timeZone: TimeZone | undefined;

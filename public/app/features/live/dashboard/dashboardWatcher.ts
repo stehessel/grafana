@@ -19,9 +19,6 @@ import { getDashboardSrv } from '../../dashboard/services/DashboardSrv';
 import { DashboardChangedModal } from './DashboardChangedModal';
 import { DashboardEvent, DashboardEventAction } from './types';
 
-
-
-
 class DashboardWatcher {
   channel?: LiveChannelAddress; // path to the channel
   uid?: string;

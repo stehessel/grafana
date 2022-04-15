@@ -5,7 +5,6 @@ import Draggable, { DraggableBounds } from 'react-draggable';
 import { Threshold, GrafanaTheme2 } from '@grafana/data';
 import { useStyles2, useTheme2 } from '@grafana/ui';
 
-
 type OutOfBounds = 'top' | 'bottom' | 'none';
 
 interface ThresholdDragHandleProps {

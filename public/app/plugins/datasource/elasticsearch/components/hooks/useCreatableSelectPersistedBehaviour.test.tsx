@@ -6,7 +6,6 @@ import { Select, InlineField } from '@grafana/ui';
 
 import { useCreatableSelectPersistedBehaviour } from './useCreatableSelectPersistedBehaviour';
 
-
 describe('useCreatableSelectPersistedBehaviour', () => {
   it('Should make a Select accept custom values', () => {
     const MyComp = (_: { force?: boolean }) => (

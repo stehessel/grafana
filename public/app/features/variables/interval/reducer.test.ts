@@ -9,7 +9,6 @@ import { toVariablePayload } from '../utils';
 import { createIntervalVariableAdapter } from './adapter';
 import { createIntervalOptions, intervalVariableReducer } from './reducer';
 
-
 describe('intervalVariableReducer', () => {
   const adapter = createIntervalVariableAdapter();
   describe('when createIntervalOptions is dispatched', () => {

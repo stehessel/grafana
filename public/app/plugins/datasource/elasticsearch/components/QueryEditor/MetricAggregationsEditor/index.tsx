@@ -10,7 +10,6 @@ import { MetricAggregation } from './aggregations';
 import { addMetric, removeMetric, toggleMetricVisibility } from './state/actions';
 import { metricAggregationConfig } from './utils';
 
-
 interface Props {
   nextId: MetricAggregation['id'];
 }

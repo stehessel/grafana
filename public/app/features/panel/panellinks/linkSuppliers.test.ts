@@ -5,7 +5,6 @@ import { TemplateSrv } from '../../templating/template_srv';
 import { getFieldLinksSupplier } from './linkSuppliers';
 import { getLinkSrv, LinkService, LinkSrv, setLinkSrv } from './link_srv';
 
-
 // We do not need more here and TimeSrv is hard to setup fully.
 jest.mock('app/features/dashboard/services/TimeSrv', () => ({
   getTimeSrv: () => ({

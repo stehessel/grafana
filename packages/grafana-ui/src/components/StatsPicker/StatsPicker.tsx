@@ -1,11 +1,9 @@
 import { difference } from 'lodash';
 import React, { PureComponent } from 'react';
 
-
 import { fieldReducers, SelectableValue } from '@grafana/data';
 
 import { Select } from '../Select/Select';
-
 
 export interface Props {
   placeholder?: string;

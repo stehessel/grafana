@@ -7,7 +7,6 @@ import { CloseButton } from 'app/core/components/CloseButton/CloseButton';
 import { SlideDown } from '../../core/components/Animations/SlideDown';
 import { NewApiKey, OrgRole } from '../../types';
 
-
 const { Input } = LegacyForms;
 const ROLE_OPTIONS: Array<SelectableValue<OrgRole>> = Object.keys(OrgRole).map((role) => ({
   label: role,

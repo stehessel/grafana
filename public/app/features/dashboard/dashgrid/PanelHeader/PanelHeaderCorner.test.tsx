@@ -5,7 +5,6 @@ import { PanelModel } from '../../state';
 
 import { PanelHeaderCorner } from './PanelHeaderCorner';
 
-
 describe('Render', () => {
   it('should render component', () => {
     const panel = new PanelModel({});

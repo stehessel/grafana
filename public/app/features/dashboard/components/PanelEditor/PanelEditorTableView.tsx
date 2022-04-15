@@ -12,8 +12,6 @@ import { DashboardModel, PanelModel } from '../../state';
 
 import { usePanelLatestData } from './usePanelLatestData';
 
-
-
 interface Props {
   width: number;
   height: number;

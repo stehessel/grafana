@@ -16,9 +16,6 @@ import { ActionIcon } from '../rules/ActionIcon';
 
 import { ReceiversSection } from './ReceiversSection';
 
-
-
-
 interface Props {
   config: AlertManagerCortexConfig;
   alertManagerName: string;

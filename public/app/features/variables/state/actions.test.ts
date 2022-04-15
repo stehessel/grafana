@@ -55,7 +55,6 @@ import {
 import { variablesClearTransaction, variablesInitTransaction } from './transactionReducer';
 import { cleanVariables } from './variablesReducer';
 
-
 variableAdapters.setInit(() => [
   createQueryVariableAdapter(),
   createCustomVariableAdapter(),

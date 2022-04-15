@@ -10,7 +10,6 @@ import { Icon } from '../Icon/Icon';
 
 import { SubMenu } from './SubMenu';
 
-
 /** @internal */
 export type MenuItemElement = HTMLAnchorElement & HTMLButtonElement & HTMLDivElement;
 

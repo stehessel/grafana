@@ -7,7 +7,6 @@ import { GraphiteSegment } from '../types';
 
 import { EditableParam } from './FunctionParamEditor';
 
-
 export function mapStringsToSelectables<T extends string>(values: T[]): Array<SelectableValue<T>> {
   return values.map((value) => ({
     value,

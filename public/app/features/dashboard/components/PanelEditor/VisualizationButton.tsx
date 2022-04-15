@@ -7,7 +7,6 @@ import { selectors } from '@grafana/e2e-selectors';
 import { ToolbarButton, ButtonGroup, useStyles } from '@grafana/ui';
 import { StoreState } from 'app/types';
 
-
 import { PanelModel } from '../../state';
 import { getPanelPluginWithFallback } from '../../state/selectors';
 

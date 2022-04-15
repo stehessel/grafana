@@ -29,7 +29,6 @@ import { State } from '../components/StateTag';
 import { RULER_NOT_SUPPORTED_MSG } from './constants';
 import { AsyncRequestState } from './redux';
 
-
 export function isAlertingRule(rule: Rule | undefined): rule is AlertingRule {
   return typeof rule === 'object' && rule.type === PromRuleType.Alerting;
 }

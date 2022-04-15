@@ -10,9 +10,6 @@ import { focusCss } from '../../themes/mixins';
 import { sharedInputStyle } from '../Forms/commonStyles';
 import { getInputStyles } from '../Input/Input';
 
-
-
-
 export const SelectContainer = <Option, isMulti extends boolean, Group extends GroupBase<Option>>(
   props: ContainerProps<Option, isMulti, Group> & { isFocused: boolean }
 ) => {

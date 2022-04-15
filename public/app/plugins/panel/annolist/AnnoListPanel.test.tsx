@@ -12,10 +12,6 @@ import { setDashboardSrv } from '../../../features/dashboard/services/DashboardS
 import { AnnoListPanel, Props } from './AnnoListPanel';
 import { AnnoOptions } from './types';
 
-
-
-
-
 jest.mock('@grafana/runtime', () => ({
   ...(jest.requireActual('@grafana/runtime') as unknown as object),
   getBackendSrv: () => backendSrv,

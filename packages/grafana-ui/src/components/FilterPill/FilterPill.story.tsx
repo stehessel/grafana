@@ -1,7 +1,6 @@
 import { Story } from '@storybook/react';
 import React, { useState } from 'react';
 
-
 import { withCenteredStory } from '@grafana/ui/src/utils/storybook/withCenteredStory';
 
 import { getAvailableIcons } from '../../types';

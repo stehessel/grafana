@@ -12,7 +12,6 @@ import { useStyles2 } from '../../themes';
 import { CustomScrollbar } from '../CustomScrollbar/CustomScrollbar';
 import { IconButton } from '../IconButton/IconButton';
 
-
 export interface Props {
   children: ReactNode;
   /** Title shown at the top of the drawer */

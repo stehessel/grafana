@@ -25,7 +25,6 @@ import {
   formatNumber,
 } from './utils';
 
-
 describe('TraceTimelineViewer/utils', () => {
   describe('getViewedBounds()', () => {
     it('works for the full range', () => {

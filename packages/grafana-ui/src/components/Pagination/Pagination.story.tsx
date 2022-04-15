@@ -5,7 +5,6 @@ import { Pagination } from '@grafana/ui';
 
 import { withCenteredStory } from '../../utils/storybook/withCenteredStory';
 
-
 import { Props } from './Pagination';
 import mdx from './Pagination.mdx';
 

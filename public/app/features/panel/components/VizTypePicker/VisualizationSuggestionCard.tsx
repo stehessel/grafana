@@ -10,8 +10,6 @@ import { PanelRenderer } from '../PanelRenderer';
 
 import { VizTypeChangeDetails } from './types';
 
-
-
 export interface Props {
   data: PanelData;
   width: number;

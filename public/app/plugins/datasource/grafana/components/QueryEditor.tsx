@@ -14,7 +14,6 @@ import { InlineField, Select, Alert, Input, InlineFieldRow } from '@grafana/ui';
 import { GrafanaDatasource } from '../datasource';
 import { defaultQuery, GrafanaQuery, GrafanaQueryType } from '../types';
 
-
 type Props = QueryEditorProps<GrafanaDatasource, GrafanaQuery>;
 
 const labelWidth = 12;

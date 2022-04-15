@@ -4,7 +4,6 @@ import React from 'react';
 
 import { TempoDatasource, TempoQuery } from '../datasource';
 
-
 import NativeSearch from './NativeSearch';
 
 const getOptions = jest.fn().mockImplementation(() => {

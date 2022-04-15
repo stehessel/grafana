@@ -35,7 +35,6 @@ import { getFieldDisplayValuesProxy } from './getFieldDisplayValuesProxy';
 import { standardFieldConfigEditorRegistry } from './standardFieldConfigEditorRegistry';
 import { getTemplateProxyForField } from './templateProxies';
 
-
 interface OverrideProps {
   match: FieldMatcher;
   properties: DynamicConfigValue[];

@@ -22,7 +22,6 @@ import { isStreamingResponseData, StreamingResponseData, StreamingResponseDataTy
 
 import { DataStreamHandlerDeps, LiveDataStream } from './LiveDataStream';
 
-
 type SubjectsInsteadOfObservables<T> = {
   [key in keyof T]: T[key] extends Observable<infer U> ? Subject<U> : T[key];
 };

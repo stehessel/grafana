@@ -25,7 +25,6 @@ import { Filters } from './components/QueryEditor/BucketAggregationsEditor/aggre
 import { ElasticDatasource, enhanceDataFrame } from './datasource';
 import { ElasticsearchOptions, ElasticsearchQuery } from './types';
 
-
 const ELASTICSEARCH_MOCK_URL = 'http://elasticsearch.local';
 
 jest.mock('@grafana/runtime', () => ({

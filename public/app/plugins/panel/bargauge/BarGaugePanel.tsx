@@ -18,7 +18,6 @@ import { config } from 'app/core/config';
 
 import { BarGaugeOptions } from './types';
 
-
 export class BarGaugePanel extends PureComponent<PanelProps<BarGaugeOptions>> {
   renderComponent = (
     valueProps: VizRepeaterRenderValueProps<FieldDisplay, DisplayValueAlignmentFactors>,

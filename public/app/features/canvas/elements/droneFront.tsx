@@ -8,7 +8,6 @@ import { ScalarDimensionEditor } from 'app/features/dimensions/editors';
 
 import { CanvasElementItem, CanvasElementProps } from '../element';
 
-
 interface DroneFrontData {
   rollAngle?: number;
 }

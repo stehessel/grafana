@@ -15,7 +15,6 @@ import { profiler } from 'app/core/core';
 
 import { DashboardModel } from '../../features/dashboard/state';
 
-
 export class PanelCtrl {
   panel: any;
   error: any;

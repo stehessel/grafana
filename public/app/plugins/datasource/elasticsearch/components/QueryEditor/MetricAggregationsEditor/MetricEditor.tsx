@@ -25,10 +25,6 @@ import { changeMetricField, changeMetricType } from './state/actions';
 import { getStyles } from './styles';
 import { metricAggregationConfig } from './utils';
 
-
-
-
-
 const toOption = (metric: MetricAggregation) => ({
   label: metricAggregationConfig[metric.type].label,
   value: metric.type,

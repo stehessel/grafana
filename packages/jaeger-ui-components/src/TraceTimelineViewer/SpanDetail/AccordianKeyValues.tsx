@@ -29,7 +29,6 @@ import { uAlignIcon, uTxEllipsis } from '../../uberUtilityStyles';
 import * as markers from './AccordianKeyValues.markers';
 import KeyValuesTable from './KeyValuesTable';
 
-
 export const getStyles = (theme: GrafanaTheme2) => {
   return {
     header: css`

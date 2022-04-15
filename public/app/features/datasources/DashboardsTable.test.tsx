@@ -5,7 +5,6 @@ import { PluginDashboard } from '../../types';
 
 import DashboardsTable, { Props } from './DashboardsTable';
 
-
 const setup = (propOverrides?: object) => {
   const props: Props = {
     dashboards: [] as PluginDashboard[],

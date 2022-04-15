@@ -9,10 +9,7 @@ import StandardAnnotationQueryEditor from 'app/features/annotations/components/S
 
 import { DashboardModel } from '../../state/DashboardModel';
 
-
-
 import { AngularEditorLoader } from './AngularEditorLoader';
-
 
 type Props = {
   editIdx: number;

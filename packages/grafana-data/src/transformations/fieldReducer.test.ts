@@ -1,6 +1,5 @@
 import { difference } from 'lodash';
 
-
 import { MutableDataFrame } from '../dataframe/MutableDataFrame';
 import { guessFieldTypeFromValue } from '../dataframe/processDataFrame';
 import { Field, FieldType } from '../types/index';

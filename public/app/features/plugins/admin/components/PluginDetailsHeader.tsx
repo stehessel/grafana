@@ -14,7 +14,6 @@ import { PluginDetailsHeaderDependencies } from './PluginDetailsHeaderDependenci
 import { PluginDetailsHeaderSignature } from './PluginDetailsHeaderSignature';
 import { PluginLogo } from './PluginLogo';
 
-
 type Props = {
   currentUrl: string;
   parentUrl: string;

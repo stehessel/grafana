@@ -1,7 +1,6 @@
 import { Meta, Story } from '@storybook/react';
 import React, { useState } from 'react';
 
-
 import { StoryExample } from '../../utils/storybook/StoryExample';
 import { withCenteredStory } from '../../utils/storybook/withCenteredStory';
 import { VerticalGroup } from '../Layout/Layout';

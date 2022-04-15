@@ -13,7 +13,6 @@ import { PostgresMetaQuery } from './meta_query';
 import PostgresQueryModel from './postgres_query_model';
 import sqlPart from './sql_part';
 
-
 const defaultQuery = `SELECT
   $__time(time_column),
   value1

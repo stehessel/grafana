@@ -7,7 +7,6 @@ import { GrafanaTheme2, TimeOption } from '@grafana/data';
 import { useStyles2 } from '../../../themes/ThemeContext';
 import { getFocusStyles } from '../../../themes/mixins';
 
-
 const getStyles = (theme: GrafanaTheme2) => {
   return {
     container: css`

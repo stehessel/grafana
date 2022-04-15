@@ -13,10 +13,6 @@ import { CustomEndpointTransport } from './transports/CustomEndpointTransport';
 import { EchoSrvTransport } from './transports/EchoSrvTransport';
 import { SentryEchoEvent } from './types';
 
-
-
-
-
 jest.mock('@sentry/browser');
 
 describe('SentryEchoBackend', () => {

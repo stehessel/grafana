@@ -9,7 +9,6 @@ import { Registry } from '../utils/Registry';
 import { getScaleCalculator, ColorScaleValue } from './scale';
 import { fallBackTreshold } from './thresholds';
 
-
 /** @beta */
 export type FieldValueColorCalculator = (value: number, percent: number, Threshold?: Threshold) => string;
 

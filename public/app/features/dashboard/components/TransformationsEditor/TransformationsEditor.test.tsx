@@ -10,7 +10,6 @@ import { PanelModel } from '../../state';
 
 import { TransformationsEditor } from './TransformationsEditor';
 
-
 const setup = (transformations: DataTransformerConfig[] = []) => {
   const panel = new PanelModel({});
   panel.setTransformations(transformations);

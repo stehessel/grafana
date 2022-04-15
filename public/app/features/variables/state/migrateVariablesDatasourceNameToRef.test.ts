@@ -8,7 +8,6 @@ import { getPreloadedState } from './helpers';
 import { toKeyedAction } from './keyedVariablesReducer';
 import { changeVariableProp } from './sharedReducer';
 
-
 function getTestContext(ds: DataSourceRef, dsInstance?: { uid: string; type: string }) {
   jest.clearAllMocks();
   const key = 'key';

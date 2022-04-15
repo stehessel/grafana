@@ -8,7 +8,6 @@ import { OptionsEditorItem } from './OptionsUIRegistryBuilder';
 import { OptionEditorConfig } from './options';
 import { InterpolateFunction } from './panel';
 
-
 export interface DynamicConfigValue {
   id: string;
   value?: any;

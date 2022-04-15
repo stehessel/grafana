@@ -10,7 +10,6 @@ import { Annotations, Labels } from 'app/types/unified-alerting-dto';
 import AnnotationsField from '../../rule-editor/AnnotationsField';
 import LabelsField from '../../rule-editor/LabelsField';
 
-
 interface Props {
   isOpen: boolean;
   onDismiss: () => void;

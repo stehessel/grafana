@@ -14,7 +14,6 @@ import { Menu } from '../Menu/Menu';
 import { MenuItem } from '../Menu/MenuItem';
 import { PopoverContent } from '../Tooltip';
 
-
 export interface Props<T> extends HTMLAttributes<HTMLButtonElement> {
   className?: string;
   options: Array<SelectableValue<T>>;

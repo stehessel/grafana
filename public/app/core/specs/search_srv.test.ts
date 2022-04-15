@@ -4,7 +4,6 @@ import { contextSrv } from 'app/core/services/context_srv';
 import impressionSrv from 'app/core/services/impression_srv';
 import { SearchSrv } from 'app/core/services/search_srv';
 
-
 import { backendSrv } from '../services/backend_srv';
 
 jest.mock('app/core/store', () => {

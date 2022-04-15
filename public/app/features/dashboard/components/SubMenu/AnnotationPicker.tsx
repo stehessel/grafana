@@ -8,7 +8,6 @@ import { LoadingIndicator } from '@grafana/ui/src/components/PanelChrome/Loading
 import { AnnotationQueryFinished, AnnotationQueryStarted } from '../../../../types/events';
 import { getDashboardQueryRunner } from '../../../query/state/DashboardQueryRunner/DashboardQueryRunner';
 
-
 export interface AnnotationPickerProps {
   events: EventBus;
   annotation: AnnotationQuery;

@@ -14,7 +14,6 @@ import {
 } from './filterByValue';
 import { DataTransformerID } from './ids';
 
-
 const seriesAWithSingleField = toDataFrame({
   name: 'A',
   length: 7,

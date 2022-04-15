@@ -21,7 +21,6 @@ import { PanelOptions } from './models.gen';
 import { quantizeScheme } from './palettes';
 import { HeatmapHoverEvent, prepConfig } from './utils';
 
-
 interface HeatmapPanelProps extends PanelProps<PanelOptions> {}
 
 export const HeatmapPanel: React.FC<HeatmapPanelProps> = ({

@@ -5,7 +5,6 @@ import { createDatasourceSettings } from '../../../features/datasources/mocks';
 import { LokiDatasource, LOKI_ENDPOINT } from './datasource';
 import { LokiOptions } from './types';
 
-
 interface Labels {
   [label: string]: string[];
 }

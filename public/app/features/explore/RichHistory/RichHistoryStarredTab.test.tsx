@@ -5,7 +5,6 @@ import { SortOrder } from 'app/core/utils/richHistory';
 
 import { ExploreId } from '../../../types/explore';
 
-
 import { RichHistoryStarredTab, Props } from './RichHistoryStarredTab';
 
 jest.mock('../state/selectors', () => ({ getExploreDatasources: jest.fn() }));

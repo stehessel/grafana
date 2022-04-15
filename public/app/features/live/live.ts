@@ -11,8 +11,6 @@ import { CentrifugeSrv, StreamingDataQueryResponse } from './centrifuge/service'
 import { StreamingDataFrame } from './data/StreamingDataFrame';
 import { isStreamingResponseData, StreamingResponseDataType } from './data/utils';
 
-
-
 type GrafanaLiveServiceDeps = {
   centrifugeSrv: CentrifugeSrv;
   backendSrv: BackendSrv;

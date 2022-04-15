@@ -9,8 +9,6 @@ import { PromQuery } from '../types';
 import { testIds as extraFieldTestIds } from './PromExploreExtraField';
 import { PromExploreQueryEditor, testIds } from './PromExploreQueryEditor';
 
-
-
 // the monaco-based editor uses lazy-loading and that does not work
 // well with this test, and we do not need the monaco-related
 // functionality in this test anyway, so we mock it out.

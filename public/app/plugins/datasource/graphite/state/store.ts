@@ -24,10 +24,6 @@ import {
   spliceSegments,
 } from './helpers';
 
-
-
-
-
 export type GraphiteQueryEditorState = {
   // external dependencies
   datasource: GraphiteDatasource;

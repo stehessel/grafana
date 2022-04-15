@@ -5,7 +5,6 @@ import { GrafanaTheme2, intervalToAbbreviatedDurationString } from '@grafana/dat
 import { useStyles2 } from '@grafana/ui';
 import { AlertmanagerAlert } from 'app/plugins/datasource/alertmanager/types';
 
-
 import { AlertLabels } from '../AlertLabels';
 import { DynamicTableColumnProps, DynamicTableItemProps } from '../DynamicTable';
 import { DynamicTableWithGuidelines } from '../DynamicTableWithGuidelines';

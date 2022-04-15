@@ -5,7 +5,6 @@ import { Checkbox, Field } from '@grafana/ui';
 
 import { CommonSettingsComponentProps } from '../../../types/receiver-form';
 
-
 export const CloudCommonChannelSettings: FC<CommonSettingsComponentProps> = ({
   pathPrefix,
   className,

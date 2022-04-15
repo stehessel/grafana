@@ -6,7 +6,6 @@ import { getTemplateSrv, TemplateSrv } from 'app/features/templating/template_sr
 
 import coreModule from '../core_module';
 
-
 coreModule.filter('stringSort', () => {
   return (input: any) => {
     return input.sort();

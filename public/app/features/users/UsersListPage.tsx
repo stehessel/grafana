@@ -17,7 +17,6 @@ import { loadUsers, removeUser, updateUser } from './state/actions';
 import { setUsersSearchQuery, setUsersSearchPage } from './state/reducers';
 import { getUsers, getUsersSearchQuery, getUsersSearchPage } from './state/selectors';
 
-
 function mapStateToProps(state: StoreState) {
   const searchQuery = getUsersSearchQuery(state.users);
   return {

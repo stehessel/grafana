@@ -6,7 +6,6 @@ import { contextSrv } from 'app/core/services/context_srv';
 import { configureStore } from 'app/store/configureStore';
 import { AccessControlAction, FolderDTO, StoreState } from 'app/types';
 
-
 import { mockFolder, mockRulerAlertingRule, mockRulerGrafanaRule } from '../mocks';
 
 import { useFolder } from './useFolder';

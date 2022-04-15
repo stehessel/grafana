@@ -13,7 +13,6 @@ import {
   lookUpConfigHandler as findConfigHandlerFor,
 } from '../fieldToConfigMapping/fieldToConfigMapping';
 
-
 export interface Props {
   frame: DataFrame;
   mappings: FieldToConfigMapping[];

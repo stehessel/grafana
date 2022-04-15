@@ -4,7 +4,6 @@ import { ThunkResult } from 'app/types';
 
 import { organizationLoaded, userOrganizationsLoaded } from './reducers';
 
-
 type OrganizationDependencies = { getBackendSrv: typeof getBackendSrv };
 
 export function loadOrganization(

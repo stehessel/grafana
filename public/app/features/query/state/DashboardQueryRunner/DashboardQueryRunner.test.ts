@@ -12,8 +12,6 @@ import { createDashboardQueryRunner } from './DashboardQueryRunner';
 import { getDefaultOptions, LEGACY_DS_NAME, NEXT_GEN_DS_NAME, toAsyncOfResult } from './testHelpers';
 import { DashboardQueryRunner, DashboardQueryRunnerResult } from './types';
 
-
-
 jest.mock('@grafana/runtime', () => ({
   ...(jest.requireActual('@grafana/runtime') as unknown as object),
   getBackendSrv: () => backendSrv,

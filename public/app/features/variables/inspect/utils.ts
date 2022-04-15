@@ -7,7 +7,6 @@ import { isAdHoc } from '../guard';
 import { VariableModel } from '../types';
 import { containsVariable, variableRegex, variableRegexExec } from '../utils';
 
-
 export interface GraphNode {
   id: string;
   label: string;

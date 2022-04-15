@@ -14,7 +14,6 @@ import { NavBarMenuItem } from './NavBarMenuItem';
 import menuItemTranslations from './navBarItem-translations';
 import { getNavModelItemKey } from './utils';
 
-
 export interface Props {
   isActive?: boolean;
   children: ReactNode;

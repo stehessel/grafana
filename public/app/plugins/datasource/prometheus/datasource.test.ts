@@ -26,7 +26,6 @@ import {
 } from './datasource';
 import { PromOptions, PromQuery } from './types';
 
-
 const fetchMock = jest.fn().mockReturnValue(of(createDefaultPromResponse()));
 
 jest.mock('./metric_find_query');

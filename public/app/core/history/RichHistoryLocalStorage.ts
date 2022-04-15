@@ -10,7 +10,6 @@ import RichHistoryStorage, { RichHistoryServiceError, RichHistoryStorageWarning 
 import { fromDTO, toDTO } from './localStorageConverter';
 import { createRetentionPeriodBoundary, RICH_HISTORY_SETTING_KEYS } from './richHistoryLocalStorageUtils';
 
-
 export const RICH_HISTORY_KEY = 'grafana.explore.richHistory';
 export const MAX_HISTORY_ITEMS = 10000;
 

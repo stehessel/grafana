@@ -9,7 +9,6 @@ import { ErrorBoundary, ErrorBoundaryAlert } from './ErrorBoundary';
 import mdx from './ErrorBoundary.mdx';
 import { ErrorWithStack } from './ErrorWithStack';
 
-
 export default {
   title: 'General/ErrorBoundary',
   component: ErrorBoundary,

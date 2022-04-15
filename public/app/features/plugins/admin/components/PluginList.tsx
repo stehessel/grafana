@@ -5,7 +5,6 @@ import { useLocation } from 'react-router-dom';
 import { GrafanaTheme2 } from '@grafana/data';
 import { useStyles2 } from '@grafana/ui';
 
-
 import { CatalogPlugin, PluginListDisplayMode } from '../types';
 
 import { PluginListItem } from './PluginListItem';

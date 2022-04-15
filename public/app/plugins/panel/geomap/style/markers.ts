@@ -7,7 +7,6 @@ import { getPublicOrAbsoluteUrl } from 'app/features/dimensions';
 
 import { defaultStyleConfig, DEFAULT_SIZE, StyleConfigValues, StyleMaker } from './types';
 
-
 interface SymbolMaker extends RegistryItem {
   aliasIds: string[];
   make: StyleMaker;

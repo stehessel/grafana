@@ -5,7 +5,6 @@ import { OptionProps } from 'react-select';
 import { GrafanaTheme } from '@grafana/data';
 import { useTheme, stylesFactory } from '@grafana/ui';
 
-
 import { TagBadge } from './TagBadge';
 
 // https://github.com/JedWatson/react-select/issues/3038

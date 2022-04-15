@@ -11,7 +11,6 @@ import InputDatasource, { describeDataFrame } from './InputDatasource';
 import { getQueryOptions } from './testHelpers';
 import { InputOptions, InputQuery } from './types';
 
-
 describe('InputDatasource', () => {
   const data = readCSV('a,b,c\n1,2,3\n4,5,6');
   const instanceSettings: DataSourceInstanceSettings<InputOptions> = {

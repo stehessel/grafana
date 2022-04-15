@@ -4,7 +4,6 @@ import React from 'react';
 
 import { SeriesColorPicker, ColorPicker } from '@grafana/ui';
 
-
 import { UseState } from '../../utils/storybook/UseState';
 import { withCenteredStory } from '../../utils/storybook/withCenteredStory';
 import { renderComponentWithTheme } from '../../utils/storybook/withTheme';

@@ -8,7 +8,6 @@ import { filterFieldsByNameTransformer } from './transformers/filterByName';
 import { DataTransformerID } from './transformers/ids';
 import { reduceTransformer } from './transformers/reduce';
 
-
 const seriesAWithSingleField = toDataFrame({
   name: 'A',
   fields: [

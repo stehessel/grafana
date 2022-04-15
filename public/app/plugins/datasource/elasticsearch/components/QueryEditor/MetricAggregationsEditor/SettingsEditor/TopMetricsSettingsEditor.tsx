@@ -10,7 +10,6 @@ import { orderOptions } from '../../BucketAggregationsEditor/utils';
 import { TopMetrics } from '../aggregations';
 import { changeMetricSetting } from '../state/actions';
 
-
 interface Props {
   metric: TopMetrics;
 }

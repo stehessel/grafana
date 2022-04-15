@@ -16,7 +16,6 @@ import { Folder, RuleFolderPicker } from './RuleFolderPicker';
 import { RuleTypePicker } from './rule-types/RuleTypePicker';
 import { checkForPathSeparator } from './util';
 
-
 interface Props {
   editingExistingRule: boolean;
 }
