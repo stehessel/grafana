@@ -1,9 +1,6 @@
-// Libraries
 import { css } from '@emotion/css';
 import { FocusScope } from '@react-aria/focus';
 import React, { PureComponent } from 'react';
-
-// Types
 import { Subscription } from 'rxjs';
 
 import {
@@ -24,7 +21,6 @@ import { getDashboardSrv } from 'app/features/dashboard/services/DashboardSrv';
 
 import { AnnotationListItem } from './AnnotationListItem';
 import { AnnoOptions } from './types';
-
 
 interface UserInfo {
   id?: number;

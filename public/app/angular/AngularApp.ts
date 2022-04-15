@@ -1,10 +1,9 @@
-import angular from 'angular';
-
 import 'angular-route';
 import 'angular-sanitize';
 import 'angular-bindonce';
 import 'vendor/bootstrap/bootstrap';
 import 'vendor/angular-other/angular-strap';
+import angular from 'angular';
 import { extend } from 'lodash';
 
 import { getTemplateSrv } from '@grafana/runtime';
@@ -22,7 +21,6 @@ import { initAngularRoutingBridge } from './bridgeReactAngularRouting';
 import { monkeyPatchInjectorWithPreAssignedBindings } from './injectorMonkeyPatch';
 import { promiseToDigest } from './promiseToDigest';
 import { registerComponents } from './registerComponents';
-
 
 export class AngularApp {
   ngModuleDependencies: any[];

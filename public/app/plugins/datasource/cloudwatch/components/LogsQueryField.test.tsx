@@ -1,5 +1,5 @@
 import { shallow } from 'enzyme';
-import _, { DebouncedFunc } from 'lodash';
+import _, { DebouncedFunc } from 'lodash'; // eslint-disable-line lodash/import-scope
 import React from 'react';
 
 import { SelectableValue } from '@grafana/data';
@@ -8,10 +8,6 @@ import { ExploreId } from '../../../../types';
 import { DescribeLogGroupsRequest } from '../types';
 
 import { CloudWatchLogsQueryField } from './LogsQueryField';
-
-
-
-// eslint-disable-next-line lodash/import-scope
 
 jest
   .spyOn(_, 'debounce')

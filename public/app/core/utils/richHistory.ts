@@ -1,7 +1,5 @@
-// Libraries
 import { omit } from 'lodash';
 
-// Services & Utils
 import { DataQuery, DataSourceApi, dateTimeFormat, ExploreUrlState, urlUtil } from '@grafana/data';
 import { serializeStateToUrlParam } from '@grafana/data/src/utils/url';
 import { getDataSourceSrv } from '@grafana/runtime';
@@ -14,8 +12,6 @@ import {
   sortQueries,
 } from 'app/core/history/richHistoryLocalStorageUtils';
 import { dispatch } from 'app/store/store';
-
-// Types
 import { RichHistoryQuery } from 'app/types/explore';
 
 import {
@@ -24,7 +20,6 @@ import {
   RichHistoryStorageWarningDetails,
 } from '../history/RichHistoryStorage';
 import { getRichHistoryStorage } from '../history/richHistoryStorageProvider';
-
 
 import { RichHistorySettings, SortOrder } from './richHistoryTypes';
 

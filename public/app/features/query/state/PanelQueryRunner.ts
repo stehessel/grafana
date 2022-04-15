@@ -1,9 +1,7 @@
-// Libraries
 import { cloneDeep } from 'lodash';
 import { MonoTypeOperatorFunction, Observable, of, ReplaySubject, Unsubscribable } from 'rxjs';
 import { map, mergeMap } from 'rxjs/operators';
 
-// Services & Utils
 import {
   applyFieldOverrides,
   compareArrayValues,
@@ -33,14 +31,11 @@ import { isStreamingDataFrame } from 'app/features/live/data/utils';
 import { getDatasourceSrv } from 'app/features/plugins/datasource_srv';
 
 import { isSharedDashboardQuery, runSharedRequest } from '../../../plugins/datasource/dashboard';
-
-// Types
 import { PanelModel } from '../../dashboard/state';
 
 import { getDashboardQueryRunner } from './DashboardQueryRunner/DashboardQueryRunner';
 import { mergePanelAndDashData } from './mergePanelAndDashData';
 import { preProcessPanelData, runRequest } from './runRequest';
-
 
 export interface QueryRunnerOptions<
   TQuery extends DataQuery = DataQuery,

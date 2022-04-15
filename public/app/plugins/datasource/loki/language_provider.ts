@@ -1,8 +1,5 @@
-// Libraries
 import { chain, difference } from 'lodash';
 import LRU from 'lru-cache';
-
-// Services & Utils
 import Prism, { Grammar } from 'prismjs';
 
 import { dateTime, AbsoluteTimeRange, LanguageProvider, HistoryItem, AbstractQuery } from '@grafana/data';
@@ -16,12 +13,7 @@ import {
 
 import { LokiDatasource } from './datasource';
 import syntax, { FUNCTIONS, PIPE_PARSERS, PIPE_OPERATORS } from './syntax';
-
-// Types
 import { LokiQuery, LokiQueryType } from './types';
-
-
-
 
 const DEFAULT_KEYS = ['job', 'namespace'];
 const EMPTY_SELECTOR = '{}';

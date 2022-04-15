@@ -12,9 +12,6 @@ import {
   SuggestionsState,
   Icon,
 } from '@grafana/ui';
-
-
-// dom also includes Element polyfills
 import { LocalStorageValueProvider } from 'app/core/components/LocalStorageValueProvider';
 import { CancelablePromise, makePromiseCancelable } from 'app/core/utils/CancelablePromise';
 
@@ -22,10 +19,8 @@ import { PrometheusDatasource } from '../datasource';
 import { roundMsToMin } from '../language_utils';
 import { PromQuery, PromOptions } from '../types';
 
-
 import { PrometheusMetricsBrowser } from './PrometheusMetricsBrowser';
 import { MonacoQueryFieldWrapper } from './monaco-query-field/MonacoQueryFieldWrapper';
-
 
 export const RECORDING_RULES_GROUP = '__recording_rules__';
 const LAST_USED_LABELS_KEY = 'grafana.datasources.prometheus.browser.labels';

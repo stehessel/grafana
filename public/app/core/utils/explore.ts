@@ -1,8 +1,5 @@
-// Libraries
 import { flatten, omit, uniq } from 'lodash';
 import { Unsubscribable } from 'rxjs';
-
-// Services & Utils
 import { v4 as uuidv4 } from 'uuid';
 
 import {
@@ -30,15 +27,11 @@ import {
 import { DataSourceSrv } from '@grafana/runtime';
 import { RefreshPicker } from '@grafana/ui';
 import store from 'app/core/store';
-
-
-// Types
 import { TimeSrv } from 'app/features/dashboard/services/TimeSrv';
 import { PanelModel } from 'app/features/dashboard/state';
 import { EXPLORE_GRAPH_STYLES, ExploreGraphStyle, ExploreId, QueryOptions, QueryTransaction } from 'app/types/explore';
 
 import { config } from '../config';
-
 
 import { getNextRefIdChar } from './query';
 
