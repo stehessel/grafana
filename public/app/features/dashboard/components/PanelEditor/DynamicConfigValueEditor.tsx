@@ -1,5 +1,6 @@
 import { css, cx } from '@emotion/css';
 import React from 'react';
+// @ts-ignore
 import Highlighter from 'react-highlight-words';
 
 import {
@@ -11,9 +12,7 @@ import {
 } from '@grafana/data';
 import { Counter, Field, HorizontalGroup, IconButton, Label, stylesFactory, useTheme } from '@grafana/ui';
 
-
 import { OptionsPaneCategory } from './OptionsPaneCategory';
-
 
 interface DynamicConfigValueEditorProps {
   property: DynamicConfigValue;
