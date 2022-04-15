@@ -1,10 +1,13 @@
 import React, { FunctionComponent, useCallback, useEffect } from 'react';
-import type * as monacoType from 'monaco-editor/esm/vs/editor/editor.api';
+
 import { CodeEditor, Monaco } from '@grafana/ui';
-import { CloudWatchDatasource } from '../datasource';
+
 import language from '../cloudwatch-sql/definition';
+import { CloudWatchDatasource } from '../datasource';
 import { TRIGGER_SUGGEST } from '../monarch/commands';
 import { registerLanguage } from '../monarch/register';
+
+import type * as monacoType from 'monaco-editor/esm/vs/editor/editor.api';
 
 export interface Props {
   region: string;

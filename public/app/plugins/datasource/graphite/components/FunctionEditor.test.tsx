@@ -1,7 +1,10 @@
-import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { FunctionEditor } from './FunctionEditor';
+import React from 'react';
+
 import { FuncInstance } from '../gfunc';
+
+import { FunctionEditor } from './FunctionEditor';
+
 
 function mockFunctionInstance(name: string, unknown?: boolean): FuncInstance {
   const def = {

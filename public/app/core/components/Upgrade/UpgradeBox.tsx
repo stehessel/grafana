@@ -1,7 +1,8 @@
-import React, { HTMLAttributes } from 'react';
 import { css, cx } from '@emotion/css';
-import { Icon, LinkButton, useStyles2 } from '@grafana/ui';
+import React, { HTMLAttributes } from 'react';
+
 import { GrafanaTheme2 } from '@grafana/data';
+import { Icon, LinkButton, useStyles2 } from '@grafana/ui';
 
 type ComponentSize = 'sm' | 'md';
 

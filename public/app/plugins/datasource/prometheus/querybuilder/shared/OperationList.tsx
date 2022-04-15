@@ -1,10 +1,13 @@
 import { css } from '@emotion/css';
+import React, { useState } from 'react';
+import { DragDropContext, Droppable, DropResult } from 'react-beautiful-dnd';
+
 import { DataSourceApi, GrafanaTheme2 } from '@grafana/data';
 import { Stack } from '@grafana/experimental';
 import { Button, Cascader, CascaderOption, useStyles2 } from '@grafana/ui';
-import React, { useState } from 'react';
-import { DragDropContext, Droppable, DropResult } from 'react-beautiful-dnd';
+
 import { QueryBuilderOperation, QueryWithOperations, VisualQueryModeller } from '../shared/types';
+
 import { OperationEditor } from './OperationEditor';
 
 export interface Props<T extends QueryWithOperations> {

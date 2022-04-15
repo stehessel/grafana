@@ -1,8 +1,10 @@
-import type { Situation, Label } from './situation';
-import { NeverCaseError } from './util';
-// FIXME: we should not load this from the "outside", but we cannot do that while we have the "old" query-field too
-import { FUNCTIONS } from '../../../promql';
 import { escapeLabelValueInExactSelector } from '../../../language_utils';
+import { FUNCTIONS } from '../../../promql';
+
+import { NeverCaseError } from './util';
+
+import type { Situation, Label } from './situation';
+// FIXME: we should not load this from the "outside", but we cannot do that while we have the "old" query-field too
 
 export type CompletionType = 'HISTORY' | 'FUNCTION' | 'METRIC_NAME' | 'DURATION' | 'LABEL_NAME' | 'LABEL_VALUE';
 

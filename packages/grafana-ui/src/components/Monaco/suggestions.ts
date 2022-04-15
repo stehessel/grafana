@@ -1,6 +1,7 @@
+import { CodeEditorSuggestionItem, CodeEditorSuggestionItemKind, CodeEditorSuggestionProvider, Monaco } from './types';
+
 import type * as monacoType from 'monaco-editor/esm/vs/editor/editor.api';
 
-import { CodeEditorSuggestionItem, CodeEditorSuggestionItemKind, CodeEditorSuggestionProvider, Monaco } from './types';
 
 /**
  * @internal -- only exported for tests

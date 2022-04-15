@@ -1,12 +1,14 @@
+import { css } from '@emotion/css';
 import React, { FC, useEffect } from 'react';
+import { useFormContext, FieldError, DeepMap } from 'react-hook-form';
+
 import { Checkbox, Field, Input, InputControl, Select, TextArea } from '@grafana/ui';
 import { NotificationChannelOption } from 'app/types';
-import { useFormContext, FieldError, DeepMap } from 'react-hook-form';
-import { SubformField } from './SubformField';
-import { css } from '@emotion/css';
+
 import { KeyValueMapInput } from './KeyValueMapInput';
-import { SubformArrayField } from './SubformArrayField';
 import { StringArrayInput } from './StringArrayInput';
+import { SubformArrayField } from './SubformArrayField';
+import { SubformField } from './SubformField';
 
 interface Props {
   defaultValue: any;

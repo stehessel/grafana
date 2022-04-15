@@ -1,5 +1,7 @@
 import { HistoryItem } from '@grafana/data';
+
 import { PromQuery } from '../../types';
+
 import type PromQlLanguageProvider from '../../language_provider';
 
 // we need to store this in a separate file,

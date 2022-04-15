@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
+
+import { arrayUtils } from '@grafana/data';
 import { DeleteButton, Icon, IconButton, VerticalGroup } from '@grafana/ui';
 import EmptyListCTA from 'app/core/components/EmptyListCTA/EmptyListCTA';
+
 import { DashboardModel } from '../../state/DashboardModel';
 import { ListNewButton } from '../DashboardSettings/ListNewButton';
-import { arrayUtils } from '@grafana/data';
 
 type Props = {
   dashboard: DashboardModel;

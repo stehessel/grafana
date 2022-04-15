@@ -1,8 +1,9 @@
-import type { Monaco, monacoTypes } from '@grafana/ui';
 
-import { getSituation } from './situation';
 import { getCompletions, DataProvider, CompletionType } from './completions';
+import { getSituation } from './situation';
 import { NeverCaseError } from './util';
+
+import type { Monaco, monacoTypes } from '@grafana/ui';
 
 export function getSuggestOptions(): monacoTypes.editor.ISuggestOptions {
   return {

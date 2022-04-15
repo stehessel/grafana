@@ -1,9 +1,3 @@
-import { ThunkAction, ThunkDispatch as GenericThunkDispatch } from 'redux-thunk';
-import {
-  useSelector as useSelectorUntyped,
-  TypedUseSelectorHook,
-  useDispatch as useDispatchUntyped,
-} from 'react-redux';
 import {
   Action,
   AsyncThunk,
@@ -12,8 +6,16 @@ import {
   createAsyncThunk as createAsyncThunkUntyped,
   PayloadAction,
 } from '@reduxjs/toolkit';
-import type { createRootReducer } from 'app/core/reducers/root';
+import {
+  useSelector as useSelectorUntyped,
+  TypedUseSelectorHook,
+  useDispatch as useDispatchUntyped,
+} from 'react-redux';
+import { ThunkAction, ThunkDispatch as GenericThunkDispatch } from 'redux-thunk';
+
 import { configureStore } from 'app/store/configureStore';
+
+import type { createRootReducer } from 'app/core/reducers/root';
 
 export type StoreState = ReturnType<ReturnType<typeof createRootReducer>>;
 

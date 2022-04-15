@@ -1,3 +1,6 @@
+import { orderBy } from 'lodash';
+import { Padding } from 'uplot';
+
 import {
   ArrayVector,
   DataFrame,
@@ -12,11 +15,6 @@ import {
   reduceField,
   VizOrientation,
 } from '@grafana/data';
-import { BarChartFieldConfig, PanelOptions, defaultBarChartFieldConfig } from './models.gen';
-import { BarChartDisplayValues } from './types';
-import { BarsOptions, getConfig } from './bars';
-import { FIXED_UNIT, measureText, UPlotConfigBuilder, UPlotConfigPrepFn, UPLOT_AXIS_FONT_SIZE } from '@grafana/ui';
-import { Padding } from 'uplot';
 import {
   AxisPlacement,
   ScaleDirection,
@@ -25,9 +23,14 @@ import {
   StackingMode,
   VizLegendOptions,
 } from '@grafana/schema';
-import { orderBy } from 'lodash';
-import { findField } from 'app/features/dimensions';
+import { FIXED_UNIT, measureText, UPlotConfigBuilder, UPlotConfigPrepFn, UPLOT_AXIS_FONT_SIZE } from '@grafana/ui';
 import { getStackingGroups } from '@grafana/ui/src/components/uPlot/utils';
+import { findField } from 'app/features/dimensions';
+
+import { BarsOptions, getConfig } from './bars';
+import { BarChartFieldConfig, PanelOptions, defaultBarChartFieldConfig } from './models.gen';
+import { BarChartDisplayValues } from './types';
+
 
 function getBarCharScaleOrientation(orientation: VizOrientation) {
   if (orientation === VizOrientation.Vertical) {

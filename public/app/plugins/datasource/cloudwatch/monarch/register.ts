@@ -1,5 +1,8 @@
+
 import { Monaco } from '@grafana/ui';
+
 import { CompletionItemProvider } from './CompletionItemProvider';
+
 import type * as monacoType from 'monaco-editor/esm/vs/editor/editor.api';
 
 export type LanguageDefinition = {

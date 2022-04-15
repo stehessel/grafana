@@ -1,14 +1,17 @@
+import { css } from '@emotion/css';
 import React, { Component, createRef } from 'react';
-import { PopoverController } from '../Tooltip/PopoverController';
-import { Popover } from '../Tooltip/Popover';
-import { ColorPickerPopover, ColorPickerProps, ColorPickerChangeHandler } from './ColorPickerPopover';
+
 import { GrafanaTheme2 } from '@grafana/data';
+
+import { withTheme2, stylesFactory } from '../../themes';
+import { closePopover } from '../../utils/closePopover';
+import { Popover } from '../Tooltip/Popover';
+import { PopoverController } from '../Tooltip/PopoverController';
+
+import { ColorPickerPopover, ColorPickerProps, ColorPickerChangeHandler } from './ColorPickerPopover';
+import { ColorSwatch } from './ColorSwatch';
 import { SeriesColorPickerPopover } from './SeriesColorPickerPopover';
 
-import { css } from '@emotion/css';
-import { withTheme2, stylesFactory } from '../../themes';
-import { ColorSwatch } from './ColorSwatch';
-import { closePopover } from '../../utils/closePopover';
 
 /**
  * If you need custom trigger for the color picker you can do that with a render prop pattern and supply a function

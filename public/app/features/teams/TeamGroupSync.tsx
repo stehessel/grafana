@@ -1,15 +1,17 @@
 import React, { PureComponent } from 'react';
 import { connect, ConnectedProps } from 'react-redux';
 
-import { SlideDown } from 'app/core/components/Animations/SlideDown';
 import { LegacyForms, Tooltip, Icon, Button } from '@grafana/ui';
+import { SlideDown } from 'app/core/components/Animations/SlideDown';
 const { Input } = LegacyForms;
 
+import { CloseButton } from 'app/core/components/CloseButton/CloseButton';
+import EmptyListCTA from 'app/core/components/EmptyListCTA/EmptyListCTA';
+
 import { StoreState, TeamGroup } from '../../types';
+
 import { addTeamGroup, loadTeamGroups, removeTeamGroup } from './state/actions';
 import { getTeamGroups } from './state/selectors';
-import EmptyListCTA from 'app/core/components/EmptyListCTA/EmptyListCTA';
-import { CloseButton } from 'app/core/components/CloseButton/CloseButton';
 
 function mapStateToProps(state: StoreState) {
   return {
