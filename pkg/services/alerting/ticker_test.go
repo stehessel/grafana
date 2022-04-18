@@ -39,12 +39,10 @@ func TestTicker(t *testing.T) {
 		regTicks := make([]time.Time, 0, ticks)
 		go func() {
 			for {
-				select {
-				case timestamp := <-ticker.C:
-					regTicks = append(regTicks, timestamp)
-					if len(regTicks) == ticks {
-						w.Done()
-					}
+				timestamp := <-ticker.C
+				regTicks = append(regTicks, timestamp)
+				if len(regTicks) == ticks {
+					w.Done()
 				}
 			}
 		}()
