@@ -7,7 +7,6 @@ import (
 	"time"
 
 	"github.com/benbjohnson/clock"
-	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/require"
 )
 
@@ -16,18 +15,18 @@ func TestTicker(t *testing.T) {
 		clk := clock.NewMock()
 		interval := time.Duration(rand.Int31n(100) + 10)
 		require.Panicsf(t, func() {
-			NewTicker(clk, -interval, prometheus.NewPedanticRegistry())
+			NewTicker(clk, -interval)
 		}, "should panic because of negative interval but it doesn't")
 
 		require.Panics(t, func() {
-			NewTicker(clk, 0, prometheus.NewPedanticRegistry())
+			NewTicker(clk, 0)
 		}, "should panic because of 0 interval but it doesn't")
 	})
 
 	t.Run("should not drop ticks", func(t *testing.T) {
 		clk := clock.NewMock()
 		interval := time.Duration(rand.Int31n(100) + 10)
-		ticker := NewTicker(clk, interval, prometheus.NewPedanticRegistry())
+		ticker := NewTicker(clk, interval)
 
 		ticks := rand.Intn(9) + 1
 		jitter := rand.Int63n(int64(interval) - 1)
