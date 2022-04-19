@@ -75,6 +75,8 @@ func (e *AzureMonitorDatasource) buildQueries(queries []backend.DataQuery, dsInf
 		azJSONModel := queryJSONModel.AzureMonitor
 
 		urlComponents := map[string]string{}
+		urlComponents["resourceURI"] = azJSONModel.ResourceURI
+		// Legacy fields used for constructing a deep link to display the query in Azure Portal.
 		urlComponents["subscription"] = queryJSONModel.Subscription
 		urlComponents["resourceGroup"] = azJSONModel.ResourceGroup
 		urlComponents["metricDefinition"] = azJSONModel.MetricDefinition
@@ -338,12 +340,18 @@ func getQueryUrl(query *types.AzureMonitorQuery, azurePortalUrl string) (string,
 	}
 	escapedTime := url.QueryEscape(string(timespan))
 
-	id := fmt.Sprintf("/subscriptions/%v/resourceGroups/%v/providers/%v/%v",
-		query.UrlComponents["subscription"],
-		query.UrlComponents["resourceGroup"],
-		query.UrlComponents["metricDefinition"],
-		query.UrlComponents["resourceName"],
-	)
+	id := query.UrlComponents["resourceURI"]
+
+	if id == "" {
+		ub := urlBuilder{
+			Subscription:     query.UrlComponents["subscription"],
+			ResourceGroup:    query.UrlComponents["resourceGroup"],
+			MetricDefinition: query.UrlComponents["metricDefinition"],
+			ResourceName:     query.UrlComponents["resourceName"],
+		}
+		id = ub.BuildResourceURIFromLegacyQuery()
+	}
+
 	chartDef, err := json.Marshal(map[string]interface{}{
 		"v2charts": []interface{}{
 			map[string]interface{}{
@@ -368,6 +376,10 @@ func getQueryUrl(query *types.AzureMonitorQuery, azurePortalUrl string) (string,
 		return "", err
 	}
 	escapedChart := url.QueryEscape(string(chartDef))
+	// Azure Portal will timeout if the chart definition includes a space character encoded as '+'.
+	// url.QueryEscape encodes spaces as '+'.
+	// Note: this will not encode '+' literals as those are already encoded as '%2B' by url.QueryEscape
+	escapedChart = strings.ReplaceAll(escapedChart, "+", "%20")
 
 	return fmt.Sprintf("%s/#blade/Microsoft_Azure_MonitoringMetrics/Metrics.ReactView/Referer/MetricsExplorer/TimeContext/%s/ChartDefinition/%s", azurePortalUrl, escapedTime, escapedChart), nil
 }
