@@ -261,9 +261,12 @@ type SetResourcePermissionCommand struct {
 }
 
 const (
-	GlobalOrgID      = 0
-	FixedRolePrefix  = "fixed:"
-	RoleGrafanaAdmin = "Grafana Admin"
+	GlobalOrgID        = 0
+	FixedRolePrefix    = "fixed:"
+	ManagedRolePrefix  = "managed:"
+	BasicRolePrexix    = "basic:"
+	BasicRoleUIDPrexix = "basic_"
+	RoleGrafanaAdmin   = "Grafana Admin"
 
 	GeneralFolderUID = "general"
 
